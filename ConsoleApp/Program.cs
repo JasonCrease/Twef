@@ -14,8 +14,26 @@ namespace ConsoleApp
             Game g = new Game();
             Console.Write(g);
 
-            Console.ReadLine();
+            for (int i = 0; i < 10; i++ )
+            {
+                ConsoleKeyInfo keyInfo = Console.ReadKey();
 
+                if (keyInfo.KeyChar == 'w')
+                    g.Move(Direction.Up);
+                else if (keyInfo.KeyChar == 'd')
+                    g.Move(Direction.Right);
+                else if (keyInfo.KeyChar == 'a')
+                    g.Move(Direction.Left);
+                else if (keyInfo.KeyChar == 's')
+                    g.Move(Direction.Down);
+
+                g.AddRandomNumber();
+                Console.WriteLine();
+                Console.Write(g);
+            }
+
+            Console.WriteLine("Done");
+            Console.ReadLine();
         }
     }
 }
