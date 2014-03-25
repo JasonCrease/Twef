@@ -12,27 +12,44 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Game g = new Game();
-            Console.Write(g);
+            Random r = new Random();
+            int gameCount = 0;
 
-            for (int i = 0; i < 10; i++ )
+            while (true)
             {
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                gameCount++;
+                Console.Write(gameCount + " ");
 
-                if (keyInfo.KeyChar == 'w')
-                    g.Move(Direction.Up);
-                else if (keyInfo.KeyChar == 'd')
-                    g.Move(Direction.Right);
-                else if (keyInfo.KeyChar == 'a')
-                    g.Move(Direction.Left);
-                else if (keyInfo.KeyChar == 's')
-                    g.Move(Direction.Down);
+                g = new Game();
+                while (g.AreMovesAvailable())
+                {
+                    char move = 'x';
+                    //ConsoleKeyInfo keyInfo = Console.ReadKey();
+                    //move = keyInfo.KeyChar;
 
-                g.AddRandomNumber();
-                Console.WriteLine();
-                Console.Write(g);
+                    double mov = r.NextDouble();
+                    if (mov < 0.5) move = 'w';
+                    else if (mov < 0.96) move = 'a';
+                    else if (mov < 0.99) move = 'd';
+                    else move = 's';
+
+                    if (move == 'w')
+                        g.Move(Direction.Up);
+                    else if (move == 'd')
+                        g.Move(Direction.Right);
+                    else if (move == 'a')
+                        g.Move(Direction.Left);
+                    else if (move == 's')
+                        g.Move(Direction.Down);
+
+                    g.AddRandomNumber();
+                }
+                if (g.Score > 7000) break;
             }
 
-            Console.WriteLine("Done");
+            Console.WriteLine();
+            Console.Write(g);
+            Console.WriteLine("Score: " + g.Score);
             Console.ReadLine();
         }
     }
