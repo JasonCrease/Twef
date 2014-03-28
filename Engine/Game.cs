@@ -10,36 +10,82 @@ namespace Engine
 
     public class Game
     {
-        private int[,] g;
-        public int[,] G { get { return g; } }
-        private Random rand = new Random();
+        private readonly int[,] x = new int[4, 4];
+        private int m_Score;
+        private List<Tuple<int[,], int>> m_PreviousStates = new List<Tuple<int[,], int>>();
+
+        public int[,] X { get { return x; } }
+        public int Score { get { return m_Score; } }
+        private static Random Rand = new Random();
+
 
         public Game()
         {
-            g = new int[4, 4];
             AddRandomNumber();
             AddRandomNumber();
+        }
+
+        public Game(Game otherGame)
+        {
+            for (int i = 0; i < 4; i++)
+                for (int j = 0; j < 4; j++)
+                    x[i, j] = otherGame.X[i, j];
+            m_PreviousStates = otherGame.m_PreviousStates;
+            m_Score = otherGame.m_Score;
+        }
+
+        public int HeuristicValue
+        {
+            get
+            {
+                int emptyTiles = 0;
+                int increasingness = 0;
+
+                for (int i = 0; i < 4; i++)
+                    for (int j = 0; j < 4; j++)
+                        if (x[i, j] == 0) emptyTiles++;
+
+                for (int j = 0; j < 1; j++)
+                    for (int i = 1; i < 4; i++)
+                        increasingness += (x[i - 1, j] > x[i, j]) ? 1 : 0;
+
+                for (int i = 0; i < 1; i++)
+                    for (int j = 1; j < 4; j++)
+                        increasingness += (x[i, j - 1] > x[i, j]) ? 1 : 0;
+
+                //increasingness += x[0, 0];
+
+                return (emptyTiles + 1) * m_Score * increasingness;
+            }
         }
 
         public bool AreMovesAvailable()
         {
             for (int i = 0; i < 4; i++)
                 for (int j = 0; j < 4; j++)
-                    if (g[i, j] == 0) return true;
+                    if (x[i, j] == 0) return true;
 
             for (int i = 1; i < 4; i++)
                 for (int j = 0; j < 4; j++)
-                    if (g[i, j] == g[i - 1, j]) return true;
+                    if (x[i, j] == x[i - 1, j]) return true;
 
             for (int i = 0; i < 4; i++)
                 for (int j = 1; j < 4; j++)
-                    if (g[i, j] == g[i, j - 1]) return true;
+                    if (x[i, j] == x[i, j - 1]) return true;
 
             return false;
         }
 
-        public void Move(Direction direction)
+        public bool Move(Direction direction)
         {
+            bool moveWorked = false;
+            int[,] oldG = new int[4,4];
+            
+            for (int i = 0; i < 4; i++)
+                for (int j = 0; j < 4; j++)
+                    oldG[i, j] = x[i, j];
+            m_PreviousStates.Add(new Tuple<int[,], int>(oldG, Score));
+
             if (direction == Direction.Up)
             {
                 for (int col = 0; col < 4; col++)
@@ -48,35 +94,38 @@ namespace Engine
 
                     for (int row = 1; row < 4; row++)
                     {
-                        if (g[row, col] == g[row - 1, col] && !previousWasMerged)
+                        if (x[row, col] == x[row - 1, col] && !previousWasMerged)
                         {
                             // Merge
-                            g[row, col] = 0;
-                            g[row - 1, col] *= 2;
-                            m_Score += g[row - 1, col];
+                            x[row, col] = 0;
+                            x[row - 1, col] *= 2;
+                            m_Score += x[row - 1, col];
                             previousWasMerged = true;
+                            moveWorked = true;
                         }
-                        else if (g[row, col] != 0)
+                        else if (x[row, col] != 0)
                         {
                             // Slide up
                             int i = row - 1;
-                            while (i >= 0 && g[i, col] == 0)
+                            while (i >= 0 && x[i, col] == 0)
                                 i--;
                             i++;
                             if (i != row)
                             {
-                                g[i, col] = g[row, col];
-                                g[row, col] = 0;
+                                x[i, col] = x[row, col];
+                                x[row, col] = 0;
+                                moveWorked = true;
                             }
 
                             if (!previousWasMerged)
                             {
-                                if (i> 0 && g[i, col] == g[i - 1, col])
+                                if (i> 0 && x[i, col] == x[i - 1, col])
                                 {
-                                    g[i, col] = 0;
-                                    g[i - 1, col] *= 2;
-                                    m_Score += g[i - 1, col];
+                                    x[i, col] = 0;
+                                    x[i - 1, col] *= 2;
+                                    m_Score += x[i - 1, col];
                                     previousWasMerged = true;
+                                    moveWorked = true;
                                 }
                             }
                             else
@@ -95,35 +144,38 @@ namespace Engine
 
                     for (int row = 2; row >= 0; row--)
                     {
-                        if (g[row, col] == g[row + 1, col] && !previousWasMerged)
+                        if (x[row, col] == x[row + 1, col] && !previousWasMerged)
                         {
                             // Merge
-                            g[row, col] = 0;
-                            g[row + 1, col] *= 2;
-                            m_Score += g[row + 1, col];
+                            x[row, col] = 0;
+                            x[row + 1, col] *= 2;
+                            m_Score += x[row + 1, col];
                             previousWasMerged = true;
+                            moveWorked = true;
                         }
-                        else if (g[row, col] != 0)
+                        else if (x[row, col] != 0)
                         {
                             //slide down
                             int i = row + 1;
-                            while (i < 4 && g[i, col] == 0)
+                            while (i < 4 && x[i, col] == 0)
                                 i++;
                             i--;
                             if (i != row)
                             {
-                                g[i, col] = g[row, col];
-                                g[row, col] = 0;
+                                x[i, col] = x[row, col];
+                                x[row, col] = 0;
+                                moveWorked = true;
                             }
 
                             if (!previousWasMerged)
                             {
-                                if (i < 3 && g[i, col] == g[i + 1, col])
+                                if (i < 3 && x[i, col] == x[i + 1, col])
                                 {
-                                    g[i, col] = 0;
-                                    g[i + 1, col] *= 2;
-                                    m_Score += g[i + 1, col];
+                                    x[i, col] = 0;
+                                    x[i + 1, col] *= 2;
+                                    m_Score += x[i + 1, col];
                                     previousWasMerged = true;
+                                    moveWorked = true;
                                 }
                             }
                             else
@@ -142,35 +194,38 @@ namespace Engine
 
                     for (int col = 1; col < 4; col++)
                     {
-                        if (g[row, col] == g[row, col - 1] && !previousWasMerged)
+                        if (x[row, col] == x[row, col - 1] && !previousWasMerged)
                         {
                             // Merge
-                            g[row, col] = 0;
-                            g[row, col - 1] *= 2;
-                            m_Score += g[row, col - 1];
+                            x[row, col] = 0;
+                            x[row, col - 1] *= 2;
+                            m_Score += x[row, col - 1];
                             previousWasMerged = true;
+                            moveWorked = true;
                         }
-                        else if (g[row, col] != 0)
+                        else if (x[row, col] != 0)
                         {
                             // Slide up
                             int i = col - 1;
-                            while (i >= 0 && g[row, i] == 0)
+                            while (i >= 0 && x[row, i] == 0)
                                 i--;
                             i++;
                             if (i != col)
                             {
-                                g[row, i] = g[row, col];
-                                g[row, col] = 0;
+                                x[row, i] = x[row, col];
+                                x[row, col] = 0;
+                                moveWorked = true;
                             }
 
                             if (!previousWasMerged)
                             {
-                                if (i > 0  && g[row, i] == g[row, i - 1])
+                                if (i > 0  && x[row, i] == x[row, i - 1])
                                 {
-                                    g[row, i] = 0;
-                                    g[row, i - 1] *= 2;
-                                    m_Score += g[row, i - 1];
+                                    x[row, i] = 0;
+                                    x[row, i - 1] *= 2;
+                                    m_Score += x[row, i - 1];
                                     previousWasMerged = true;
+                                    moveWorked = true;
                                 }
                             }
                             else
@@ -189,35 +244,38 @@ namespace Engine
 
                     for (int col = 2; col >= 0; col--)
                     {
-                        if (g[row, col] == g[row, col + 1] && !previousWasMerged)
+                        if (x[row, col] == x[row, col + 1] && !previousWasMerged)
                         {
                             // Merge
-                            g[row, col] = 0;
-                            g[row, col + 1] *= 2;
-                            m_Score += g[row, col + 1];
+                            x[row, col] = 0;
+                            x[row, col + 1] *= 2;
+                            m_Score += x[row, col + 1];
                             previousWasMerged = true;
+                            moveWorked = true;
                         }
-                        else if (g[row, col] != 0)
+                        else if (x[row, col] != 0)
                         {
-                            //slide down
+                            //slide right
                             int i = col + 1;
-                            while (i < 4 && g[row, i] == 0)
+                            while (i < 4 && x[row, i] == 0)
                                 i++;
                             i--;
                             if (i != col)
                             {
-                                g[row, i] = g[row, col];
-                                g[row, col] = 0;
+                                x[row, i] = x[row, col];
+                                x[row, col] = 0;
+                                moveWorked = true;
                             }
 
                             if (!previousWasMerged)
                             {
-                                if (i < 3 && g[row, i] == g[row, i + 1])
+                                if (i < 3 && x[row, i] == x[row, i + 1])
                                 {
-                                    g[row, i] = 0;
-                                    g[row, i + 1] *= 2;
-                                    m_Score += g[row, i + 1];
+                                    x[row, i] = 0;
+                                    x[row, i + 1] *= 2;
+                                    m_Score += x[row, i + 1];
                                     previousWasMerged = true;
+                                    moveWorked = true;
                                 }
                             }
                             else
@@ -228,6 +286,8 @@ namespace Engine
                     }
                 }
             }
+
+            return moveWorked;
         }
 
         public override string ToString()
@@ -237,9 +297,9 @@ namespace Engine
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    if (g[i, j] == 0)
+                    if (x[i, j] == 0)
                         retStr += "|     ";
-                    else retStr += String.Format("|{0,4} ", g[i, j]);
+                    else retStr += String.Format("|{0,4} ", x[i, j]);
                 }
                 retStr += "|\n-------------------------\n";
             }
@@ -249,20 +309,20 @@ namespace Engine
 
         public void AddRandomNumber()
         {
-            int numToAdd = rand.NextDouble() < 0.9 ? 2 : 4;
+            int numToAdd = Rand.NextDouble() < 0.9 ? 2 : 4;
             int emptyCells = CountEmptyCells();
-            int randomCell = rand.Next(0, emptyCells);
+            int randomCell = Rand.Next(0, emptyCells);
             int soFar = 0;
 
             for (int i = 0; i < 4; i++)
                 for (int j = 0; j < 4; j++)
                 {
-                    if (soFar == randomCell && g[i, j] == 0)
+                    if (soFar == randomCell && x[i, j] == 0)
                     {
-                        g[i, j] = numToAdd;
+                        x[i, j] = numToAdd;
                         goto done;
                     }
-                    else if (g[i, j] == 0) soFar++;
+                    else if (x[i, j] == 0) soFar++;
                 }
 
             done: ;
@@ -273,17 +333,9 @@ namespace Engine
             int count = 0;
             for (int i = 0; i < 4; i++)
                 for (int j = 0; j < 4; j++)
-                    if (g[i, j] == 0) count++;
+                    if (x[i, j] == 0) count++;
 
             return count;
-        }
-
-
-        private int m_Score;
-
-        public int Score
-        {
-            get { return m_Score; }
         }
     }
 }
