@@ -18,7 +18,6 @@ namespace Engine
         public int Score { get { return m_Score; } }
         private static Random Rand = new Random();
 
-
         public Game()
         {
             AddRandomNumber();
@@ -39,19 +38,22 @@ namespace Engine
             get
             {
                 int emptyTiles = 0;
-                int increasingness = 0;
+                int increasingnessX = 0;
+                int increasingnessY = 0;
 
                 for (int i = 0; i < 4; i++)
                     for (int j = 0; j < 4; j++)
                         if (x[i, j] == 0) emptyTiles++;
 
-                for (int j = 0; j < 1; j++)
+                for (int j = 0; j < 4; j++)
                     for (int i = 1; i < 4; i++)
-                        increasingness += (x[i - 1, j] > x[i, j]) ? 1 : 0;
+                        increasingnessX += x[i - 1, j] < x[i, j] ? x[i - 1, j] / (x[i, j] + 1) : x[i, j] / (x[i - 1, j] + 1);
 
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 4; i++)
                     for (int j = 1; j < 4; j++)
-                        increasingness += (x[i, j - 1] > x[i, j]) ? 1 : 0;
+                        increasingnessY += x[i, j - 1] < x[i, j] ? x[i, j - 1] / (x[i, j] + 1) : x[i, j] / (x[i, j - 1] + 1);
+
+                int increasingness = (Math.Abs(increasingnessX) + 1) * (Math.Abs(increasingnessY) + 1);
 
                 //increasingness += x[0, 0];
 
