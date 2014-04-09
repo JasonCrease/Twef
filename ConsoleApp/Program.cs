@@ -18,8 +18,9 @@ namespace ConsoleApp
 
             while (true)
             {
-
+                IAi ai = new Engine.HeuristicAi();
                 g = new Game();
+
                 while (g.AreMovesAvailable())
                 {
                     //Console.Write(g);
@@ -42,45 +43,17 @@ namespace ConsoleApp
                     //else if (move == 'd')
                     //    g.Move(Direction.Right);
 
-
-                    Game gW = new Game(g);
-                    Game gA = new Game(g);
-                    Game gS = new Game(g);
-                    Game gD = new Game(g);
-                    bool wWorked = gW.Move(Direction.Up);
-                    bool aWorked = gA.Move(Direction.Left);
-                    bool sWorked = gS.Move(Direction.Down);
-                    bool dWorked = gD.Move(Direction.Right);
-                    int maxValue = Math.Max(gW.HeuristicValue, Math.Max(gA.HeuristicValue, Math.Max(gS.HeuristicValue, gD.HeuristicValue)));
-
-                    bool moveWorked = false;
-
-                    if (gW.HeuristicValue == maxValue && wWorked)
-                        moveWorked = g.Move(Direction.Up);
-                    else if (gS.HeuristicValue == maxValue && sWorked)
-                        moveWorked = g.Move(Direction.Down);
-                    else if (gA.HeuristicValue == maxValue && aWorked)
-                        moveWorked = g.Move(Direction.Left);
-                    else if (gD.HeuristicValue == maxValue && dWorked)
-                        moveWorked = g.Move(Direction.Right);
-
-                    if (!moveWorked)
-                        moveWorked = g.Move(Direction.Up);
-                    if (!moveWorked)
-                        moveWorked = g.Move(Direction.Left);
-                    if (!moveWorked)
-                        moveWorked = g.Move(Direction.Down);
-                    if (!moveWorked)
-                        moveWorked = g.Move(Direction.Right);
-
+                    Direction suggestedMove = ai.SuggestMove(g);
+                    g.Move(suggestedMove);
                     g.AddRandomNumber();
+
+                    if (g.Score > 7000) goto outOfHere;
                 }
 
                 gameCount++;
                 totalScore += g.Score;
                 if (gameCount % 100 == 0) Console.WriteLine(totalScore / gameCount);
 
-                if (g.Score > 7000) goto outOfHere;
             }
 
             outOfHere:
