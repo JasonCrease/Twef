@@ -12,27 +12,55 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Game g = new Game();
-            Console.Write(g);
+            Random r = new Random();
+            int gameCount = 0;
+            int totalScore = 0;
 
-            for (int i = 0; i < 10; i++ )
+            while (true)
             {
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                IAi ai = new Engine.HeuristicAi();
+                g = new Game();
 
-                if (keyInfo.KeyChar == 'w')
-                    g.Move(Direction.Up);
-                else if (keyInfo.KeyChar == 'd')
-                    g.Move(Direction.Right);
-                else if (keyInfo.KeyChar == 'a')
-                    g.Move(Direction.Left);
-                else if (keyInfo.KeyChar == 's')
-                    g.Move(Direction.Down);
+                while (g.AreMovesAvailable())
+                {
+                    //Console.Write(g);
 
-                g.AddRandomNumber();
-                Console.WriteLine();
-                Console.Write(g);
+                    //char move = 'x';
+                    ////ConsoleKeyInfo keyInfo = Console.ReadKey();
+                    ////move = keyInfo.KeyChar;
+
+                    //double mov = r.NextDouble();
+                    //if (mov < 0.5) move = 'w';
+                    //else if (mov < 0.96) move = 'a';
+                    //else if (mov < 0.99) move = 'd';
+                    //else move = 's';
+                    //if (move == 'w')
+                    //    g.Move(Direction.Up);
+                    //else if (move == 'a')
+                    //    g.Move(Direction.Left);
+                    //else if (move == 's')
+                    //    g.Move(Direction.Down);
+                    //else if (move == 'd')
+                    //    g.Move(Direction.Right);
+
+                    Direction suggestedMove = ai.SuggestMove(g);
+                    g.Move(suggestedMove);
+                    g.AddRandomNumber();
+
+                    if (g.Score > 7000) goto outOfHere;
+                }
+
+                gameCount++;
+                totalScore += g.Score;
+                if (gameCount % 100 == 0) Console.WriteLine(totalScore / gameCount);
+
             }
 
-            Console.WriteLine("Done");
+            outOfHere:
+
+            Console.WriteLine();
+            Console.Write(g);
+            Console.WriteLine("Score: " + g.Score);
             Console.ReadLine();
         }
     }
