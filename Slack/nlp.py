@@ -1,7 +1,8 @@
 import readjson
 import nltk
 import nltk.classify.util
-from nltk.classify import NaiveBayesClassifier
+import numpy as np
+from   nltk.classify import NaiveBayesClassifier
 
 def word_feats(words):
     return dict([(word, True) for word in words])
@@ -24,3 +25,12 @@ print 'train on %d instances, test on %d instances' % (len(trainfeats), len(test
 classifier = NaiveBayesClassifier.train(trainfeats)
 print 'accuracy:', nltk.classify.util.accuracy(classifier, testfeats)
 classifier.show_most_informative_features(n=30)
+
+negTexts = [word_feats(nltk.word_tokenize(f)) for f in noReactionTexts]
+posTexts = [word_feats(nltk.word_tokenize(f)) for f in someReactionTexts]
+
+l_pos = np.array(classifier.classify_many(negTexts[poscutoff:]))
+l_neg = np.array(classifier.classify_many(posTexts[poscutoff:]))
+print "Confusion matrix:\n%d\t%d\n%d\t%d" % (
+          (l_pos == 'y').sum(), (l_pos == 'n').sum(),
+          (l_neg == 'y').sum(), (l_neg == 'n').sum())
