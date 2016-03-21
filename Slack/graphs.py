@@ -9,6 +9,14 @@ df.corr()
 # Most-common messages
 df.groupby('Text').Text.count().sort_values(ascending=False).head(30)
 
+# 188 people have posted something
+dateCount = df.groupby('User').count().Date
+dateCount[dateCount > 1].count()
+
+# 188 people have posted something
+dateCount = df.groupby('User').count().Date
+dateCount[dateCount > 1].count()
+
 # Changing over time
 fig = plt.pyplot.figure()
 ax = fig.add_subplot(111)
@@ -28,10 +36,29 @@ ax1.set_title("Reactions by User")
 tempReactions.plot(kind='bar')
 
 # Total messages
-tempMsgCount = df.groupby('User').count().Text.sort_values(ascending=False).head(50)
+tempMsgCount = df.groupby('User').count().Text.sort_values(ascending=False)
 fig = plt.pyplot.figure(figsize = (10,4))
 ax1 = fig.add_subplot(111)
 ax1.set_xlabel('User')
+ax1.set_ylabel('Count of Messages')
+ax1.set_title("Messages by User")
+tempMsgCount.plot(kind='bar')
+
+# Total messages (top few)
+tempMsgCount = df.groupby('User').count().Text.sort_values(ascending=False).head(30)
+fig = plt.pyplot.figure(figsize = (10,4))
+ax1 = fig.add_subplot(111)
+ax1.set_xlabel('User')
+ax1.set_ylabel('Count of Messages')
+ax1.set_title("Messages by User")
+tempMsgCount.plot(kind='bar')
+
+# Total messages (log)
+tempMsgCount = df.groupby('User').count().Text.sort_values(ascending=False).head(180)
+fig = plt.pyplot.figure(figsize = (10,4))
+ax1 = fig.add_subplot(111)
+ax1.set_xlabel('User')
+ax1.set_yscale('log')
 ax1.set_ylabel('Count of Messages')
 ax1.set_title("Messages by User")
 tempMsgCount.plot(kind='bar')
