@@ -5,11 +5,10 @@ library(lubridate)
 library(xgboost)
 
 
-setwd("d:/R/pets/")
+setwd("d:/Github/twef/pets/")
 dfraw    <- read.csv("./train.csv")
 dfrawsub <- read.csv("./test.csv")
 
-table(dfDogTrain$OutcomeType, dfDogTrain$Weekday)
 
 dfDogRaw   =dfraw[dfraw$AnimalType   =="Dog",]
 dfCatRaw   =dfraw[dfraw$AnimalType   =="Cat",]
@@ -194,7 +193,7 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
               "max_depth" = 8,             # maximum depth of tree 
-              "eta" = 0.02,                # step size shrinkage 
+              "eta" = 0.03,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
               "subsample" = 0.8,         # part of data instances to grow tree 
@@ -204,14 +203,15 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
 )
 
 nRounds = 800
+nFold   = 3
 
-bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=5, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
+bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
 minErrorDog
 minErrorDogIndex
 
-bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=5, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
+bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorCat = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorCatIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
 minErrorCat
@@ -219,6 +219,8 @@ minErrorCatIndex
 
 errorEstOverall = ((minErrorDog * nrow(dfDogTrain)) +  (minErrorCat * nrow(dfCatTrain))) / (nrow(dfDogTrain) + nrow(dfCatTrain))
 errorEstOverall
+
+stop()
 
 bstDog <- xgboost(param=param, data=dfDogMat, label=yDog, nrounds=minErrorDogIndex, verbose=1, print.every.n = 50)    
 bstCat <- xgboost(param=param, data=dfCatMat, label=yCat, nrounds=minErrorCatIndex, verbose=1, print.every.n = 50)    
