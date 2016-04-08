@@ -12,7 +12,9 @@ namespace PetInfoGrabber
     {
         static void Main(string[] args)
         {
-            string[] allLines = File.ReadAllLines(".\\..\\..\\breedList.csv");
+            string notFoundBreedsFile = ".\\..\\..\\notFoundBreedsFile.txt";
+
+            string[] allLines = File.ReadAllLines(".\\..\\..\\..\\breedList.csv");
             List<string> breedList = new List<string>();
 
             foreach (string line in allLines)
@@ -20,8 +22,9 @@ namespace PetInfoGrabber
                 if (line == "\"x\"")
                     continue;
 
-               string breedname = line.Replace("\\", "").Replace("\"", "").Replace(" Mix", "").Trim();
+                string breedname = line.Replace("\\", "").Replace("\"", "").Replace(" Mix", "").Trim();
                 breedname = breedname.Replace(" ", "-");
+
                 breedList.Add(breedname);
             }
 
@@ -40,26 +43,29 @@ namespace PetInfoGrabber
                     breedInfo2 = BreedInfo.GetInfo(breed2);
 
                     if (breedInfo1 == null)
+                    {
+                        File.AppendAllText(notFoundBreedsFile, breed1 + "\r\n");
                         Console.WriteLine("Breed {0} not found", breed1);
+                    }
                     if (breedInfo2 == null)
+                    {
+                        File.AppendAllText(notFoundBreedsFile, breed2 + "\r\n");
                         Console.WriteLine("Breed {0} not found", breed2);
-                    if (breedInfo1 != null)
-                        Console.WriteLine("Breed {0} found", breed1);
-                    if (breedInfo2 != null)
-                        Console.WriteLine("Breed {0} found", breed2);
+                    }
                 }
                 else
                 {
                     mix = false;
                     breedInfo1 = BreedInfo.GetInfo(breed);
-
-                    if (breedInfo1 != null)
-                        Console.WriteLine("Breed {0} found", breed);
+                    
                     if (breedInfo1 == null)
+                    {
+                        File.AppendAllText(notFoundBreedsFile, breed + "\r\n");
                         Console.WriteLine("Breed {0} not found", breed);
+                    }
                 }
-
             }
+            
         }
     }
 }
