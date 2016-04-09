@@ -6,27 +6,41 @@ library(xgboost)
 
 
 setwd("d:/Github/twef/pets/")
+breedData = read.csv("./PetInfoGrabber/breedListout.csv")
 dfraw    <- read.csv("./train.csv")
 dfrawsub <- read.csv("./test.csv")
 
+breedData[is.na(breedData$Weight),]$Weight = 50
+breedData[is.na(breedData$Height),]$Height = 25
+breedData[is.na(breedData$Lifespan),]$Lifespan = 12
+breedData[is.na(breedData$Price),]$Price = 600
+breedData[is.na(breedData$Intelligence),]$Intelligence = 3
+breedData[is.na(breedData$GoodWithKids),]$GoodWithKids = 3
+breedData[is.na(breedData$Trainability),]$Trainability = 3
 
 dfDogRaw   =dfraw[dfraw$AnimalType   =="Dog",]
 dfCatRaw   =dfraw[dfraw$AnimalType   =="Cat",]
 dfDogRawSub=dfrawsub[dfrawsub$AnimalType=="Dog",]
 dfCatRawSub=dfrawsub[dfrawsub$AnimalType=="Cat",]
 
+# Add breedData data
+dfDogRaw = merge(dfDogRaw,breedData,by="Breed",all.y=FALSE,all.x=TRUE)
+dfDogRawSub = merge(dfDogRawSub,breedData,by="Breed",all.y=FALSE,all.x=TRUE)
+
 # Make columns match so rbind is possible
-dfDogRawSub=dfDogRawSub[-c(1)]
+dfDogRawSub=subset(dfDogRawSub, select = -c(ID))
 dfDogRawSub$OutcomeType = as.factor("NULL")
 dfDogRawSub$OutcomeSubtype = as.factor("NULL")
 dfDogRawSub$AnimalID = as.factor("NULL")
 allDog = rbind(dfDogRaw, dfDogRawSub)
 
-dfCatRawSub=dfCatRawSub[-c(1)]
+#breedTable = sort(table(allDog$Breed),decreasing = TRUE)
+#write.csv(file = "breedList.csv", x=names(breedTable),col.names = FALSE,row.names=FALSE)
+
+dfCatRawSub=subset(dfCatRawSub, select = -c(ID))
 dfCatRawSub$OutcomeType = as.factor("NULL")
 dfCatRawSub$OutcomeSubtype = as.factor("NULL")
 dfCatRawSub$AnimalID = as.factor("NULL")
-
 allCat = rbind(dfCatRaw, dfCatRawSub)
 
 # Assemble popularity stats
@@ -104,10 +118,11 @@ cleanDog <- function(x){
   # The reciprical makes more sense
   x$NameWeirdness = 1 / x$NameWeirdness
   
+  # How old it is relatively. Might be useful for predicting death/euthanasia
+  #x$RelativeAge = x$AgeuponOutcome / x$Lifespan
+  
   x
 }
-
-sort(table(dfCatRaw$Color))
 
 cleanCat <- function(x){
   x$BreedWeirdness <- catBreedsSummary[match(x$Breed,names(catBreedsSummary))]
@@ -182,8 +197,6 @@ yDog   = as.matrix(as.integer(dfDogTrain$OutcomeType))
 yDog = yDog -1
 
 dfCatMat = model.matrix(OutcomeType ~ ., dfCatTrain)
-head(dfCatTrain)
-head(subCat)
 
 mode(dfCatMat) = "numeric"
 yCat   = as.matrix(as.integer(dfCatTrain$OutcomeType))
@@ -198,12 +211,12 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
               "num_class" = 5,           # 5 different outcomes
               "subsample" = 0.8,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
-              "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
+              "colsample_bytree" = 0.9   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
 nRounds = 800
-nFold   = 3
+nFold   = 4
 
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
@@ -258,7 +271,7 @@ write.csv(x=predPetsSorted, file = "submit1.csv", row.names = FALSE)
 
 
 
-names <- dimnames(dfCatMat)[[2]]
-importance_matrix <- xgb.importance(names, model = bstCat)
+names <- dimnames(dfDogMat)[[2]]
+importance_matrix <- xgb.importance(names, model = bstDog)
 importance_matrix$Feature = factor(importance_matrix$Feature, levels = importance_matrix$Feature)
 ggplot(importance_matrix, aes(x=Feature, y = Gain))  + coord_flip() + geom_bar(stat="identity") 
