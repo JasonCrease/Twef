@@ -19,6 +19,8 @@ namespace PetInfoGrabber
             {
                 if (File.Exists(fileName))
                     return File.ReadAllText(fileName);
+                else
+                    throw new BreedNotFoundException();
 
                 string webPage = "http://www.dogbreedslist.info/all-dog-breeds/" + breed + ".html";
                 downloadString = client.DownloadString(webPage);
@@ -61,16 +63,22 @@ namespace PetInfoGrabber
                 { "Rhod-Ridgeback", "Rhodesian-Ridgeback" },
                 { "Akita", "American-Akita" },
                 { "English-Bulldog", "Olde-English-Bulldogge" },
-                { "Papillon", "Papillon-Dog" },
+                { "Papillon", "Papillon-dog" },
                 { "American-Eskimo", "American-Eskimo-Dog" },
                 { "West-Highland", "West-Highland-White-Terrier" },
                 { "Harrier", "Harrier-dog" },
                 { "Cavalier-Span", "Cavalier-King-Charles-Spaniel" },
                 { "Wire-Hair-Fox-Terrier", "Wire-Fox-Terrier" },
                 { "St.-Bernard-Rough-Coat", "St-Bernard" },
+                { "St.-Bernard-Smooth-Coat", "St-Bernard" },
                 { "Tan-Hound", "Austrian-Black-and-Tan-Hound" },
                 { "Flat-Coat-Retriever", "Flat-Coated-Retriever" },
-                { "Brussels-Griffon", "Bruss-Griffon" },
+                { "Bruss-Griffon", "Brussels-Griffon" },
+                { "German-Shorthair-Pointer", "German-Shorthaired-Pointer" },
+                { "Redbone-Hound", "Redbone-Coonhound" },
+                { "Britanny", "French-Britanny" },
+                { "Schnauzer-Giant", "Giant-Schnauzer" },
+                { "Soft-Coated-Wheaten-Terrier", "Soft-coated-Wheaten-Terrier" },
             };
 
         private static string RegularizeBreedName(string breed)

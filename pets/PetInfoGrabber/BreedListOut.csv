@@ -1,0 +1,1360 @@
+Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability,Intelligence
+"Pit Bull Mix",65,22,700,14,2,2,3
+"Chihuahua Shorthair Mix",6,10,800,18,1,3,3
+"Labrador Retriever Mix",79,25,1000,13,5,5,5
+"German Shepherd Mix",88,26,1500,10,5,5,5
+"Australian Cattle Dog Mix",35,20,600,15,5,5,5
+"Dachshund Mix",32,9,600,15,2,2,4
+"Boxer Mix",59,24,1200,12,3,3,4
+"Miniature Poodle Mix",10,60,1500,15,2,5,5
+"Border Collie Mix",44,22,700,16,5,5,5
+"Australian Shepherd Mix",68,23,600,15,5,5,4
+"Catahoula Mix",81,23,550,14,3,3,4
+"Rat Terrier Mix",25,18,500,18,5,5,4
+"Jack Russell Terrier Mix",17,14,1000,16,3,5,5
+"Yorkshire Terrier Mix",8,9,700,16,1,3,4
+"Chihuahua Longhair Mix",6,10,800,18,1,3,3
+"Siberian Husky Mix",60,23,1000,15,5,1,4
+"Miniature Schnauzer Mix",20,14,1000,15,3,5,5
+"Beagle Mix",25,16,800,15,5,2,4
+"Rottweiler Mix",129,27,2000,10,2,3,5
+"American Bulldog Mix",120,71,900,14,3,3,3
+"Cairn Terrier Mix",17,13,1000,15,4,3,4
+"Shih Tzu Mix",16,28,1200,15,2,3,3
+"Chihuahua Shorthair/Dachshund",19,9,700,16,1,2,3
+"Australian Kelpie Mix",46,20,600,14,3,5,4
+"Staffordshire Mix",35,41,1800,14,3,2,4
+"Pointer Mix",75,28,250,15,5,3,4
+"American Staffordshire Terrier Mix",88,18,900,12,2,2,3
+"Great Pyrenees Mix",118,32,900,12,4,2,4
+"Chihuahua Shorthair",6,10,800,18,1,3,3
+"Labrador Retriever/Pit Bull",72,23,850,13,3,3,4
+"German Shepherd",88,26,1500,10,5,5,5
+"Anatol Shepherd Mix",121,31,900,15,3,2,3
+"Plott Hound Mix",55,58,300,14,4,3,4
+"Dachshund/Chihuahua Shorthair",19,9,700,16,1,2,3
+"Labrador Retriever",79,25,1000,13,5,5,5
+"Miniature Pinscher Mix",11,28,600,15,3,4,5
+"American Pit Bull Terrier Mix",65,22,700,14,2,2,3
+"Golden Retriever Mix",63,23,2000,13,5,5,5
+"Pit Bull",65,22,700,14,2,2,3
+"German Shepherd/Labrador Retriever",83,25,1250,11,5,5,5
+"Black Mouth Cur Mix",95,25,350,16,3,3,3
+"Chow Chow Mix",70,22,1200,15,2,2,3
+"Labrador Retriever/German Shepherd",83,25,1250,11,5,5,5
+"Cardigan Welsh Corgi Mix",33,13,1200,15,5,5,5
+"Shih Tzu",16,28,1200,15,2,3,3
+"Queensland Heeler Mix",35,20,600,15,5,5,5
+"Maltese Mix",8,10,800,15,1,3,3
+"Pug Mix",17,28,400,15,4,3,4
+"Dachshund",32,9,600,15,2,2,4
+"Doberman Pinsch Mix",99,14,1000,14,4,5,5
+"Cocker Spaniel Mix",30,16,800,15,5,3,4
+"Basset Hound Mix",75,15,500,12,5,3,3
+"Boston Terrier Mix",25,17,800,15,5,3,3
+"Lhasa Apso Mix",15,28,600,14,5,3,3
+"Miniature Schnauzer/Miniature Poodle",15,37,1250,15,2,5,5
+"Manchester Terrier Mix",22,42,650,16,3,3,4
+"Blue Lacy Mix",45,21,950,14,3,3,3
+"Carolina Dog Mix",65,24,950,15,3,3,3
+"Pomeranian Mix",7,12,800,16,1,3,3
+"Rottweiler",129,27,2000,10,2,3,5
+"Flat Coat Retriever Mix",70,23,1000,10,4,5,5
+"Labrador Retriever/Border Collie",61,23,850,14,5,5,5
+"Toy Poodle Mix",10,60,1500,15,2,5,5
+"Dachshund Longhair Mix",32,9,600,15,2,2,4
+"Australian Cattle Dog/Labrador Retriever",57,22,800,14,5,5,5
+"Border Terrier Mix",15,16,1000,15,5,5,4
+"Boxer",59,24,1200,12,3,3,4
+"Pit Bull/Labrador Retriever",72,23,850,13,3,3,4
+"Siberian Husky",60,23,1000,15,5,1,4
+"Border Collie/Labrador Retriever",61,23,850,14,5,5,5
+"Collie Smooth Mix",75,61,1000,15,5,5,4
+"Labrador Retriever/Australian Cattle Dog",57,22,800,14,5,5,5
+"Maltese/Miniature Poodle",9,35,1150,15,1,4,4
+"Bull Terrier Mix",85,55,1500,14,3,2,4
+"Pekingese Mix",14,9,600,15,1,2,3
+"Australian Cattle Dog",35,20,600,15,5,5,5
+"Chinese Sharpei Mix",52,51,1500,11,1,3,4
+"Pug",17,28,400,15,4,3,4
+"Rhod Ridgeback Mix",85,66,1200,12,5,4,5
+"Chihuahua Shorthair/Jack Russell Terrier",11,12,900,17,2,4,4
+"English Bulldog Mix",80,60,2500,14,3,3,3
+"Yorkshire Terrier",8,9,700,16,1,3,4
+"Dachshund Wirehair Mix",32,9,600,15,2,2,4
+"Mastiff Mix",169,36,1500,12,5,3,3
+"Soft Coated Wheaten Terrier Mix",39,48,900,15,4,4,4
+"Beagle",25,16,800,15,5,2,4
+"Chihuahua Shorthair/Rat Terrier",15,14,650,18,3,4,3
+"Miniature Schnauzer",20,14,1000,15,3,5,5
+"Rat Terrier/Chihuahua Shorthair",15,14,650,18,3,4,3
+"Shetland Sheepdog Mix",26,16,700,13,4,5,5
+"Great Dane Mix",129,32,1200,12,3,3,3
+"Labrador Retriever/Boxer",69,24,1100,12,4,4,4
+"Miniature Poodle",10,60,1500,15,2,5,5
+"Norfolk Terrier Mix",12,10,2500,15,4,5,4
+"Redbone Hound Mix",68,68,800,12,5,3,3
+"Whippet Mix",30,56,1200,15,3,3,3
+"Boxer/Pit Bull",62,23,950,13,2,2,3
+"Bruss Griffon Mix",11,20,800,15,1,2,5
+"Cocker Spaniel",30,16,800,15,5,3,4
+"Labrador Retriever/Chow Chow",74,23,1100,14,3,3,4
+"German Shorthair Pointer Mix",59,25,600,14,4,5,4
+"Labrador Retriever/Great Pyrenees",98,28,950,12,4,3,4
+"Maltese",8,10,800,15,1,3,3
+"Miniature Poodle/Miniature Schnauzer",15,37,1250,15,2,5,5
+"Weimaraner Mix",77,63,800,12,5,5,5
+"Black/Tan Hound Mix",49,21,600,14,3,3,3
+"Chihuahua Shorthair/Cardigan Welsh Corgi",19,11,1000,16,3,4,4
+"Chihuahua Shorthair/Pug",11,19,600,16,2,3,3
+"Labrador Retriever/Pointer",77,26,625,14,5,4,4
+"Parson Russell Terrier Mix",15,38,500,15,3,5,4
+"Pembroke Welsh Corgi Mix",26,12,600,14,5,5,4
+"Pit Bull/Boxer",62,23,950,13,2,2,3
+"Border Collie",44,22,700,16,5,5,5
+"Labrador Retriever/Australian Shepherd",73,24,800,14,5,5,4
+"Pug/Chihuahua Shorthair",11,19,600,16,2,3,3
+"Shiba Inu Mix",17,43,1000,15,3,2,3
+"Doberman Pinsch",99,14,1000,14,4,5,5
+"Jack Russell Terrier",17,14,1000,16,3,5,5
+"Basset Hound",75,15,500,12,5,3,3
+"Beagle/Chihuahua Shorthair",15,13,800,16,3,2,3
+"Belgian Malinois Mix",,,,,,,
+"Boxer/Labrador Retriever",69,24,1100,12,4,4,4
+"Harrier Mix",65,21,400,15,5,3,3
+"Labrador Retriever/Plott Hound",67,41,650,13,4,4,4
+"Miniature Pinscher",11,28,600,15,3,4,5
+"Miniature Pinscher/Chihuahua Shorthair",8,19,700,16,2,3,4
+"Norwich Terrier Mix",12,25,1500,14,4,2,4
+"Australian Shepherd",68,23,600,15,5,5,4
+"Bichon Frise Mix",20,12,600,15,3,3,4
+"Dachshund/Beagle",28,12,700,15,3,2,4
+"English Pointer Mix",75,28,250,15,5,3,4
+"Great Pyrenees",118,32,900,12,4,2,4
+"Labrador Retriever/Beagle",52,20,900,14,5,3,4
+"West Highland Mix",20,16,1200,16,4,4,4
+"Boston Terrier",25,17,800,15,5,3,3
+"Cairn Terrier/Chihuahua Shorthair",11,11,900,16,2,3,3
+"Dogo Argentino Mix",,,,,,,
+"Golden Retriever",63,23,2000,13,5,5,5
+"Papillon Mix",10,11,500,15,5,3,5
+"Rat Terrier",25,18,500,18,5,5,4
+"American Staffordshire Terrier",88,18,900,12,2,2,3
+"Anatol Shepherd",121,31,900,15,3,2,3
+"Australian Shepherd/Labrador Retriever",73,24,800,14,5,5,4
+"Catahoula/Labrador Retriever",80,24,775,13,4,4,4
+"Chesa Bay Retr Mix",,,,,,,
+"English Bulldog",80,60,2500,14,3,3,3
+"Italian Greyhound Mix",15,15,700,15,1,2,3
+"Jack Russell Terrier/Chihuahua Shorthair",11,12,900,17,2,4,4
+"Labrador Retriever/Anatol Shepherd",100,28,950,14,4,3,4
+"Pit Bull/Chinese Sharpei",58,36,1100,12,1,2,3
+"Pointer/Labrador Retriever",77,26,625,14,5,4,4
+"Standard Schnauzer Mix",44,50,1500,14,4,5,3
+"Wire Hair Fox Terrier Mix",21,16,800,14,5,3,3
+"Yorkshire Terrier/Miniature Poodle",9,34,1100,15,1,4,4
+"Akita Mix",99,26,1000,15,3,3,4
+"Basenji Mix",26,17,1200,16,2,2,5
+"Beauceron Mix",100,28,1500,13,3,5,5
+"Bulldog Mix",50,16,2000,12,5,3,3
+"Chihuahua Shorthair/Yorkshire Terrier",7,9,750,17,1,3,3
+"German Shepherd/Siberian Husky",74,24,1250,12,5,3,4
+"Labrador Retriever/Catahoula",80,24,775,13,4,4,4
+"Lhasa Apso",15,28,600,14,5,3,3
+"Pug/Beagle",21,22,600,15,4,2,4
+"Siberian Husky/German Shepherd",74,24,1250,12,5,3,4
+"Standard Poodle Mix",10,60,1500,15,2,5,5
+"Alaskan Husky Mix",90,24,700,19,3,3,3
+"Australian Cattle Dog/Border Collie",39,21,650,15,5,5,5
+"Cairn Terrier",17,13,1000,15,4,3,4
+"Cardigan Welsh Corgi/Chihuahua Shorthair",19,11,1000,16,3,4,4
+"Chihuahua Shorthair/Beagle",15,13,800,16,3,2,3
+"Chihuahua Shorthair/Cairn Terrier",11,11,900,16,2,3,3
+"Dachshund Wirehair/Chihuahua Shorthair",19,9,700,16,1,2,3
+"Dalmatian Mix",63,23,800,13,5,5,5
+"German Shepherd/Chow Chow",79,24,1350,12,3,3,4
+"Havanese Mix",13,11,1100,15,5,5,5
+"Labrador Retriever/Chinese Sharpei",65,38,1250,12,3,4,4
+"Labrador Retriever/Rottweiler",104,26,1500,11,3,4,5
+"Plott Hound/Labrador Retriever",67,41,650,13,4,4,4
+"Rottweiler/Labrador Retriever",104,26,1500,11,3,4,5
+"Smooth Fox Terrier Mix",17,15,700,15,5,3,5
+"St. Bernard Smooth Coat Mix",264,90,1800,10,5,3,3
+"American Eskimo Mix",10,30,750,15,2,5,4
+"Australian Cattle Dog/Pit Bull",50,21,650,14,3,3,4
+"Beagle/Dachshund",28,12,700,15,3,2,4
+"Border Collie/Great Pyrenees",81,27,800,14,4,3,4
+"Chihuahua Longhair",6,10,800,18,1,3,3
+"Chihuahua Shorthair/Miniature Pinscher",8,19,700,16,2,3,4
+"Collie Rough Mix",63,56,600,16,5,5,5
+"Dachshund Longhair",32,9,600,15,2,2,4
+"German Shepherd/Australian Cattle Dog",61,23,1050,12,5,5,5
+"Great Dane",129,32,1200,12,3,3,3
+"Labrador Retriever/Basset Hound",77,20,750,12,5,4,4
+"Miniature Poodle/Maltese",9,35,1150,15,1,4,4
+"Pharaoh Hound Mix",59,24,1300,14,4,2,4
+"Pit Bull/Australian Cattle Dog",50,21,650,14,3,3,4
+"Pomeranian",7,12,800,16,1,3,3
+"Rottweiler/German Shepherd",108,26,1750,10,3,4,5
+"Yorkshire Terrier/Chihuahua Shorthair",7,9,750,17,1,3,3
+"Anatol Shepherd/Labrador Retriever",100,28,950,14,4,3,4
+"Australian Cattle Dog/German Shepherd",61,23,1050,12,5,5,5
+"Beagle/German Shepherd",56,21,1150,12,5,3,4
+"Beagle/Labrador Retriever",52,20,900,14,5,3,4
+"Bullmastiff Mix",129,27,1500,10,3,3,3
+"Cavalier Span Mix",18,13,1500,14,3,4,4
+"Chinese Sharpei",52,51,1500,11,1,3,4
+"Dachshund/Manchester Terrier",27,25,625,15,2,2,4
+"Dachshund/Rat Terrier",28,13,550,16,3,3,4
+"Greyhound Mix",88,28,950,12,5,3,3
+"Labrador Retriever/Blue Lacy",62,23,975,13,4,4,4
+"Leonberger Mix",129,75,1400,9,5,3,3
+"Pit Bull/Catahoula",73,22,625,14,2,2,3
+"Staffordshire",35,41,1800,14,3,2,4
+"Treeing Walker Coonhound Mix",68,69,600,13,4,2,3
+"Yorkshire Terrier/Miniature Schnauzer",14,11,850,15,2,4,4
+"Bloodhound Mix",99,25,1200,12,5,3,4
+"Border Collie/German Shepherd",66,24,1100,13,5,5,5
+"Bull Terrier",85,55,1500,14,3,2,4
+"Chihuahua Shorthair/Boston Terrier",15,13,800,16,3,3,3
+"Chihuahua Shorthair/Pomeranian",6,11,800,17,1,3,3
+"Chow Chow/Labrador Retriever",74,23,1100,14,3,3,4
+"Cocker Spaniel/Labrador Retriever",54,20,900,14,5,4,4
+"Collie Smooth/Labrador Retriever",77,43,1000,14,5,5,4
+"Dachshund Wirehair/Miniature Poodle",21,34,1050,15,2,3,4
+"Dutch Shepherd Mix",,,,,,,
+"Finnish Spitz Mix",28,20,700,14,4,3,4
+"German Shepherd/Border Collie",66,24,1100,13,5,5,5
+"German Shepherd/Boxer",73,25,1350,11,4,4,4
+"German Shepherd/Rottweiler",108,26,1750,10,3,4,5
+"Great Pyrenees/Labrador Retriever",98,28,950,12,4,3,4
+"Greyhound",88,28,950,12,5,3,3
+"Mastiff/Chinese Sharpei",110,43,1500,11,3,3,3
+"Pbgv Mix",,,,,,,
+"Pit Bull/Pointer",70,25,475,14,3,2,3
+"Schipperke Mix",19,30,800,15,4,4,4
+"Silky Terrier Mix",,,,,,,
+"Toy Fox Terrier Mix",9,29,800,14,3,5,5
+"Toy Poodle",10,60,1500,15,2,5,5
+"Vizsla Mix",63,64,1200,15,3,5,5
+"Yorkshire Terrier/Chihuahua Longhair",7,9,750,17,1,3,3
+"Affenpinscher Mix",,,,,,,
+"American Bulldog",120,71,900,14,3,3,3
+"Anatol Shepherd/Great Pyrenees",119,31,900,13,3,2,3
+"Australian Kelpie",46,20,600,14,3,5,4
+"Australian Shepherd/Anatol Shepherd",94,27,750,15,4,3,3
+"Australian Shepherd/Australian Cattle Dog",51,21,600,15,5,5,4
+"Australian Shepherd/Border Collie",56,22,650,15,5,5,4
+"Bernese Mountain Dog Mix",110,28,1000,8,3,3,3
+"Blue Lacy/American Bulldog",82,46,925,14,3,3,3
+"Boston Terrier/Chihuahua Shorthair",15,13,800,16,3,3,3
+"Boxer/Catahoula",70,23,875,13,3,3,4
+"Brittany Mix",,,,,,,
+"Catahoula",81,23,550,14,3,3,4
+"Catahoula/Australian Cattle Dog",58,21,575,14,4,4,4
+"Chihuahua Shorthair/Border Terrier",10,13,900,16,3,4,3
+"Chihuahua Shorthair/Italian Greyhound",10,12,750,16,1,2,3
+"Feist Mix",,,,,,,
+"French Bulldog Mix",28,12,2300,12,2,3,3
+"German Shepherd/Mastiff",128,31,1500,11,5,4,4
+"Great Dane/Labrador Retriever",104,28,1100,12,4,4,4
+"Great Pyrenees/Border Collie",81,27,800,14,4,3,4
+"Jack Russell Terrier/Australian Cattle Dog",26,17,800,15,4,5,5
+"Labrador Retriever/Great Dane",104,28,1100,12,4,4,4
+"Labrador Retriever/Rhod Ridgeback",82,45,1100,12,5,4,5
+"Labrador Retriever/Siberian Husky",69,24,1000,14,5,3,4
+"Landseer Mix",118,31,2200,11,3,3,3
+"Lhasa Apso/Miniature Poodle",12,44,1050,14,3,4,4
+"Newfoundland Mix",154,74,2000,10,5,3,4
+"Pbgv",,,,,,,
+"Pit Bull/Chihuahua Shorthair",35,16,750,16,1,2,3
+"Shih Tzu/Miniature Poodle",13,44,1350,15,2,4,4
+"Tibetan Terrier Mix",24,16,1600,15,4,4,4
+"Yorkshire Terrier/Cairn Terrier",12,11,850,15,2,3,4
+"Airedale Terrier Mix",65,23,750,12,4,4,4
+"Alaskan Malamute Mix",83,24,1500,16,4,2,3
+"American Pit Bull Terrier",65,22,700,14,2,2,3
+"Australian Cattle Dog/Beagle",30,18,700,15,5,3,4
+"Australian Cattle Dog/Pointer",55,24,425,15,5,4,4
+"Bichon Frise",20,12,600,15,3,3,4
+"Black Mouth Cur",95,25,350,16,3,3,3
+"Bluetick Hound Mix",,,,,,,
+"Border Collie/Australian Cattle Dog",39,21,650,15,5,5,5
+"Border Terrier/Chihuahua Shorthair",10,13,900,16,3,4,3
+"Cairn Terrier/Yorkshire Terrier",12,11,850,15,2,3,4
+"Catahoula/Pit Bull",73,22,625,14,2,2,3
+"Catahoula/Pointer",78,25,400,14,4,3,4
+"Chihuahua Shorthair/Miniature Schnauzer",13,12,900,16,2,4,4
+"Chow Chow",70,22,1200,15,2,2,3
+"Chow Chow/Australian Cattle Dog",52,21,900,15,3,3,4
+"Chow Chow/Pit Bull",67,22,950,14,2,2,3
+"English Coonhound Mix",63,27,950,12,3,3,3
+"Flat Coat Retriever/Papillon",40,17,750,12,4,4,5
+"German Shepherd/Alaskan Malamute",85,25,1500,13,4,3,4
+"Golden Retriever/Chow Chow",66,22,1600,14,3,3,4
+"Golden Retriever/Labrador Retriever",71,24,1500,13,5,5,5
+"Irish Terrier Mix",27,45,700,14,4,2,4
+"Jack Russell Terrier/Dachshund",24,11,800,15,2,3,4
+"Jack Russell Terrier/Pit Bull",41,18,850,15,2,3,4
+"Keeshond Mix",45,18,1100,15,4,4,3
+"Labrador Retriever/Golden Retriever",71,24,1500,13,5,5,5
+"Miniature Poodle/Cocker Spaniel",20,38,1150,15,3,4,4
+"Miniature Schnauzer/Yorkshire Terrier",14,11,850,15,2,4,4
+"Patterdale Terr Mix",,,,,,,
+"Pekingese",14,9,600,15,1,2,3
+"Pit Bull/German Shepherd",76,24,1100,12,3,3,4
+"Podengo Pequeno Mix",,,,,,,
+"Rhod Ridgeback/Labrador Retriever",82,45,1100,12,5,4,5
+"Shetland Sheepdog",26,16,700,13,4,5,5
+"Siberian Husky/Labrador Retriever",69,24,1000,14,5,3,4
+"St. Bernard Rough Coat Mix",264,90,1800,10,5,3,3
+"Swedish Vallhund Mix",30,34,1000,14,5,5,3
+"Welsh Terrier Mix",22,37,800,15,4,3,4
+"West Highland",20,16,1200,16,4,4,4
+"American Bulldog/Pit Bull",92,46,800,14,2,2,3
+"Anatol Shepherd/Border Collie",82,26,800,15,4,3,4
+"Anatol Shepherd/Redbone Hound",94,49,850,13,4,2,3
+"Australian Terrier Mix",13,11,900,15,4,4,4
+"Beagle/Basset Hound",50,15,650,13,5,2,3
+"Beagle/Boxer",42,20,1000,13,4,2,4
+"Beagle/Pug",21,22,600,15,4,2,4
+"Black Mouth Cur/Catahoula",88,24,450,15,3,3,3
+"Blue Lacy",45,21,950,14,3,3,3
+"Border Collie/Chow Chow",57,22,950,15,3,3,4
+"Boxer/Australian Cattle Dog",47,22,900,13,4,4,4
+"Boxer/Beagle",42,20,1000,13,4,2,4
+"Boxer/Staffordshire",47,32,1500,13,3,2,4
+"Cane Corso Mix",,,,,,,
+"Cardigan Welsh Corgi/Australian Cattle Dog",34,16,900,15,5,5,5
+"Carolina Dog/Chihuahua Shorthair",35,17,875,16,2,3,3
+"Chihuahua Shorthair/Dachshund Wirehair",19,9,700,16,1,2,3
+"Chihuahua Shorthair/Pit Bull",35,16,750,16,1,2,3
+"Chow Chow/German Shepherd",79,24,1350,12,3,3,4
+"Cocker Spaniel/Miniature Poodle",20,38,1150,15,3,4,4
+"Dachshund/Labrador Retriever",55,17,800,14,3,3,4
+"Dalmatian",63,23,800,13,5,5,5
+"Dogue De Bordeaux Mix",,,,,,,
+"English Springer Spaniel Mix",48,20,700,14,3,3,4
+"German Shepherd/Cardigan Welsh Corgi",60,19,1350,12,5,5,5
+"German Shepherd/Catahoula",84,24,1025,12,4,4,4
+"German Shepherd/Chinese Sharpei",70,38,1500,10,3,4,4
+"German Shepherd/Collie Rough",75,41,1050,13,5,5,5
+"German Shorthair Pointer",59,25,600,14,4,5,4
+"Great Pyrenees/Anatol Shepherd",119,31,900,13,3,2,3
+"Greater Swiss Mountain Dog Mix",154,28,700,11,4,4,4
+"Jack Russell Terrier/Beagle",21,15,900,15,4,3,4
+"Labrador Retriever/Black/Tan Hound",79,25,1000,13,5,5,5
+"Labrador Retriever/Doberman Pinsch",89,19,1000,13,4,5,5
+"Labrador Retriever/Flat Coat Retriever",74,24,1000,11,4,5,5
+"Labrador Retriever/Staffordshire",57,33,1400,13,4,3,4
+"Manchester Terrier/Beagle",23,29,725,15,4,2,4
+"Manchester Terrier/Dachshund",27,25,625,15,2,2,4
+"Miniature Poodle/Dachshund",21,34,1050,15,2,3,4
+"Miniature Poodle/Yorkshire Terrier",9,34,1100,15,1,4,4
+"Parson Russell Terrier",15,38,500,15,3,5,4
+"Pembroke Welsh Corgi",26,12,600,14,5,5,4
+"Pit Bull/Basset Hound",70,18,600,13,3,2,3
+"Pit Bull/Plott Hound",60,40,500,14,3,2,3
+"Plott Hound",55,58,300,14,4,3,4
+"Pointer/Catahoula",78,25,400,14,4,3,4
+"Pointer/Pit Bull",70,25,475,14,3,2,3
+"Pomeranian/Chihuahua Longhair",6,11,800,17,1,3,3
+"Rat Terrier/Beagle",25,17,650,16,5,3,4
+"Rhod Ridgeback",85,66,1200,12,5,4,5
+"Schnauzer Giant Mix",74,26,1000,15,3,4,4
+"Standard Poodle",10,60,1500,15,2,5,5
+"Standard Poodle/Labrador Retriever",44,42,1250,14,3,5,5
+"Treeing Cur Mix",,,,,,,
+"Vizsla",63,64,1200,15,3,5,5
+"Weimaraner",77,63,800,12,5,5,5
+"Wire Hair Fox Terrier/Chihuahua Shorthair",13,13,800,16,3,3,3
+"Yorkshire Terrier/Maltese",8,9,750,15,1,3,3
+"Yorkshire Terrier/Rat Terrier",16,13,600,17,3,4,4
+"Akita",99,26,1000,15,3,3,4
+"American Bulldog/Labrador Retriever",99,48,950,13,4,4,4
+"American Staffordshire Terrier/Labrador Retriever",83,21,950,12,3,3,4
+"Australian Cattle Dog/Boxer",47,22,900,13,4,4,4
+"Australian Cattle Dog/Cardigan Welsh Corgi",34,16,900,15,5,5,5
+"Australian Cattle Dog/Catahoula",58,21,575,14,4,4,4
+"Australian Cattle Dog/Chow Chow",52,21,900,15,3,3,4
+"Australian Cattle Dog/Jack Russell Terrier",26,17,800,15,4,5,5
+"Australian Cattle Dog/Staffordshire",35,30,1200,14,4,3,4
+"Australian Kelpie/Pit Bull",55,21,650,14,2,3,3
+"Australian Shepherd/Chihuahua Shorthair",37,16,700,16,3,4,3
+"Australian Shepherd/Chow Chow",69,22,900,15,3,3,3
+"Basset Hound/Labrador Retriever",77,20,750,12,5,4,4
+"Bedlington Terr Mix",,,,,,,
+"Black Mouth Cur/Australian Cattle Dog",65,22,475,15,4,4,4
+"Black Mouth Cur/German Shepherd",91,25,925,13,4,4,4
+"Black/Tan Hound",49,21,600,14,3,3,3
+"Blue Lacy/Australian Kelpie",45,20,775,14,3,4,3
+"Blue Lacy/Pit Bull",55,21,825,14,2,2,3
+"Boerboel Mix",175,28,1700,12,3,3,3
+"Border Collie/Australian Shepherd",56,22,650,15,5,5,4
+"Border Collie/Boxer",51,23,950,14,4,4,4
+"Border Terrier/Yorkshire Terrier",11,12,850,15,3,4,4
+"Boxer/American Bulldog",89,47,1050,13,3,3,3
+"Boxer/American Staffordshire Terrier",73,21,1050,12,2,2,3
+"Boxer/Black Mouth Cur",77,24,775,14,3,3,3
+"Boykin Span Mix",,,,,,,
+"Cairn Terrier/Dachshund",24,11,800,15,3,2,4
+"Canaan Dog Mix",44,23,1000,15,5,3,4
+"Cane Corso",,,,,,,
+"Catahoula/Plott Hound",68,40,425,14,3,3,4
+"Chihuahua Longhair/Cairn Terrier",11,11,900,16,2,3,3
+"Chihuahua Shorthair/Manchester Terrier",14,26,725,17,2,3,3
+"Chihuahua Shorthair/Wire Hair Fox Terrier",13,13,800,16,3,3,3
+"Chinese Crested Mix",11,12,900,14,3,4,3
+"Chinese Sharpei/Labrador Retriever",65,38,1250,12,3,4,4
+"Chow Chow/Basset Hound",72,18,850,13,3,2,3
+"Dachshund Wirehair",32,9,600,15,2,2,4
+"Dachshund Wirehair/Border Terrier",23,12,800,15,3,3,4
+"Dachshund/Australian Cattle Dog",33,14,600,15,3,3,4
+"Dachshund/Pit Bull",48,15,650,14,2,2,3
+"Doberman Pinsch/Labrador Retriever",89,19,1000,13,4,5,5
+"German Shepherd/Alaskan Husky",89,25,1100,14,4,4,4
+"German Shepherd/Doberman Pinsch",93,20,1250,12,4,5,5
+"German Shepherd/Golden Retriever",75,24,1750,11,5,5,5
+"German Shepherd/Pit Bull",76,24,1100,12,3,3,4
+"German Wirehaired Pointer Mix",70,27,800,14,4,5,5
+"Glen Of Imaal Mix",,,,,,,
+"Golden Retriever/Standard Poodle",36,41,1750,14,3,5,5
+"Irish Setter/Pit Bull",64,23,825,14,3,2,3
+"Irish Wolfhound Mix",121,90,2000,8,4,3,3
+"Jack Russell Terrier/Shih Tzu",16,21,1100,15,2,4,4
+"Jindo Mix",,,,,,,
+"Labrador Retriever/Australian Kelpie",62,22,800,13,4,5,4
+"Labrador Retriever/Black Mouth Cur",87,25,675,14,4,4,4
+"Labrador Retriever/Dachshund",55,17,800,14,3,3,4
+"Labrador Retriever/Greyhound",83,26,975,12,5,4,4
+"Labrador Retriever/Jack Russell Terrier",48,19,1000,14,4,5,5
+"Labrador Retriever/Queensland Heeler",57,22,800,14,5,5,5
+"Labrador Retriever/Standard Poodle",44,42,1250,14,3,5,5
+"Lhasa Apso/Shih Tzu",15,28,900,14,3,3,3
+"Maltese/Toy Poodle",9,35,1150,15,1,4,4
+"Mastiff/Rottweiler",149,31,1750,11,3,3,4
+"Miniature Schnauzer/Chihuahua Shorthair",13,12,900,16,2,4,4
+"Norfolk Terrier/Yorkshire Terrier",10,9,1600,15,2,4,4
+"Old English Bulldog Mix",,,,,,,
+"Picardy Sheepdog Mix",,,,,,,
+"Pit Bull/Mastiff",117,29,1100,13,3,2,3
+"Pointer",75,28,250,15,5,3,4
+"Pointer/American Pit Bull Terrier",70,25,475,14,3,2,3
+"Pointer/Australian Cattle Dog",55,24,425,15,5,4,4
+"Pointer/Border Collie",59,25,475,15,5,4,4
+"Rat Terrier/Boston Terrier",25,17,650,16,5,4,3
+"Rat Terrier/Cardigan Welsh Corgi",29,15,850,16,5,5,4
+"Rottweiler/Australian Cattle Dog",82,23,1300,12,3,4,5
+"Rottweiler/Chow Chow",99,24,1600,12,2,2,4
+"Saluki Mix",60,28,800,14,3,2,3
+"Samoyed Mix",55,56,1500,14,5,3,3
+"Shih Tzu/Havanese",14,19,1150,15,3,4,4
+"Skye Terrier Mix",39,25,950,15,3,2,3
+"Soft Coated Wheaten Terrier",39,48,900,15,4,4,4
+"Standard Schnauzer",44,50,1500,14,4,5,3
+"Tibetan Spaniel Mix",15,25,900,15,4,3,3
+"Weimaraner/Labrador Retriever",78,44,900,12,5,5,5
+"Yorkshire Terrier/Border Terrier",11,12,850,15,3,4,4
+"Akita/Siberian Husky",79,24,1000,15,4,2,4
+"Alaskan Husky",90,24,700,19,3,3,3
+"Alaskan Husky/Australian Shepherd",79,23,650,17,4,4,3
+"Alaskan Malamute/Border Collie",63,23,1100,16,4,3,4
+"American Bulldog/Mastiff",144,53,1200,13,4,3,3
+"American Bulldog/Pointer",97,49,575,14,4,3,3
+"American Eskimo",10,30,750,15,2,5,4
+"American Eskimo/Border Collie",27,26,725,15,3,5,4
+"American Foxhound Mix",63,24,550,12,5,3,3
+"American Pit Bull Terrier/Boxer",62,23,950,13,2,2,3
+"American Pit Bull Terrier/Catahoula",73,22,625,14,2,2,3
+"American Pit Bull Terrier/Labrador Retriever",72,23,850,13,3,3,4
+"Anatol Shepherd/Australian Cattle Dog",78,25,750,15,4,3,4
+"Anatol Shepherd/Catahoula",101,27,725,14,3,2,3
+"Australian Cattle Dog/Akita",67,23,800,15,4,4,4
+"Australian Cattle Dog/Alaskan Husky",62,22,650,17,4,4,4
+"Australian Cattle Dog/Anatol Shepherd",78,25,750,15,4,3,4
+"Australian Cattle Dog/Australian Shepherd",51,21,600,15,5,5,4
+"Australian Cattle Dog/Bloodhound",67,22,900,13,5,4,4
+"Australian Cattle Dog/Bull Terrier",60,37,1050,14,4,3,4
+"Australian Cattle Dog/Chinese Sharpei",43,35,1050,13,3,4,4
+"Australian Cattle Dog/Pembroke Welsh Corgi",30,16,600,14,5,5,4
+"Australian Cattle Dog/Plott Hound",45,39,450,14,4,4,4
+"Australian Kelpie/Australian Shepherd",57,21,600,14,4,5,4
+"Australian Kelpie/Blue Lacy",45,20,775,14,3,4,3
+"Australian Shepherd/Cocker Spaniel",49,19,700,15,5,4,4
+"Basenji/Australian Cattle Dog",30,18,900,15,3,3,5
+"Basenji/Chihuahua Longhair",16,13,1000,17,1,2,4
+"Basset Hound/Australian Cattle Dog",55,17,550,13,5,4,4
+"Basset Hound/Beagle",50,15,650,13,5,2,3
+"Beagle/Pointer",50,22,525,15,5,2,4
+"Beagle/Rat Terrier",25,17,650,16,5,3,4
+"Beagle/Standard Poodle",17,38,1150,15,3,3,4
+"Bearded Collie Mix",59,21,1500,15,4,5,3
+"Belgian Malinois",,,,,,,
+"Belgian Sheepdog Mix",,,,,,,
+"Bernese Mountain Dog",110,28,1000,8,3,3,3
+"Black Mouth Cur/Boxer",77,24,775,14,3,3,3
+"Black Mouth Cur/Dachshund",63,17,475,15,2,2,3
+"Black Mouth Cur/Labrador Retriever",87,25,675,14,4,4,4
+"Black/Tan Hound/Black Mouth Cur",49,21,600,14,3,3,3
+"Border Collie/Akita",71,24,850,15,4,4,4
+"Border Collie/Basenji",35,19,950,16,3,3,5
+"Border Collie/Catahoula",62,22,625,15,4,4,4
+"Border Collie/Dachshund",38,15,650,15,3,3,4
+"Border Collie/Parson Russell Terrier",29,30,600,15,4,5,4
+"Border Collie/Pit Bull",54,22,700,15,3,3,4
+"Boxer/Chinese Sharpei",55,37,1350,11,2,3,4
+"Boxer/English Bulldog",69,42,1850,13,3,3,3
+"Boxer/Great Dane",94,28,1200,12,3,3,3
+"Boxer/Miniature Poodle",34,42,1350,13,2,4,4
+"Boxer/Pointer",67,26,725,13,4,3,4
+"Boxer/Rhod Ridgeback",72,45,1200,12,4,3,4
+"Brittany",,,,,,,
+"Brittany/Labrador Retriever",79,25,1000,13,5,5,5
+"Bruss Griffon/Chihuahua Shorthair",8,15,800,16,1,2,4
+"Bull Terrier Miniature Mix",,,,,,,
+"Bullmastiff",129,27,1500,10,3,3,3
+"Cairn Terrier/Border Collie",30,17,850,15,4,4,4
+"Cairn Terrier/Miniature Schnauzer",18,13,1000,15,3,4,4
+"Cardigan Welsh Corgi/Cocker Spaniel",31,14,1000,15,5,4,4
+"Carolina Dog/Labrador Retriever",72,24,975,14,4,4,4
+"Catahoula/Alaskan Husky",85,23,625,16,3,3,3
+"Catahoula/Anatol Shepherd",101,27,725,14,3,2,3
+"Catahoula/Beagle",53,19,675,14,4,2,4
+"Catahoula/Boxer",70,23,875,13,3,3,4
+"Catahoula/Cardigan Welsh Corgi",57,18,875,14,4,4,4
+"Catahoula/Chinese Sharpei",66,37,1025,12,2,3,4
+"Cavalier Span",18,13,1500,14,3,4,4
+"Chihuahua Longhair/Cardigan Welsh Corgi",19,11,1000,16,3,4,4
+"Chihuahua Longhair/Dachshund",19,9,700,16,1,2,3
+"Chihuahua Longhair/Maltese",7,10,800,16,1,3,3
+"Chihuahua Longhair/Pekingese",10,9,700,16,1,2,3
+"Chihuahua Longhair/Pomeranian",6,11,800,17,1,3,3
+"Chihuahua Shorthair/Australian Cattle Dog",20,15,700,16,3,4,4
+"Chihuahua Shorthair/Basset Hound",40,12,650,15,3,3,3
+"Chihuahua Shorthair/Chinese Sharpei",29,30,1150,14,1,3,3
+"Chihuahua Shorthair/German Shepherd",47,18,1150,14,3,4,4
+"Chihuahua Shorthair/Toy Fox Terrier",7,19,800,16,2,4,4
+"Chihuahua Shorthair/Welsh Terrier",14,23,800,16,2,3,3
+"Chihuahua Shorthair/Whippet",18,33,1000,16,2,3,3
+"Chinese Sharpei/Border Collie",48,36,1100,13,3,4,4
+"Chow Chow/Chinese Sharpei",61,36,1350,13,1,2,3
+"Chow Chow/Golden Retriever",66,22,1600,14,3,3,4
+"Cocker Spaniel/Chihuahua Shorthair",18,13,800,16,3,3,3
+"Cocker Spaniel/Dachshund",31,12,700,15,3,2,4
+"Collie Rough/Australian Shepherd",65,39,600,15,5,5,4
+"Collie Rough/Labrador Retriever",71,40,800,14,5,5,5
+"Collie Smooth/German Shepherd",81,43,1250,12,5,5,4
+"Dachshund Longhair/Cardigan Welsh Corgi",32,11,900,15,3,3,4
+"Dachshund Longhair/Chihuahua Shorthair",19,9,700,16,1,2,3
+"Dachshund Longhair/Cocker Spaniel",31,12,700,15,3,2,4
+"Dachshund Longhair/Miniature Schnauzer",26,11,800,15,2,3,4
+"Dachshund Wirehair/Chihuahua Longhair",19,9,700,16,1,2,3
+"Dachshund Wirehair/Toy Poodle",21,34,1050,15,2,3,4
+"Dachshund/Bloodhound",65,17,900,13,3,2,4
+"Dachshund/Bull Terrier",58,32,1050,14,2,2,4
+"Dachshund/Cardigan Welsh Corgi",32,11,900,15,3,3,4
+"Dachshund/Catahoula",56,16,575,14,2,2,4
+"Dachshund/Harrier",48,15,500,15,3,2,3
+"Dachshund/Jack Russell Terrier",24,11,800,15,2,3,4
+"Dachshund/Miniature Pinscher",21,18,600,15,2,3,4
+"Dachshund/Whippet",31,32,900,15,2,2,3
+"Doberman Pinsch/Pit Bull",82,18,850,14,3,3,4
+"Dogo Argentino",,,,,,,
+"English Foxhound",75,25,950,13,5,4,3
+"English Setter Mix",70,26,400,12,5,3,3
+"English Shepherd Mix",61,23,950,14,3,3,3
+"English Springer Spaniel",48,20,700,14,3,3,4
+"Field Spaniel Mix",55,18,600,12,5,5,5
+"Finnish Spitz",28,20,700,14,4,3,4
+"Flat Coat Retriever/Pit Bull",67,22,850,12,3,3,4
+"French Bulldog/Chihuahua Shorthair",17,11,1550,15,1,3,3
+"German Shepherd/Anatol Shepherd",104,28,1200,12,4,3,4
+"German Shepherd/Australian Shepherd",78,24,1050,12,5,5,4
+"German Shepherd/Collie Smooth",81,43,1250,12,5,5,4
+"German Shepherd/Great Pyrenees",103,29,1200,11,4,3,4
+"German Shepherd/Pembroke Welsh Corgi",57,19,1050,12,5,5,4
+"German Wirehaired Pointer",70,27,800,14,4,5,5
+"Golden Retriever/Border Collie",53,22,1350,14,5,5,5
+"Golden Retriever/German Shepherd",75,24,1750,11,5,5,5
+"Great Dane/Mastiff",149,34,1350,12,4,3,3
+"Great Pyrenees/Australian Cattle Dog",76,26,750,13,4,3,4
+"Great Pyrenees/Catahoula",99,27,725,13,3,2,4
+"Harrier",65,21,400,15,5,3,3
+"Harrier/Catahoula",73,22,475,14,4,3,3
+"Ibizan Hound Mix",63,26,1400,14,3,2,3
+"Jack Russell Terrier/Cairn Terrier",17,13,1000,15,3,4,4
+"Jack Russell Terrier/Labrador Retriever",48,19,1000,14,4,5,5
+"Jack Russell Terrier/Miniature Poodle",13,37,1250,15,2,5,5
+"Jack Russell Terrier/Pug",17,21,700,15,3,4,4
+"Jack Russell Terrier/Rat Terrier",21,16,750,17,4,5,4
+"Japanese Chin Mix",9,11,1000,14,2,3,3
+"Labrador Retriever/American Bulldog",99,48,950,13,4,4,4
+"Labrador Retriever/Border Terrier",47,20,1000,14,5,5,4
+"Labrador Retriever/Cocker Spaniel",54,20,900,14,5,4,4
+"Labrador Retriever/Collie Rough",71,40,800,14,5,5,5
+"Labrador Retriever/Collie Smooth",77,43,1000,14,5,5,4
+"Labrador Retriever/Dalmatian",71,24,900,13,5,5,5
+"Labrador Retriever/Miniature Poodle",44,42,1250,14,3,5,5
+"Labrador Retriever/Newfoundland",116,49,1500,11,5,4,4
+"Labrador Retriever/Pembroke Welsh Corgi",52,18,800,13,5,5,4
+"Labrador Retriever/Redbone Hound",73,46,900,12,5,4,4
+"Labrador Retriever/Vizsla",71,44,1100,14,4,5,5
+"Lhasa Apso/Miniature Schnauzer",17,21,800,14,4,4,4
+"Maltese/Shih Tzu",12,19,1000,15,1,3,3
+"Maltese/Yorkshire Terrier",8,9,750,15,1,3,3
+"Manchester Terrier/Australian Kelpie",34,31,625,15,3,4,4
+"Manchester Terrier/Chihuahua Shorthair",14,26,725,17,2,3,3
+"Manchester Terrier/Jack Russell Terrier",19,28,825,16,3,4,4
+"Miniature Poodle/Bichon Frise",15,36,1050,15,2,4,4
+"Miniature Poodle/Chihuahua Shorthair",8,35,1150,16,1,4,4
+"Miniature Poodle/Labrador Retriever",44,42,1250,14,3,5,5
+"Miniature Poodle/Lhasa Apso",12,44,1050,14,3,4,4
+"Miniature Schnauzer/Cairn Terrier",18,13,1000,15,3,4,4
+"Neapolitan Mastiff Mix",150,70,2000,10,3,3,3
+"Newfoundland/Labrador Retriever",116,49,1500,11,5,4,4
+"Old English Sheepdog",79,56,1300,12,5,3,4
+"Pharaoh Hound",59,24,1300,14,4,2,4
+"Pit Bull/Beagle",45,19,750,14,3,2,3
+"Pit Bull/Boston Terrier",45,19,750,14,3,2,3
+"Pit Bull/Bulldog",57,19,1350,13,3,2,3
+"Pit Bull/Dalmatian",64,22,750,13,3,3,4
+"Pit Bull/English Bulldog",72,41,1600,14,2,2,3
+"Pit Bull/Flat Coat Retriever",67,22,850,12,3,3,4
+"Pit Bull/Pit Bull",65,22,700,14,2,2,3
+"Pit Bull/Rottweiler",97,24,1350,12,2,2,4
+"Pit Bull/Siberian Husky",62,22,850,14,3,1,3
+"Pit Bull/Weimaraner",71,42,750,13,3,3,4
+"Plott Hound/Boxer",57,41,750,13,3,3,4
+"Plott Hound/Pit Bull",60,40,500,14,3,2,3
+"Pointer/Boxer",67,26,725,13,4,3,4
+"Pointer/Harrier",70,24,325,15,5,3,3
+"Pomeranian/Chihuahua Shorthair",6,11,800,17,1,3,3
+"Port Water Dog Mix",,,,,,,
+"Presa Canario Mix",,,,,,,
+"Pug/Labrador Retriever",48,26,700,14,4,4,4
+"Queensland Heeler/Pit Bull",50,21,650,14,3,3,4
+"Rat Terrier/Australian Cattle Dog",30,19,550,16,5,5,4
+"Rat Terrier/Dachshund",28,13,550,16,3,3,4
+"Rat Terrier/Miniature Poodle",17,39,1000,16,3,5,4
+"Rhod Ridgeback/Pit Bull",75,44,950,13,3,3,4
+"Schipperke/Chihuahua Shorthair",12,20,800,16,2,3,3
+"Scottish Terrier Mix",22,28,900,15,2,2,4
+"Shetland Sheepdog/Chihuahua Longhair",16,13,750,15,2,4,4
+"Shiba Inu",17,43,1000,15,3,2,3
+"Shih Tzu/Cocker Spaniel",23,22,1000,15,3,3,3
+"Shih Tzu/Maltese",12,19,1000,15,1,3,3
+"Shih Tzu/Miniature Schnauzer",18,21,1100,15,2,4,4
+"Siberian Husky/Australian Cattle Dog",47,21,800,15,5,3,4
+"Siberian Husky/Border Collie",52,22,850,15,5,3,4
+"Siberian Husky/Pit Bull",62,22,850,14,3,1,3
+"Staffordshire/Boston Terrier",30,29,1300,14,4,2,3
+"Staffordshire/Bull Terrier",60,48,1650,14,3,2,4
+"Tibetan Terrier/Lhasa Apso",19,22,1100,14,4,3,3
+"Unknown Mix",,,,,,,
+"Vizsla/Golden Retriever",63,43,1600,14,4,5,5
+"West Highland/Cairn Terrier",18,14,1100,15,4,3,4
+"Whippet/Dachshund",31,32,900,15,2,2,3
+"Whippet/Labrador Retriever",54,40,1100,14,4,4,4
+"Wire Hair Fox Terrier",21,16,800,14,5,3,3
+"Wire Hair Fox Terrier/Beagle",23,16,800,14,5,2,3
+"Wirehaired Pointing Griffon Mix",59,55,700,12,4,4,4
+"Afghan Hound Mix",,,,,,,
+"Airedale Terrier",65,23,750,12,4,4,4
+"Airedale Terrier/Labrador Retriever",72,24,875,12,4,4,4
+"Airedale Terrier/Miniature Schnauzer",42,18,875,13,3,4,4
+"Akita/Australian Cattle Dog",67,23,800,15,4,4,4
+"Akita/Chow Chow",84,24,1100,15,2,2,3
+"Akita/German Shepherd",93,26,1250,12,4,4,4
+"Akita/Labrador Retriever",89,25,1000,14,4,4,4
+"Akita/Pit Bull",82,24,850,14,2,2,3
+"Alaskan Husky/Border Collie",67,23,700,17,4,4,4
+"Alaskan Husky/German Shepherd",89,25,1100,14,4,4,4
+"Alaskan Malamute",83,24,1500,16,4,2,3
+"Alaskan Malamute/Akita",91,25,1250,15,3,2,3
+"Alaskan Malamute/Australian Kelpie",64,22,1050,15,3,3,3
+"Alaskan Malamute/German Shepherd",85,25,1500,13,4,3,4
+"American Bulldog/American Staffordshire Terrier",104,44,900,13,2,2,3
+"American Bulldog/Chinese Sharpei",86,61,1200,12,2,3,3
+"American Bulldog/Great Pyrenees",119,51,900,13,3,2,3
+"American Bulldog/Schnauzer Giant",97,48,950,14,3,3,3
+"American Eskimo/Australian Shepherd",39,26,675,15,3,5,4
+"American Foxhound",63,24,550,12,5,3,3
+"American Foxhound/Labrador Retriever",71,24,775,12,5,4,4
+"American Foxhound/Pointer",69,26,400,13,5,3,3
+"American Pit Bull Terrier/American Bulldog",92,46,800,14,2,2,3
+"American Pit Bull Terrier/American Pit Bull Terrier",65,22,700,14,2,2,3
+"American Pit Bull Terrier/Chinese Sharpei",58,36,1100,12,1,2,3
+"American Pit Bull Terrier/Pointer",70,25,475,14,3,2,3
+"American Staffordshire Terrier/American Bulldog",104,44,900,13,2,2,3
+"American Staffordshire Terrier/French Bulldog",58,15,1600,12,2,2,3
+"American Staffordshire Terrier/Plott Hound",71,38,600,13,3,2,3
+"Anatol Shepherd/Australian Shepherd",94,27,750,15,4,3,3
+"Anatol Shepherd/Collie Rough",92,43,750,15,4,3,4
+"Anatol Shepherd/German Shepherd",104,28,1200,12,4,3,4
+"Anatol Shepherd/Siberian Husky",90,27,950,15,4,1,3
+"Australian Cattle Dog/American Foxhound",49,22,575,13,5,4,4
+"Australian Cattle Dog/American Staffordshire Terrier",61,19,750,13,3,3,4
+"Australian Cattle Dog/Basenji",30,18,900,15,3,3,5
+"Australian Cattle Dog/Belgian Malinois",35,20,600,15,5,5,5
+"Australian Cattle Dog/Collie Rough",49,38,600,15,5,5,5
+"Australian Cattle Dog/Collie Smooth",55,40,800,15,5,5,4
+"Australian Cattle Dog/Dachshund",33,14,600,15,3,3,4
+"Australian Cattle Dog/Dalmatian",49,21,700,14,5,5,5
+"Australian Cattle Dog/German Shorthair Pointer",47,22,600,14,4,5,4
+"Australian Cattle Dog/Golden Retriever",49,21,1300,14,5,5,5
+"Australian Cattle Dog/Great Pyrenees",76,26,750,13,4,3,4
+"Australian Cattle Dog/Parson Russell Terrier",25,29,550,15,4,5,4
+"Australian Cattle Dog/Queensland Heeler",35,20,600,15,5,5,5
+"Australian Cattle Dog/Rat Terrier",30,19,550,16,5,5,4
+"Australian Cattle Dog/Rhod Ridgeback",60,43,900,13,5,4,5
+"Australian Kelpie/Alaskan Husky",68,22,650,16,3,4,3
+"Australian Kelpie/American Pit Bull Terrier",55,21,650,14,2,3,3
+"Australian Kelpie/Chihuahua Shorthair",26,15,700,16,2,4,3
+"Australian Kelpie/Chinese Sharpei",49,35,1050,12,2,4,4
+"Australian Kelpie/Finnish Spitz",37,20,650,14,3,4,4
+"Australian Kelpie/Labrador Retriever",62,22,800,13,4,5,4
+"Australian Kelpie/Shiba Inu",31,31,800,14,3,3,3
+"Australian Kelpie/Whippet",38,38,900,14,3,4,3
+"Australian Shepherd/Alaskan Malamute",75,23,1050,15,4,3,3
+"Australian Shepherd/Australian Kelpie",57,21,600,14,4,5,4
+"Australian Shepherd/Beagle",46,19,700,15,5,3,4
+"Australian Shepherd/Boxer",63,23,900,13,4,4,4
+"Australian Shepherd/Dachshund",50,16,600,15,3,3,4
+"Australian Shepherd/English Setter",69,24,500,13,5,4,3
+"Australian Shepherd/English Springer Spaniel",58,21,650,14,4,4,4
+"Australian Shepherd/Nova Scotia Duck Tolling Retriever",68,23,600,15,5,5,4
+"Australian Shepherd/Parson Russell Terrier",41,30,550,15,4,5,4
+"Australian Shepherd/Pit Bull",66,22,650,14,3,3,3
+"Australian Shepherd/Plott Hound",61,40,450,14,4,4,4
+"Australian Shepherd/Rhod Ridgeback",76,44,900,13,5,4,4
+"Australian Shepherd/Rottweiler",98,25,1300,12,3,4,4
+"Australian Shepherd/Siberian Husky",64,23,800,15,5,3,4
+"Basenji/Chihuahua Shorthair",16,13,1000,17,1,2,4
+"Basenji/Chow Chow",48,19,1200,15,2,2,4
+"Basenji/Jack Russell Terrier",21,15,1100,16,2,3,5
+"Basset Hound/Beauceron",87,21,1000,12,4,4,4
+"Basset Hound/Dachshund",53,12,550,13,3,2,3
+"Basset Hound/English Cocker Spaniel",54,16,1000,13,5,4,3
+"Basset Hound/English Pointer",75,21,375,13,5,3,3
+"Basset Hound/Pit Bull",70,18,600,13,3,2,3
+"Basset Hound/Pointer",75,21,375,13,5,3,3
+"Beagle/American Staffordshire Terrier",56,17,850,13,3,2,3
+"Beagle/Australian Cattle Dog",30,18,700,15,5,3,4
+"Beagle/Australian Kelpie",35,18,700,14,4,3,4
+"Beagle/Black Mouth Cur",60,20,575,15,4,2,3
+"Beagle/Boston Terrier",25,16,800,15,5,2,3
+"Beagle/Cavalier Span",21,14,1150,14,4,3,4
+"Beagle/Chinese Sharpei",38,33,1150,13,3,2,4
+"Beagle/Cocker Spaniel",27,16,800,15,5,2,4
+"Beagle/Jack Russell Terrier",21,15,900,15,4,3,4
+"Beagle/Manchester Terrier",23,29,725,15,4,2,4
+"Beagle/Pembroke Welsh Corgi",25,14,700,14,5,3,4
+"Beagle/Pit Bull",45,19,750,14,3,2,3
+"Beagle/Queensland Heeler",30,18,700,15,5,3,4
+"Beagle/Staffordshire",30,28,1300,14,4,2,4
+"Beagle/Treeing Walker Coonhound",46,42,700,14,4,2,3
+"Beagle/Whippet",27,36,1000,15,4,2,3
+"Beauceron",100,28,1500,13,3,5,5
+"Belgian Malinois/Australian Shepherd",68,23,600,15,5,5,4
+"Belgian Sheepdog",,,,,,,
+"Belgian Tervuren Mix",,,,,,,
+"Belgian Tervuren/German Shepherd",88,26,1500,10,5,5,5
+"Bernese Mountain Dog/Rottweiler",119,27,1500,9,2,3,4
+"Bichon Frise/Miniature Poodle",15,36,1050,15,2,4,4
+"Black Mouth Cur/American Staffordshire Terrier",91,21,625,14,2,2,3
+"Black Mouth Cur/Basset Hound",85,20,425,14,4,3,3
+"Black Mouth Cur/Blue Lacy",70,23,650,15,3,3,3
+"Black Mouth Cur/Mastiff",132,30,925,14,4,3,3
+"Black Mouth Cur/Staffordshire",65,33,1075,15,3,2,3
+"Black/Tan Hound/German Shepherd",49,21,600,14,3,3,3
+"Black/Tan Hound/Labrador Retriever",49,21,600,14,3,3,3
+"Bloodhound",99,25,1200,12,5,3,4
+"Blue Lacy/Beagle",35,18,875,14,4,2,3
+"Blue Lacy/Collie Smooth",60,41,975,14,4,4,3
+"Blue Lacy/Great Dane",87,26,1075,13,3,3,3
+"Blue Lacy/Labrador Retriever",62,23,975,13,4,4,4
+"Bluetick Hound",,,,,,,
+"Bluetick Hound/Treeing Walker Coonhound",68,69,600,13,4,2,3
+"Boerboel",175,28,1700,12,3,3,3
+"Border Collie/Alaskan Husky",67,23,700,17,4,4,4
+"Border Collie/Anatol Shepherd",82,26,800,15,4,3,4
+"Border Collie/Beagle",34,19,750,15,5,3,4
+"Border Collie/Canaan Dog",44,22,850,15,5,4,4
+"Border Collie/Doberman Pinsch",71,18,850,15,4,5,5
+"Border Collie/English Pointer",59,25,475,15,5,4,4
+"Border Collie/Great Dane",86,27,950,14,4,4,4
+"Border Collie/Greyhound",66,25,825,14,5,4,4
+"Border Collie/Mastiff",106,29,1100,14,5,4,4
+"Border Collie/Plott Hound",49,40,500,15,4,4,4
+"Border Collie/Pointer",59,25,475,15,5,4,4
+"Border Collie/Queensland Heeler",39,21,650,15,5,5,5
+"Border Collie/Rottweiler",86,24,1350,13,3,4,5
+"Border Collie/Shetland Sheepdog",35,19,700,14,4,5,5
+"Border Collie/Standard Schnauzer",44,36,1100,15,4,5,4
+"Border Collie/Whippet",37,39,950,15,4,4,4
+"Border Terrier",15,16,1000,15,5,5,4
+"Border Terrier/Affenpinscher",15,16,1000,15,5,5,4
+"Border Terrier/Bruss Griffon",13,18,900,15,3,3,4
+"Border Terrier/Cardigan Welsh Corgi",24,14,1100,15,5,5,4
+"Border Terrier/Chihuahua Longhair",10,13,900,16,3,4,3
+"Border Terrier/Dachshund",23,12,800,15,3,3,4
+"Border Terrier/Dachshund Wirehair",23,12,800,15,3,3,4
+"Border Terrier/Labrador Retriever",47,20,1000,14,5,5,4
+"Border Terrier/Miniature Poodle",12,38,1250,15,3,5,4
+"Border Terrier/Miniature Schnauzer",17,15,1000,15,4,5,4
+"Border Terrier/Pug",16,22,700,15,4,4,4
+"Border Terrier/Rat Terrier",20,17,750,16,5,5,4
+"Border Terrier/Shih Tzu",15,22,1100,15,3,4,3
+"Border Terrier/Soft Coated Wheaten Terrier",27,32,950,15,4,4,4
+"Border Terrier/West Highland",17,16,1100,15,4,4,4
+"Boston Terrier/Beagle",25,16,800,15,5,2,3
+"Boston Terrier/Dachshund",28,13,700,15,3,2,3
+"Boston Terrier/Labrador Retriever",52,21,900,14,5,4,4
+"Boston Terrier/Miniature Schnauzer",22,15,900,15,4,4,4
+"Boston Terrier/Pit Bull",45,19,750,14,3,2,3
+"Boston Terrier/Pug",21,22,600,15,4,3,3
+"Boxer/Akita",79,25,1100,13,3,3,4
+"Boxer/American Pit Bull Terrier",62,23,950,13,2,2,3
+"Boxer/Boston Terrier",42,20,1000,13,4,3,3
+"Boxer/Bulldog",54,20,1600,12,4,3,3
+"Boxer/Chow Chow",64,23,1200,13,2,2,3
+"Boxer/German Shepherd",73,25,1350,11,4,4,4
+"Boxer/Harrier",62,22,800,13,4,3,3
+"Boxer/Jack Russell Terrier",38,19,1100,14,3,4,4
+"Boxer/Mastiff",114,30,1350,12,4,3,3
+"Boxer/Neapolitan Mastiff",104,47,1600,11,3,3,3
+"Boxer/Redbone Hound",63,46,1000,12,4,3,3
+"Boykin Span/Dachshund",32,9,600,15,2,2,4
+"Brittany/Chihuahua Shorthair",6,10,800,18,1,3,3
+"Bruss Griffon",11,20,800,15,1,2,5
+"Bruss Griffon/Cairn Terrier",14,16,900,15,2,2,4
+"Bruss Griffon/Dachshund",21,14,700,15,1,2,4
+"Bruss Griffon/Yorkshire Terrier",9,14,750,15,1,2,4
+"Bull Terrier Miniature",,,,,,,
+"Bull Terrier/Australian Kelpie",65,37,1050,14,3,3,4
+"Bull Terrier/Boxer",72,39,1350,13,3,2,4
+"Bull Terrier/Jack Russell Terrier",51,34,1250,15,3,3,4
+"Bull Terrier/Pit Bull",75,38,1100,14,2,2,3
+"Bulldog",50,16,2000,12,5,3,3
+"Bulldog/Boston Terrier",37,16,1400,13,5,3,3
+"Bulldog/Pit Bull",57,19,1350,13,3,2,3
+"Bullmastiff/Boxer",94,25,1350,11,3,3,3
+"Cairn Terrier/Affenpinscher",17,13,1000,15,4,3,4
+"Cairn Terrier/Chihuahua Longhair",11,11,900,16,2,3,3
+"Cairn Terrier/Miniature Poodle",13,36,1250,15,3,4,4
+"Cairn Terrier/Scottish Terrier",19,20,950,15,3,2,4
+"Cairn Terrier/Shih Tzu",16,20,1100,15,3,3,3
+"Canaan Dog/Pit Bull",54,22,850,14,3,2,3
+"Canaan Dog/Redbone Hound",56,45,900,13,5,3,3
+"Cane Corso/Mastiff",169,36,1500,12,5,3,3
+"Cardigan Welsh Corgi",33,13,1200,15,5,5,5
+"Cardigan Welsh Corgi/Australian Kelpie",39,16,900,14,4,5,4
+"Cardigan Welsh Corgi/Australian Shepherd",50,18,900,15,5,5,4
+"Cardigan Welsh Corgi/Beagle",29,14,1000,15,5,3,4
+"Cardigan Welsh Corgi/Cairn Terrier",25,13,1100,15,4,4,4
+"Cardigan Welsh Corgi/Cardigan Welsh Corgi",33,13,1200,15,5,5,5
+"Cardigan Welsh Corgi/Chihuahua Longhair",19,11,1000,16,3,4,4
+"Cardigan Welsh Corgi/English Setter",51,19,800,13,5,4,4
+"Cardigan Welsh Corgi/German Shepherd",60,19,1350,12,5,5,5
+"Cardigan Welsh Corgi/Jack Russell Terrier",25,13,1100,15,4,5,5
+"Cardigan Welsh Corgi/Miniature Pinscher",22,20,900,15,4,4,5
+"Cardigan Welsh Corgi/Pit Bull",49,17,950,14,3,3,4
+"Cardigan Welsh Corgi/Pointer",54,20,725,15,5,4,4
+"Cardigan Welsh Corgi/Rat Terrier",29,15,850,16,5,5,4
+"Carolina Dog",65,24,950,15,3,3,3
+"Carolina Dog/Australian Cattle Dog",50,22,775,15,4,4,4
+"Carolina Dog/Pit Bull",65,23,825,14,2,2,3
+"Catahoula/American Bulldog",100,47,725,14,3,3,3
+"Catahoula/American Pit Bull Terrier",73,22,625,14,2,2,3
+"Catahoula/Australian Shepherd",74,23,575,14,4,4,4
+"Catahoula/Black Mouth Cur",88,24,450,15,3,3,3
+"Catahoula/Border Collie",62,22,625,15,4,4,4
+"Catahoula/Bulldog",65,19,1275,13,4,3,3
+"Catahoula/Chow Chow",75,22,875,14,2,2,3
+"Catahoula/German Shepherd",84,24,1025,12,4,4,4
+"Catahoula/Great Dane",105,27,875,13,3,3,3
+"Catahoula/Rottweiler",105,25,1275,12,2,3,4
+"Catahoula/Staffordshire",58,32,1175,14,3,2,4
+"Catahoula/Whippet",55,39,875,14,3,3,3
+"Cavalier Span/Jack Russell Terrier",17,13,1250,15,3,4,4
+"Cavalier Span/Papillon",14,12,1000,14,4,3,4
+"Chesa Bay Retr",,,,,,,
+"Chihuahua Longhair/Italian Greyhound",10,12,750,16,1,2,3
+"Chihuahua Longhair/Papillon",8,10,650,16,3,3,4
+"Chihuahua Longhair/Pug",11,19,600,16,2,3,3
+"Chihuahua Longhair/West Highland",13,13,1000,17,2,3,3
+"Chihuahua Shorthair/Affenpinscher",6,10,800,18,1,3,3
+"Chihuahua Shorthair/Boxer",32,17,1000,15,2,3,3
+"Chihuahua Shorthair/Cavalier Span",12,11,1150,16,2,3,3
+"Chihuahua Shorthair/Cocker Spaniel",18,13,800,16,3,3,3
+"Chihuahua Shorthair/Finnish Spitz",17,15,750,16,2,3,3
+"Chihuahua Shorthair/French Bulldog",17,11,1550,15,1,3,3
+"Chihuahua Shorthair/Lhasa Apso",10,19,700,16,3,3,3
+"Chihuahua Shorthair/Parson Russell Terrier",10,24,650,16,2,4,3
+"Chihuahua Shorthair/Pekingese",10,9,700,16,1,2,3
+"Chihuahua Shorthair/Pembroke Welsh Corgi",16,11,700,16,3,4,3
+"Chihuahua Shorthair/Queensland Heeler",20,15,700,16,3,4,4
+"Chihuahua Shorthair/Schipperke",12,20,800,16,2,3,3
+"Chihuahua Shorthair/Shetland Sheepdog",16,13,750,15,2,4,4
+"Chihuahua Shorthair/Shih Tzu",11,19,1000,16,1,3,3
+"Chihuahua Shorthair/Smooth Fox Terrier",11,12,750,16,3,3,4
+"Chinese Crested/Chihuahua Longhair",8,11,850,16,2,3,3
+"Chinese Crested/Papillon",10,11,700,14,4,3,4
+"Chinese Sharpei/Airedale Terrier",58,37,1125,11,2,3,4
+"Chinese Sharpei/Australian Cattle Dog",43,35,1050,13,3,4,4
+"Chinese Sharpei/Basset Hound",63,33,1000,11,3,3,3
+"Chinese Sharpei/Great Dane",90,41,1350,11,2,3,3
+"Chinese Sharpei/Pit Bull",58,36,1100,12,1,2,3
+"Chow Chow/Australian Kelpie",58,21,900,14,2,3,3
+"Chow Chow/Border Collie",57,22,950,15,3,3,4
+"Chow Chow/Cardigan Welsh Corgi",51,17,1200,15,3,3,4
+"Chow Chow/English Cocker Spaniel",52,19,1350,15,3,3,3
+"Chow Chow/Siberian Husky",65,22,1100,15,3,1,3
+"Cocker Spaniel/Australian Shepherd",49,19,700,15,5,4,4
+"Cocker Spaniel/Chihuahua Longhair",18,13,800,16,3,3,3
+"Cocker Spaniel/Golden Retriever",46,19,1400,14,5,4,4
+"Cocker Spaniel/Standard Poodle",20,38,1150,15,3,4,4
+"Cocker Spaniel/Toy Poodle",20,38,1150,15,3,4,4
+"Collie Rough",63,56,600,16,5,5,5
+"Collie Rough/Australian Cattle Dog",49,38,600,15,5,5,5
+"Collie Rough/Chinese Sharpei",57,53,1050,13,3,4,4
+"Collie Rough/German Shepherd",75,41,1050,13,5,5,5
+"Collie Rough/Pembroke Welsh Corgi",44,34,600,15,5,5,4
+"Collie Rough/Pointer",69,42,425,15,5,4,4
+"Collie Smooth",75,61,1000,15,5,5,4
+"Collie Smooth/Chow Chow",72,41,1100,15,3,3,3
+"Collie Smooth/Golden Retriever",69,42,1500,14,5,5,4
+"Collie Smooth/Jack Russell Terrier",46,37,1000,15,4,5,4
+"Collie Smooth/Siberian Husky",67,42,1000,15,5,3,4
+"Dachshund Longhair/Australian Shepherd",50,16,600,15,3,3,4
+"Dachshund Longhair/Cairn Terrier",24,11,800,15,3,2,4
+"Dachshund Longhair/Chihuahua Longhair",19,9,700,16,1,2,3
+"Dachshund Longhair/Pembroke Welsh Corgi",29,10,600,14,3,3,4
+"Dachshund Longhair/Pomeranian",19,10,700,15,1,2,3
+"Dachshund Wirehair/Cairn Terrier",24,11,800,15,3,2,4
+"Dachshund Wirehair/Miniature Schnauzer",26,11,800,15,2,3,4
+"Dachshund Wirehair/Norfolk Terrier",22,9,1550,15,3,3,4
+"Dachshund Wirehair/Pbgv",32,9,600,15,2,2,4
+"Dachshund Wirehair/Rat Terrier",28,13,550,16,3,3,4
+"Dachshund Wirehair/Standard Poodle",21,34,1050,15,2,3,4
+"Dachshund/American Staffordshire Terrier",60,13,750,13,2,2,3
+"Dachshund/Australian Kelpie",39,14,600,14,2,3,4
+"Dachshund/Basset Hound",53,12,550,13,3,2,3
+"Dachshund/Belgian Malinois",32,9,600,15,2,2,4
+"Dachshund/Cavalier Span",25,11,1050,14,2,3,4
+"Dachshund/Chihuahua Longhair",19,9,700,16,1,2,3
+"Dachshund/Chinese Sharpei",42,30,1050,13,1,2,4
+"Dachshund/Dachshund",32,9,600,15,2,2,4
+"Dachshund/English Bulldog",56,34,1550,14,2,2,3
+"Dachshund/English Foxhound",53,17,775,14,3,3,3
+"Dachshund/German Pinscher",33,14,1100,14,2,3,4
+"Dachshund/German Shepherd",60,17,1050,12,3,3,4
+"Dachshund/Greyhound",60,18,775,13,3,2,3
+"Dachshund/Havanese",22,10,850,15,3,3,4
+"Dachshund/Miniature Poodle",21,34,1050,15,2,3,4
+"Dachshund/Parson Russell Terrier",23,23,550,15,2,3,4
+"Dachshund/Pembroke Welsh Corgi",29,10,600,14,3,3,4
+"Dachshund/Pug",24,18,500,15,3,2,4
+"Dachshund/Shetland Sheepdog",29,12,650,14,3,3,4
+"Dachshund/Shih Tzu",24,18,900,15,2,2,3
+"Dachshund/Yorkshire Terrier",20,9,650,15,1,2,4
+"Dalmatian/Australian Cattle Dog",49,21,700,14,5,5,5
+"Dalmatian/Boxer",61,23,1000,12,4,4,4
+"Dalmatian/Labrador Retriever",71,24,900,13,5,5,5
+"Doberman Pinsch/Australian Cattle Dog",67,17,800,14,4,5,5
+"Doberman Pinsch/Border Collie",71,18,850,15,4,5,5
+"Doberman Pinsch/German Shepherd",93,20,1250,12,4,5,5
+"Doberman Pinsch/Rottweiler",114,20,1500,12,3,4,5
+"Doberman Pinsch/Vizsla",81,39,1100,14,3,5,5
+"Dogo Argentino/Chinese Sharpei",52,51,1500,11,1,3,4
+"Dogo Argentino/Labrador Retriever",79,25,1000,13,5,5,5
+"Dogue De Bordeaux/American Bulldog",120,71,900,14,3,3,3
+"Dutch Shepherd",,,,,,,
+"Dutch Shepherd/Anatol Shepherd",121,31,900,15,3,2,3
+"English Bulldog/American Bulldog",100,65,1700,14,3,3,3
+"English Bulldog/American Staffordshire Terrier",84,39,1700,13,2,2,3
+"English Bulldog/Beagle",52,38,1650,14,4,2,3
+"English Bulldog/Boxer",69,42,1850,13,3,3,3
+"English Bulldog/Cairn Terrier",48,36,1750,14,3,3,3
+"English Bulldog/Dachshund",56,34,1550,14,2,2,3
+"English Bulldog/Pit Bull",72,41,1600,14,2,2,3
+"English Cocker Spaniel Mix",34,17,1500,15,5,5,3
+"English Coonhound/Australian Cattle Dog",49,23,775,13,4,4,4
+"English Coonhound/Border Collie",53,24,825,14,4,4,4
+"English Coonhound/Italian Greyhound",39,21,825,13,2,2,3
+"English Foxhound Mix",75,25,950,13,5,4,3
+"English Pointer",75,28,250,15,5,3,4
+"English Shepherd",61,23,950,14,3,3,3
+"English Springer Spaniel/Beagle",36,18,750,14,4,2,4
+"English Springer Spaniel/Cardigan Welsh Corgi",40,16,950,14,4,4,4
+"Entlebucher Mix",,,,,,,
+"Finnish Spitz/Chow Chow",49,21,950,14,3,2,3
+"Finnish Spitz/Dachshund",30,14,650,14,3,2,4
+"Flat Coat Retriever/Australian Cattle Dog",52,21,800,12,4,5,5
+"Flat Coat Retriever/German Shepherd",79,24,1250,10,4,5,5
+"Flat Coat Retriever/Golden Retriever",66,23,1500,11,4,5,5
+"Flat Coat Retriever/Labrador Retriever",74,24,1000,11,4,5,5
+"French Bulldog",28,12,2300,12,2,3,3
+"French Bulldog/English Bulldog",54,36,2400,13,2,3,3
+"French Bulldog/Miniature Schnauzer",24,13,1650,13,2,4,4
+"German Pinscher Mix",35,20,1600,14,3,4,4
+"German Pinscher/Whippet",32,38,1400,14,3,3,3
+"German Shepherd/Akita",93,26,1250,12,4,4,4
+"German Shepherd/Australian Kelpie",67,23,1050,12,4,5,4
+"German Shepherd/Black Mouth Cur",91,25,925,13,4,4,4
+"German Shepherd/Black/Tan Hound",88,26,1500,10,5,5,5
+"German Shepherd/Bull Terrier",86,40,1500,12,4,3,4
+"German Shepherd/Great Dane",108,29,1350,11,4,4,4
+"German Shepherd/Greyhound",88,27,1225,11,5,4,4
+"German Shepherd/Nova Scotia Duck Tolling Retriever",88,26,1500,10,5,5,5
+"German Shepherd/Redbone Hound",78,47,1150,11,5,4,4
+"German Shepherd/Swedish Vallhund",59,30,1250,12,5,5,4
+"German Shorthair Pointer/Australian Cattle Dog",47,22,600,14,4,5,4
+"Glen Of Imaal/Ibizan Hound",63,26,1400,14,3,2,3
+"Golden Retriever/Akita",81,24,1500,14,4,4,4
+"Golden Retriever/Australian Cattle Dog",49,21,1300,14,5,5,5
+"Golden Retriever/Australian Shepherd",65,23,1300,14,5,5,4
+"Golden Retriever/Beagle",44,19,1400,14,5,3,4
+"Golden Retriever/Brittany",63,23,2000,13,5,5,5
+"Golden Retriever/Dachshund",47,16,1300,14,3,3,4
+"Golden Retriever/Finnish Spitz",45,21,1350,13,4,4,4
+"Golden Retriever/Great Pyrenees",90,27,1450,12,4,3,4
+"Golden Retriever/Pembroke Welsh Corgi",44,17,1300,13,5,5,4
+"Golden Retriever/Pit Bull",64,22,1350,13,3,3,4
+"Golden Retriever/Whippet",46,39,1600,14,4,4,4
+"Great Dane/Australian Cattle Dog",82,26,900,13,4,4,4
+"Great Dane/Boxer",94,28,1200,12,3,3,3
+"Great Dane/German Shepherd",108,29,1350,11,4,4,4
+"Great Dane/Pit Bull",97,27,950,13,2,2,3
+"Great Dane/Staffordshire",82,36,1500,13,3,2,3
+"Great Pyrenees/Australian Shepherd",93,27,750,13,4,3,4
+"Great Pyrenees/Boxer",88,28,1050,12,3,2,4
+"Great Pyrenees/Collie Rough",90,44,750,14,4,3,4
+"Great Pyrenees/English Setter",94,29,650,12,4,2,3
+"Great Pyrenees/German Shepherd",103,29,1200,11,4,3,4
+"Great Pyrenees/Pit Bull",91,27,800,13,3,2,3
+"Great Pyrenees/Pointer",96,30,575,13,4,2,4
+"Great Pyrenees/Rottweiler",123,29,1450,11,3,2,4
+"Great Pyrenees/Siberian Husky",89,27,950,13,4,1,4
+"Great Pyrenees/Standard Poodle",64,46,1200,13,3,3,4
+"Greyhound/Dalmatian",75,25,875,12,5,4,4
+"Greyhound/Great Dane",108,30,1075,12,4,3,3
+"Greyhound/Labrador Retriever",83,26,975,12,5,4,4
+"Harrier/Labrador Retriever",72,23,700,14,5,4,4
+"Harrier/Pointer",70,24,325,15,5,3,3
+"Havanese",13,11,1100,15,5,5,5
+"Hovawart Mix",88,28,950,14,3,3,3
+"Ibizan Hound/Pit Bull",64,24,1050,14,2,2,3
+"Irish Terrier/Labrador Retriever",53,35,850,13,4,3,4
+"Irish Wolfhound/Australian Shepherd",94,56,1300,11,4,4,3
+"Irish Wolfhound/Great Dane",125,61,1600,10,3,3,3
+"Irish Wolfhound/Great Pyrenees",119,61,1450,10,4,2,3
+"Italian Greyhound",15,15,700,15,1,2,3
+"Italian Greyhound/Beagle",20,15,750,15,3,2,3
+"Italian Greyhound/Chihuahua Shorthair",10,12,750,16,1,2,3
+"Jack Russell Terrier/American Staffordshire Terrier",52,16,950,14,2,3,4
+"Jack Russell Terrier/Basenji",21,15,1100,16,2,3,5
+"Jack Russell Terrier/Basset Hound",46,14,750,14,4,4,4
+"Jack Russell Terrier/Border Collie",30,18,850,16,4,5,5
+"Jack Russell Terrier/Boston Terrier",21,15,900,15,4,4,4
+"Jack Russell Terrier/Cardigan Welsh Corgi",25,13,1100,15,4,5,5
+"Jack Russell Terrier/Cavalier Span",17,13,1250,15,3,4,4
+"Jack Russell Terrier/Dachshund Wirehair",24,11,800,15,2,3,4
+"Jack Russell Terrier/Italian Greyhound",16,14,850,15,2,3,4
+"Jack Russell Terrier/Miniature Schnauzer",18,14,1000,15,3,5,5
+"Jack Russell Terrier/Papillon",13,12,750,15,4,4,5
+"Jack Russell Terrier/Pointer",46,21,625,15,4,4,4
+"Jack Russell Terrier/Unknown",17,14,1000,16,3,5,5
+"Jack Russell Terrier/Welsh Terrier",19,25,900,15,3,4,4
+"Jack Russell Terrier/Whippet",23,35,1100,15,3,4,4
+"Japanese Chin",9,11,1000,14,2,3,3
+"Keeshond",45,18,1100,15,4,4,3
+"Kuvasz/Labrador Retriever",96,27,1250,12,4,4,4
+"Labrador Retriever/Alaskan Husky",84,24,850,16,4,4,4
+"Labrador Retriever/American Pit Bull Terrier",72,23,850,13,3,3,4
+"Labrador Retriever/American Staffordshire Terrier",83,21,950,12,3,3,4
+"Labrador Retriever/Beauceron",89,26,1250,13,4,5,5
+"Labrador Retriever/Boston Terrier",52,21,900,14,5,4,4
+"Labrador Retriever/Chesa Bay Retr",79,25,1000,13,5,5,5
+"Labrador Retriever/English Pointer",77,26,625,14,5,4,4
+"Labrador Retriever/Harrier",72,23,700,14,5,4,4
+"Labrador Retriever/Labrador Retriever",79,25,1000,13,5,5,5
+"Labrador Retriever/Mastiff",124,30,1250,12,5,4,4
+"Labrador Retriever/Spanish Water Dog",64,38,975,13,4,4,4
+"Labrador Retriever/St. Bernard Rough Coat",171,57,1400,11,5,4,4
+"Labrador Retriever/Standard Schnauzer",61,37,1250,13,4,5,4
+"Labrador Retriever/Weimaraner",78,44,900,12,5,5,5
+"Leonberger",129,75,1400,9,5,3,3
+"Lhasa Apso/Cairn Terrier",16,20,800,14,4,3,3
+"Lhasa Apso/Cocker Spaniel",22,22,700,14,5,3,3
+"Lhasa Apso/Dachshund",23,18,600,14,3,2,3
+"Lhasa Apso/Havanese",14,19,850,14,5,4,4
+"Lhasa Apso/Pbgv",15,28,600,14,5,3,3
+"Lhasa Apso/West Highland",17,22,900,15,4,3,3
+"Lhasa Apso/Yorkshire Terrier",11,18,650,15,3,3,3
+"Lowchen Mix",15,36,500,14,3,4,4
+"Maltese/Border Terrier",11,13,900,15,3,4,3
+"Maltese/Chihuahua Shorthair",7,10,800,16,1,3,3
+"Maltese/Cocker Spaniel",19,13,800,15,3,3,3
+"Maltese/Dachshund",20,9,700,15,1,2,3
+"Maltese/Jack Russell Terrier",12,12,900,15,2,4,4
+"Maltese/Papillon",9,10,650,15,3,3,4
+"Maltese/Yorkshire",8,10,800,15,1,3,3
+"Manchester Terrier/Norfolk Terrier",17,26,1575,15,3,4,4
+"Manchester Terrier/Toy Fox Terrier",15,35,725,15,3,4,4
+"Mastiff/Boxer",114,30,1350,12,4,3,3
+"Mastiff/Labrador Retriever",124,30,1250,12,5,4,4
+"Mastiff/Pit Bull",117,29,1100,13,3,2,3
+"Mexican Hairless Mix",,,,,,,
+"Miniature Pinscher/Australian Cattle Dog",23,24,600,15,4,4,5
+"Miniature Pinscher/Maltese",9,19,700,15,2,3,4
+"Miniature Pinscher/Pomeranian",9,20,700,15,2,3,4
+"Miniature Poodle/Australian Cattle Dog",22,40,1050,15,3,5,5
+"Miniature Poodle/English Cocker Spaniel",22,38,1500,15,3,5,4
+"Miniature Poodle/Golden Retriever",36,41,1750,14,3,5,5
+"Miniature Poodle/Havanese",11,35,1300,15,3,5,5
+"Miniature Poodle/Italian Greyhound",12,37,1100,15,1,3,4
+"Miniature Poodle/Pomeranian",8,36,1150,15,1,4,4
+"Miniature Poodle/Shih Tzu",13,44,1350,15,2,4,4
+"Miniature Schnauzer/Australian Cattle Dog",27,17,800,15,4,5,5
+"Miniature Schnauzer/Jack Russell Terrier",18,14,1000,15,3,5,5
+"Miniature Schnauzer/Labrador Retriever",49,19,1000,14,4,5,5
+"Miniature Schnauzer/Lhasa Apso",17,21,800,14,4,4,4
+"Miniature Schnauzer/Maltese",14,12,900,15,2,4,4
+"Miniature Schnauzer/Queensland Heeler",27,17,800,15,4,5,5
+"Miniature Schnauzer/Scottish Terrier",21,21,950,15,2,3,4
+"Miniature Schnauzer/Shih Tzu",18,21,1100,15,2,4,4
+"Miniature Schnauzer/Soft Coated Wheaten Terrier",29,31,950,15,3,4,4
+"Miniature Schnauzer/West Highland",20,15,1100,15,3,4,4
+"Miniature Schnauzer/Whippet",25,35,1100,15,3,4,4
+"Newfoundland/Australian Cattle Dog",94,47,1300,12,5,4,4
+"Newfoundland/Border Collie",99,48,1350,13,5,4,4
+"Newfoundland/Great Pyrenees",136,53,1450,11,4,2,4
+"Newfoundland/Queensland Heeler",94,47,1300,12,5,4,4
+"Norfolk Terrier",12,10,2500,15,4,5,4
+"Norfolk Terrier/Border Terrier",13,13,1750,15,4,5,4
+"Norfolk Terrier/Cairn Terrier",14,11,1750,15,4,4,4
+"Norfolk Terrier/Chihuahua Shorthair",9,10,1650,16,2,4,3
+"Norfolk Terrier/Dachshund",22,9,1550,15,3,3,4
+"Norfolk Terrier/Dachshund Wirehair",22,9,1550,15,3,3,4
+"Norwegian Elkhound Mix",55,21,600,15,5,3,4
+"Norwich Terrier/Border Terrier",13,20,1250,14,4,3,4
+"Norwich Terrier/Cairn Terrier",14,19,1250,14,4,2,4
+"Norwich Terrier/Pug",14,26,950,14,4,2,4
+"Nova Scotia Duck Tolling Retriever",,,,,,,
+"Nova Scotia Duck Tolling Retriever Mix",,,,,,,
+"Nova Scotia Duck Tolling Retriever/Golden Retriever",63,23,2000,13,5,5,5
+"Otterhound Mix",111,69,600,13,4,2,3
+"Papillon",10,11,500,15,5,3,5
+"Papillon/Australian Cattle Dog",22,15,550,15,5,4,5
+"Papillon/Border Collie",27,16,600,15,5,4,5
+"Papillon/Chihuahua Shorthair",8,10,650,16,3,3,4
+"Papillon/Pomeranian",8,11,650,15,3,3,4
+"Papillon/Skye Terrier",24,18,725,15,4,2,4
+"Parson Russell Terrier/Chihuahua Shorthair",10,24,650,16,2,4,3
+"Patterdale Terr/Chihuahua Shorthair",6,10,800,18,1,3,3
+"Pekingese/Cavalier Span",16,11,1050,14,2,3,3
+"Pekingese/Chihuahua Shorthair",10,9,700,16,1,2,3
+"Pekingese/Dachshund",23,9,600,15,1,2,3
+"Pekingese/Jack Russell Terrier",15,11,800,15,2,3,4
+"Pekingese/Lhasa Apso",14,18,600,14,3,2,3
+"Pekingese/Miniature Poodle",12,34,1050,15,1,3,4
+"Pekingese/Pug",15,18,500,15,2,2,3
+"Pembroke Welsh Corgi/Australian Shepherd",47,17,600,14,5,5,4
+"Pembroke Welsh Corgi/Basset Hound",50,13,550,13,5,4,3
+"Pembroke Welsh Corgi/Brittany",26,12,600,14,5,5,4
+"Pembroke Welsh Corgi/Chihuahua Shorthair",16,11,700,16,3,4,3
+"Pembroke Welsh Corgi/Dachshund",29,10,600,14,3,3,4
+"Pembroke Welsh Corgi/German Shepherd",57,19,1050,12,5,5,4
+"Pembroke Welsh Corgi/Golden Retriever",44,17,1300,13,5,5,4
+"Pembroke Welsh Corgi/Pit Bull",45,17,650,14,3,3,3
+"Pharaoh Hound/Australian Cattle Dog",47,22,950,14,4,3,4
+"Pharaoh Hound/Border Collie",51,23,1000,15,4,3,4
+"Pit Bull/American Bulldog",92,46,800,14,2,2,3
+"Pit Bull/American Foxhound",64,23,625,13,3,2,3
+"Pit Bull/Black Mouth Cur",80,23,525,15,2,2,3
+"Pit Bull/Blue Lacy",55,21,825,14,2,2,3
+"Pit Bull/Border Collie",54,22,700,15,3,3,4
+"Pit Bull/Border Terrier",40,19,850,14,3,3,3
+"Pit Bull/Bull Terrier",75,38,1100,14,2,2,3
+"Pit Bull/Cardigan Welsh Corgi",49,17,950,14,3,3,4
+"Pit Bull/Chow Chow",67,22,950,14,2,2,3
+"Pit Bull/Dachshund",48,15,650,14,2,2,3
+"Pit Bull/Dogue De Bordeaux",65,22,700,14,2,2,3
+"Pit Bull/Pug",41,25,550,14,3,2,3
+"Pit Bull/Queensland Heeler",50,21,650,14,3,3,4
+"Pit Bull/Rhod Ridgeback",75,44,950,13,3,3,4
+"Pit Bull/St. Bernard Smooth Coat",164,56,1250,12,3,2,3
+"Plott Hound/Australian Cattle Dog",45,39,450,14,4,4,4
+"Plott Hound/Black/Tan Hound",55,58,300,14,4,3,4
+"Plott Hound/Blue Lacy",50,39,625,14,3,3,3
+"Plott Hound/Carolina Dog",60,41,625,14,3,3,3
+"Plott Hound/Rhod Ridgeback",70,62,750,13,4,3,4
+"Pointer/Anatol Shepherd",98,29,575,15,4,2,3
+"Pointer/Blue Lacy",60,24,600,14,4,3,3
+"Pointer/Brittany",75,28,250,15,5,3,4
+"Pointer/Bull Terrier",80,41,875,14,4,2,4
+"Pointer/Chinese Sharpei",63,39,875,13,3,3,4
+"Pointer/Collie Smooth",75,44,625,15,5,4,4
+"Pointer/Jack Russell Terrier",46,21,625,15,4,4,4
+"Pointer/Queensland Heeler",55,24,425,15,5,4,4
+"Pointer/Rhod Ridgeback",80,47,725,13,5,3,4
+"Pointer/Staffordshire",55,34,1025,14,4,2,4
+"Pomeranian/Border Terrier",11,14,900,15,3,4,3
+"Pomeranian/Jack Russell Terrier",12,13,900,16,2,4,4
+"Pomeranian/Schipperke",13,21,800,15,2,3,3
+"Presa Canario",,,,,,,
+"Pug/Border Terrier",16,22,700,15,4,4,4
+"Pug/Italian Greyhound",16,21,550,15,2,2,3
+"Pug/Pekingese",15,18,500,15,2,2,3
+"Pug/Pit Bull",41,25,550,14,3,2,3
+"Pug/Pomeranian",12,20,600,15,2,3,3
+"Pug/Schipperke",18,29,600,15,4,3,4
+"Pug/Staffordshire",26,34,1100,14,3,2,4
+"Queensland Heeler",35,20,600,15,5,5,5
+"Queensland Heeler/Basset Hound",55,17,550,13,5,4,4
+"Queensland Heeler/Border Collie",39,21,650,15,5,5,5
+"Queensland Heeler/Chihuahua Shorthair",20,15,700,16,3,4,4
+"Queensland Heeler/Dachshund",33,14,600,15,3,3,4
+"Queensland Heeler/Great Dane",82,26,900,13,4,4,4
+"Queensland Heeler/Pointer",55,24,425,15,5,4,4
+"Queensland Heeler/Shetland Sheepdog",30,18,650,14,4,5,5
+"Rat Terrier/Basenji",25,17,850,17,3,3,4
+"Rat Terrier/Chihuahua Longhair",15,14,650,18,3,4,3
+"Rat Terrier/Jack Russell Terrier",21,16,750,17,4,5,4
+"Rat Terrier/Pit Bull",45,20,600,16,3,3,3
+"Rat Terrier/Pointer",50,23,375,16,5,4,4
+"Rat Terrier/Pug",21,23,450,16,4,4,4
+"Rat Terrier/Queensland Heeler",30,19,550,16,5,5,4
+"Redbone Hound",68,68,800,12,5,3,3
+"Redbone Hound/Anatol Shepherd",94,49,850,13,4,2,3
+"Redbone Hound/Labrador Retriever",73,46,900,12,5,4,4
+"Redbone Hound/Redbone Hound",68,68,800,12,5,3,3
+"Rhod Ridgeback/German Shepherd",86,46,1350,11,5,4,5
+"Rhod Ridgeback/Plott Hound",70,62,750,13,4,3,4
+"Rottweiler/Basset Hound",102,21,1250,11,3,3,4
+"Rottweiler/Beagle",77,21,1400,12,3,2,4
+"Rottweiler/Pit Bull",97,24,1350,12,2,2,4
+"Rottweiler/Rhod Ridgeback",107,46,1600,11,3,3,5
+"Saluki",60,28,800,14,3,2,3
+"Saluki/Labrador Retriever",69,26,900,13,4,3,4
+"Scottish Terrier/Basset Hound",48,21,700,13,3,2,3
+"Scottish Terrier/Cairn Terrier",19,20,950,15,3,2,4
+"Scottish Terrier/Miniature Poodle",16,44,1200,15,2,3,4
+"Sealyham Terr Mix",,,,,,,
+"Shetland Sheepdog/Basenji",26,16,950,14,3,3,5
+"Shetland Sheepdog/Border Collie",35,19,700,14,4,5,5
+"Shetland Sheepdog/Brittany",26,16,700,13,4,5,5
+"Shetland Sheepdog/Cardigan Welsh Corgi",29,14,950,14,4,5,5
+"Shetland Sheepdog/Cavalier Span",22,14,1100,13,3,4,4
+"Shetland Sheepdog/Dachshund Longhair",29,12,650,14,3,3,4
+"Shetland Sheepdog/Keeshond",35,17,900,14,4,4,4
+"Shetland Sheepdog/Pomeranian",16,14,750,14,2,4,4
+"Shiba Inu/Dachshund",24,26,800,15,2,2,3
+"Shiba Inu/Siberian Husky",38,33,1000,15,4,1,3
+"Shih Tzu/Affenpinscher",16,28,1200,15,2,3,3
+"Shih Tzu/Australian Shepherd",42,25,900,15,3,4,3
+"Shih Tzu/Cardigan Welsh Corgi",24,20,1200,15,3,4,4
+"Shih Tzu/Cavalier Span",17,20,1350,14,2,3,3
+"Shih Tzu/Dachshund",24,18,900,15,2,2,3
+"Shih Tzu/Norfolk Terrier",14,19,1850,15,3,4,3
+"Shih Tzu/Pekingese",15,18,900,15,1,2,3
+"Shih Tzu/Yorkshire Terrier",12,18,950,15,1,3,3
+"Siberian Husky/Anatol Shepherd",90,27,950,15,4,1,3
+"Siberian Husky/Australian Shepherd",64,23,800,15,5,3,4
+"Siberian Husky/Beagle",42,19,900,15,5,1,4
+"Siberian Husky/Catahoula",70,23,775,14,4,2,4
+"Silky Terrier/Yorkshire Terrier",8,9,700,16,1,3,4
+"Skye Terrier/Miniature Poodle",24,42,1225,15,2,3,4
+"Soft Coated Wheaten Terrier/Labrador Retriever",59,36,950,14,4,4,4
+"Soft Coated Wheaten Terrier/Standard Poodle",24,54,1200,15,3,4,4
+"Soft Coated Wheaten Terrier/Yorkshire Terrier",23,28,800,15,2,3,4
+"Spanish Mastiff Mix",169,88,950,14,3,3,3
+"Spinone Italiano Mix",74,65,2000,14,5,4,5
+"St. Bernard Rough Coat",264,90,1800,10,5,3,3
+"St. Bernard Rough Coat/Border Collie",154,56,1250,13,5,4,4
+"St. Bernard Rough Coat/German Shepherd",176,58,1650,10,5,4,4
+"St. Bernard Rough Coat/Labrador Retriever",171,57,1400,11,5,4,4
+"St. Bernard Rough Coat/Standard Schnauzer",154,70,1650,12,4,4,3
+"St. Bernard Smooth Coat",264,90,1800,10,5,3,3
+"St. Bernard Smooth Coat/Anatol Shepherd",192,60,1350,12,4,2,3
+"Staffordshire/Beagle",30,28,1300,14,4,2,4
+"Staffordshire/Blue Lacy",40,31,1375,14,3,2,3
+"Staffordshire/Boxer",47,32,1500,13,3,2,4
+"Staffordshire/English Bulldog",57,50,2150,14,3,2,3
+"Staffordshire/French Bulldog",31,26,2050,13,2,2,3
+"Staffordshire/Labrador Retriever",57,33,1400,13,4,3,4
+"Standard Poodle/Whippet",20,58,1350,15,2,4,4
+"Standard Schnauzer/Border Terrier",29,33,1250,14,4,5,3
+"Standard Schnauzer/Toy Poodle",27,55,1500,14,3,5,4
+"Swedish Vallhund/Miniature Poodle",20,47,1250,14,3,5,4
+"Swiss Hound/Pit Bull",65,22,700,14,2,2,3
+"Tibetan Spaniel",15,25,900,15,4,3,3
+"Toy Fox Terrier/Dachshund",20,19,700,14,2,3,4
+"Toy Poodle/Maltese",9,35,1150,15,1,4,4
+"Toy Poodle/Yorkshire Terrier",9,34,1100,15,1,4,4
+"Treeing Tennesse Brindle",,,,,,,
+"Treeing Walker Coonhound/Labrador Retriever",73,47,800,13,4,3,4
+"Vizsla/Boxer",61,44,1200,13,3,4,4
+"Vizsla/Catahoula",72,43,875,14,3,4,4
+"Vizsla/Rhod Ridgeback",74,65,1200,13,4,4,5
+"Vizsla/Staffordshire",49,52,1500,14,3,3,4
+"Weimaraner/Pit Bull",71,42,750,13,3,3,4
+"Welsh Springer Spaniel",44,46,1400,15,5,5,4
+"Welsh Springer Spaniel Mix",44,46,1400,15,5,5,4
+"West Highland/Chihuahua Shorthair",13,13,1000,17,2,3,3
+"Whippet/Australian Cattle Dog",32,38,900,15,4,4,4
+"Whippet/Australian Kelpie",38,38,900,14,3,4,3
+"Whippet/Beagle",27,36,1000,15,4,2,3
+"Whippet/Borzoi",59,42,950,12,2,2,3
+"Whippet/Chihuahua Shorthair",18,33,1000,16,2,3,3
+"Whippet/Jack Russell Terrier",23,35,1100,15,3,4,4
+"Whippet/Miniature Pinscher",20,42,900,15,3,3,4
+"Whippet/Shetland Sheepdog",28,36,950,14,3,4,4
+"Whippet/Whippet",30,56,1200,15,3,3,3
+"Wire Hair Fox Terrier/German Shepherd",54,21,1150,12,5,4,4
+"Yorkshire Terrier/Bruss Griffon",9,14,750,15,1,2,4
+"Yorkshire Terrier/Dachshund Wirehair",20,9,650,15,1,2,4
+"Yorkshire Terrier/Norfolk Terrier",10,9,1600,15,2,4,4
+"Yorkshire Terrier/Parson Russell Terrier",11,23,600,15,2,4,4
+"Yorkshire Terrier/Pomeranian",7,10,750,16,1,3,3
+"Yorkshire Terrier/Toy Poodle",9,34,1100,15,1,4,4
+"Abyssinian Mix",,,,,,,
+"American Shorthair Mix",,,,,,,
+"Angora Mix",,,,,,,
+"Balinese Mix",,,,,,,
+"Bengal",,,,,,,
+"Bengal Mix",,,,,,,
+"Bombay Mix",,,,,,,
+"British Shorthair",,,,,,,
+"British Shorthair Mix",,,,,,,
+"Burmese",,,,,,,
+"Cornish Rex Mix",,,,,,,
+"Cymric Mix",,,,,,,
+"Devon Rex",,,,,,,
+"Devon Rex Mix",,,,,,,
+"Domestic Longhair",,,,,,,
+"Domestic Longhair Mix",,,,,,,
+"Domestic Longhair/Persian",,,,,,,
+"Domestic Longhair/Rex",,,,,,,
+"Domestic Longhair/Russian Blue",,,,,,,
+"Domestic Medium Hair",,,,,,,
+"Domestic Medium Hair Mix",,,,,,,
+"Domestic Medium Hair/Siamese",,,,,,,
+"Domestic Shorthair",,,,,,,
+"Domestic Shorthair Mix",,,,,,,
+"Domestic Shorthair/British Shorthair",,,,,,,
+"Domestic Shorthair/Domestic Medium Hair",,,,,,,
+"Domestic Shorthair/Manx",,,,,,,
+"Domestic Shorthair/Siamese",,,,,,,
+"Exotic Shorthair Mix",,,,,,,
+"Havana Brown Mix",,,,,,,
+"Himalayan",,,,,,,
+"Himalayan Mix",,,,,,,
+"Japanese Bobtail Mix",,,,,,,
+"Javanese Mix",,,,,,,
+"Maine Coon",,,,,,,
+"Maine Coon Mix",,,,,,,
+"Manx",,,,,,,
+"Manx Mix",,,,,,,
+"Manx/Domestic Longhair",,,,,

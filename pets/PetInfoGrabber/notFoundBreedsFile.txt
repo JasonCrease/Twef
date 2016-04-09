@@ -1,12 +1,3668 @@
-Flat-Coat-Retriever
 Soft-Coated-Wheaten-Terrier
-Redbone-Hound
-Bruss-Griffon
-German-Shorthair-Pointer
-Black
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Schnauzer-Giant
+American-Shorthair
+Angora
 Belgian-Malinois
-Harrier
-Dogo-Argentino
-Papillon
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Soft-Coated-Wheaten-Terrier
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
 Chesa-Bay-Retr
-St.-Bernard-Smooth-Coat
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Soft-Coated-Wheaten-Terrier
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Schnauzer-Giant
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Schnauzer-Giant
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Soft-Coated-Wheaten-Terrier
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Soft-Coated-Wheaten-Terrier
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Schnauzer-Giant
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Soft-Coated-Wheaten-Terrier
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Soft-Coated-Wheaten-Terrier
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Soft-Coated-Wheaten-Terrier
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Bengal
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Pbgv
+Brittany
+Persian
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Presa-Canario
+Ragdoll
+Ragdoll
+Russian-Blue
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian
+Affenpinscher
+Afghan-Hound
+American-Shorthair
+Angora
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese
+Bedlington-Terr
+Belgian-Malinois
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Tervuren
+Belgian-Tervuren
+Bengal
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound
+Bombay
+Affenpinscher
+Boykin-Span
+Boykin-Span
+British-Shorthair
+Brittany
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso
+Chesa-Bay-Retr
+Affenpinscher
+Cornish-Rex
+Cymric
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Dogo-Argentino
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd
+Entlebucher
+Exotic-Shorthair
+Feist
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal
+Glen-Of-Imaal
+Brittany
+Havana-Brown
+Himalayan
+Unknown
+Japanese-Bobtail
+Javanese
+Jindo
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Yorkshire
+Manx
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless
+Munchkin-Longhair
+Norwegian-Forest-Cat
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat
+Old-English-Bulldog
+Patterdale-Terr
+Patterdale-Terr
+Pbgv
+Brittany
+Persian
+Picardy-Sheepdog
+Dogue-De-Bordeaux
+Pixiebob-Shorthair
+Black
+Podengo-Pequeno
+Brittany
+Port-Water-Dog
+Presa-Canario
+Ragdoll
+Russian-Blue
+Sealyham-Terr
+Brittany
+Affenpinscher
+Siamese
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier
+Silky-Terrier
+Snowshoe
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese
+Treeing-Cur
+Treeing-Tennesse-Brindle
+Turkish-Van
+Unknown
+Abyssinian-Mix
+Affenpinscher-Mix
+Afghan-Hound-Mix
+Airedale-Terrier-Mix
+Akita-Mix
+Alaskan-Husky-Mix
+Alaskan-Malamute-Mix
+American-Bulldog-Mix
+American-Eskimo-Mix
+American-Foxhound-Mix
+American-Pit-Bull-Terrier-Mix
+American-Shorthair-Mix
+American-Staffordshire-Terrier-Mix
+Anatol-Shepherd-Mix
+Angora-Mix
+Australian-Cattle-Dog-Mix
+Belgian-Malinois
+Australian-Kelpie-Mix
+Australian-Shepherd-Mix
+Nova-Scotia-Duck-Tolling-Retriever
+Australian-Terrier-Mix
+Balinese-Mix
+Basenji-Mix
+Basset-Hound-Mix
+Beagle-Mix
+Bearded-Collie-Mix
+Beauceron-Mix
+Bedlington-Terr-Mix
+Belgian-Malinois
+Belgian-Malinois-Mix
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog-Mix
+Belgian-Tervuren-Mix
+Belgian-Tervuren
+Bengal
+Bengal-Mix
+Bernese-Mountain-Dog-Mix
+Bichon-Frise-Mix
+Black-Mouth-Cur-Mix
+Black
+Black
+Tan-Hound-Mix
+Black
+Black
+Black
+Bloodhound-Mix
+Blue-Lacy-Mix
+Bluetick-Hound
+Bluetick-Hound-Mix
+Bluetick-Hound
+Boerboel-Mix
+Bombay-Mix
+Border-Collie-Mix
+Border-Terrier-Mix
+Affenpinscher
+Boston-Terrier-Mix
+Boxer-Mix
+Boykin-Span-Mix
+Boykin-Span
+British-Shorthair
+British-Shorthair-Mix
+Brittany
+Brittany-Mix
+Brittany
+Brittany
+Bruss-Griffon-Mix
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature-Mix
+Bull-Terrier-Mix
+Bulldog-Mix
+Bullmastiff-Mix
+Burmese
+Cairn-Terrier-Mix
+Affenpinscher
+Canaan-Dog-Mix
+Cane-Corso
+Cane-Corso-Mix
+Cane-Corso
+Cardigan-Welsh-Corgi-Mix
+Carolina-Dog-Mix
+Catahoula-Mix
+Cavalier-Span-Mix
+Chesa-Bay-Retr
+Chesa-Bay-Retr-Mix
+Chihuahua-Longhair-Mix
+Chihuahua-Shorthair-Mix
+Affenpinscher
+Chinese-Crested-Mix
+Chinese-Sharpei-Mix
+Chow-Chow-Mix
+Cocker-Spaniel-Mix
+Collie-Rough-Mix
+Collie-Smooth-Mix
+Cornish-Rex-Mix
+Cymric-Mix
+Dachshund-Longhair-Mix
+Dachshund-Mix
+Dachshund-Wirehair-Mix
+Pbgv
+Belgian-Malinois
+Dalmatian-Mix
+Devon-Rex
+Devon-Rex-Mix
+Doberman-Pinsch-Mix
+Dogo-Argentino
+Dogo-Argentino-Mix
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux-Mix
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair-Mix
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair-Mix
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair-Mix
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd-Mix
+Dutch-Shepherd
+English-Bulldog-Mix
+English-Cocker-Spaniel-Mix
+English-Coonhound-Mix
+English-Foxhound-Mix
+English-Pointer-Mix
+English-Setter-Mix
+English-Shepherd-Mix
+English-Springer-Spaniel-Mix
+Entlebucher-Mix
+Exotic-Shorthair-Mix
+Feist-Mix
+Field-Spaniel-Mix
+Finnish-Spitz-Mix
+Flat-Coat-Retriever-Mix
+French-Bulldog-Mix
+German-Pinscher-Mix
+German-Shepherd-Mix
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+German-Shorthair-Pointer-Mix
+German-Wirehaired-Pointer-Mix
+Glen-Of-Imaal-Mix
+Glen-Of-Imaal
+Golden-Retriever-Mix
+Brittany
+Great-Dane-Mix
+Great-Pyrenees-Mix
+Greater-Swiss-Mountain-Dog-Mix
+Greyhound-Mix
+Harrier-Mix
+Havana-Brown-Mix
+Havanese-Mix
+Himalayan
+Himalayan-Mix
+Hovawart-Mix
+Ibizan-Hound-Mix
+Irish-Terrier-Mix
+Irish-Wolfhound-Mix
+Italian-Greyhound-Mix
+Jack-Russell-Terrier-Mix
+Unknown
+Japanese-Bobtail-Mix
+Japanese-Chin-Mix
+Javanese-Mix
+Jindo-Mix
+Keeshond-Mix
+Labrador-Retriever-Mix
+Black
+Chesa-Bay-Retr
+Landseer-Mix
+Leonberger-Mix
+Lhasa-Apso-Mix
+Pbgv
+Lowchen-Mix
+Maine-Coon
+Maine-Coon-Mix
+Maltese-Mix
+Yorkshire
+Manchester-Terrier-Mix
+Manx
+Manx-Mix
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mastiff-Mix
+Mexican-Hairless-Mix
+Miniature-Pinscher-Mix
+Miniature-Poodle-Mix
+Miniature-Schnauzer-Mix
+Munchkin-Longhair-Mix
+Neapolitan-Mastiff-Mix
+Newfoundland-Mix
+Norfolk-Terrier-Mix
+Norwegian-Elkhound-Mix
+Norwegian-Forest-Cat-Mix
+Norwich-Terrier-Mix
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever-Mix
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat-Mix
+Old-English-Bulldog-Mix
+Otterhound-Mix
+Papillon-Mix
+Parson-Russell-Terrier-Mix
+Patterdale-Terr-Mix
+Patterdale-Terr
+Pbgv
+Pbgv-Mix
+Pekingese-Mix
+Pembroke-Welsh-Corgi-Mix
+Brittany
+Persian
+Persian-Mix
+Pharaoh-Hound-Mix
+Picardy-Sheepdog-Mix
+Pit-Bull-Mix
+Dogue-De-Bordeaux
+Pixiebob-Shorthair-Mix
+Plott-Hound-Mix
+Black
+Podengo-Pequeno-Mix
+Pointer-Mix
+Brittany
+Pomeranian-Mix
+Port-Water-Dog-Mix
+Presa-Canario
+Presa-Canario-Mix
+Pug-Mix
+Queensland-Heeler-Mix
+Ragdoll
+Ragdoll-Mix
+Rat-Terrier-Mix
+Redbone-Hound-Mix
+Rhod-Ridgeback-Mix
+Rottweiler-Mix
+Russian-Blue
+Russian-Blue-Mix
+Saluki-Mix
+Samoyed-Mix
+Schipperke-Mix
+Schnauzer-Giant-Mix
+Scottish-Terrier-Mix
+Sealyham-Terr-Mix
+Shetland-Sheepdog-Mix
+Brittany
+Shiba-Inu-Mix
+Shih-Tzu-Mix
+Affenpinscher
+Siamese
+Siamese-Mix
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Siberian-Husky-Mix
+Silky-Terrier-Mix
+Silky-Terrier
+Skye-Terrier-Mix
+Smooth-Fox-Terrier-Mix
+Snowshoe
+Snowshoe-Mix
+Snowshoe
+Ragdoll
+Soft-Coated-Wheaten-Terrier-Mix
+Spanish-Mastiff-Mix
+Sphynx
+Spinone-Italiano-Mix
+St.-Bernard-Rough-Coat-Mix
+St.-Bernard-Smooth-Coat-Mix
+Staffordshire-Mix
+Standard-Poodle-Mix
+Standard-Schnauzer-Mix
+Swedish-Vallhund-Mix
+Swiss-Hound
+Tibetan-Spaniel-Mix
+Tibetan-Terrier-Mix
+Tonkinese-Mix
+Toy-Fox-Terrier-Mix
+Toy-Poodle-Mix
+Treeing-Cur-Mix
+Treeing-Tennesse-Brindle
+Treeing-Walker-Coonhound-Mix
+Turkish-Van-Mix
+Unknown-Mix
+Vizsla-Mix
+Weimaraner-Mix
+Welsh-Springer-Spaniel-Mix
+Welsh-Terrier-Mix
+West-Highland-Mix
+Whippet-Mix
+Wire-Hair-Fox-Terrier-Mix
+Wirehaired-Pointing-Griffon-Mix
+Yorkshire-Terrier-Mix
+Abyssinian-Mix
+Affenpinscher-Mix
+Afghan-Hound-Mix
+American-Shorthair-Mix
+Angora-Mix
+Belgian-Malinois
+Nova-Scotia-Duck-Tolling-Retriever
+Balinese-Mix
+Bedlington-Terr-Mix
+Belgian-Malinois
+Belgian-Malinois-Mix
+Belgian-Malinois
+Belgian-Sheepdog
+Belgian-Sheepdog-Mix
+Belgian-Tervuren-Mix
+Belgian-Tervuren
+Bengal
+Bengal-Mix
+Black
+Black
+Black
+Black
+Black
+Bluetick-Hound
+Bluetick-Hound-Mix
+Bluetick-Hound
+Bombay-Mix
+Affenpinscher
+Boykin-Span-Mix
+Boykin-Span
+British-Shorthair
+British-Shorthair-Mix
+Brittany
+Brittany-Mix
+Brittany
+Brittany
+Bull-Terrier-Miniature
+Bull-Terrier-Miniature-Mix
+Burmese
+Affenpinscher
+Cane-Corso
+Cane-Corso-Mix
+Cane-Corso
+Chesa-Bay-Retr
+Chesa-Bay-Retr-Mix
+Affenpinscher
+Cornish-Rex-Mix
+Cymric-Mix
+Pbgv
+Belgian-Malinois
+Devon-Rex
+Devon-Rex-Mix
+Dogo-Argentino
+Dogo-Argentino-Mix
+Dogo-Argentino
+Dogo-Argentino
+Dogue-De-Bordeaux-Mix
+Dogue-De-Bordeaux
+Domestic-Longhair
+Domestic-Longhair-Mix
+Domestic-Longhair
+Persian
+Domestic-Longhair
+Rex
+Domestic-Longhair
+Russian-Blue
+Domestic-Medium-Hair
+Domestic-Medium-Hair-Mix
+Domestic-Medium-Hair
+Siamese
+Domestic-Shorthair
+Domestic-Shorthair-Mix
+Domestic-Shorthair
+British-Shorthair
+Domestic-Shorthair
+Domestic-Medium-Hair
+Domestic-Shorthair
+Manx
+Domestic-Shorthair
+Siamese
+Dutch-Shepherd
+Dutch-Shepherd-Mix
+Dutch-Shepherd
+Entlebucher-Mix
+Exotic-Shorthair-Mix
+Feist-Mix
+Black
+Nova-Scotia-Duck-Tolling-Retriever
+Glen-Of-Imaal-Mix
+Glen-Of-Imaal
+Brittany
+Havana-Brown-Mix
+Himalayan
+Himalayan-Mix
+Unknown
+Japanese-Bobtail-Mix
+Javanese-Mix
+Jindo-Mix
+Black
+Chesa-Bay-Retr
+Pbgv
+Maine-Coon
+Maine-Coon-Mix
+Yorkshire
+Manx
+Manx-Mix
+Manx
+Domestic-Longhair
+Manx
+Domestic-Shorthair
+Mexican-Hairless-Mix
+Munchkin-Longhair-Mix
+Norwegian-Forest-Cat-Mix
+Nova-Scotia-Duck-Tolling-Retriever
+Nova-Scotia-Duck-Tolling-Retriever-Mix
+Nova-Scotia-Duck-Tolling-Retriever
+Ocicat-Mix
+Old-English-Bulldog-Mix
+Patterdale-Terr-Mix
+Patterdale-Terr
+Pbgv
+Pbgv-Mix
+Brittany
+Persian
+Persian-Mix
+Picardy-Sheepdog-Mix
+Dogue-De-Bordeaux
+Pixiebob-Shorthair-Mix
+Black
+Podengo-Pequeno-Mix
+Brittany
+Port-Water-Dog-Mix
+Presa-Canario
+Presa-Canario-Mix
+Ragdoll
+Ragdoll-Mix
+Russian-Blue
+Russian-Blue-Mix
+Sealyham-Terr-Mix
+Brittany
+Affenpinscher
+Siamese
+Siamese-Mix
+Siamese
+Domestic-Shorthair
+Siamese
+Japanese-Bobtail
+Silky-Terrier-Mix
+Silky-Terrier
+Snowshoe
+Snowshoe-Mix
+Snowshoe
+Ragdoll
+Sphynx
+Swiss-Hound
+Tonkinese-Mix
+Treeing-Cur-Mix
+Treeing-Tennesse-Brindle
+Turkish-Van-Mix
+Unknown-Mix
+"Abyssinian Mix"
+"Affenpinscher Mix"
+"Afghan Hound Mix"
+"Airedale Terrier Mix"
+"Akita Mix"
+"Alaskan Husky Mix"
+"Alaskan Malamute Mix"
+"American Bulldog Mix"
+"American Eskimo Mix"
+"American Foxhound Mix"
+"American Pit Bull Terrier Mix"
+"American Shorthair Mix"
+"American Staffordshire Terrier Mix"
+"Anatol Shepherd Mix"
+"Angora Mix"
+"Australian Cattle Dog Mix"
+Belgian Malinois"
+"Australian Kelpie Mix"
+"Australian Shepherd Mix"
+Nova Scotia Duck Tolling Retriever"
+"Australian Terrier Mix"
+"Balinese Mix"
+"Basenji Mix"
+"Basset Hound Mix"
+"Beagle Mix"
+"Bearded Collie Mix"
+"Beauceron Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Belgian Malinois Mix"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Bengal"
+"Bengal Mix"
+"Bernese Mountain Dog Mix"
+"Bichon Frise Mix"
+"Black Mouth Cur Mix"
+"Black
+"Black
+Tan Hound Mix"
+"Black
+"Black
+"Black
+"Bloodhound Mix"
+"Blue Lacy Mix"
+"Bluetick Hound"
+"Bluetick Hound Mix"
+"Bluetick Hound
+"Boerboel Mix"
+"Bombay Mix"
+"Border Collie Mix"
+"Border Terrier Mix"
+Affenpinscher"
+"Boston Terrier Mix"
+"Boxer Mix"
+"Boykin Span Mix"
+"Boykin Span
+"British Shorthair"
+"British Shorthair Mix"
+"Brittany"
+"Brittany Mix"
+"Brittany
+"Brittany
+"Bruss Griffon Mix"
+"Bull Terrier Miniature"
+"Bull Terrier Miniature Mix"
+"Bull Terrier Mix"
+"Bulldog Mix"
+"Bullmastiff Mix"
+"Burmese"
+"Cairn Terrier Mix"
+Affenpinscher"
+"Canaan Dog Mix"
+"Cane Corso"
+"Cane Corso Mix"
+"Cane Corso
+"Cardigan Welsh Corgi Mix"
+"Carolina Dog Mix"
+"Catahoula Mix"
+"Cavalier Span Mix"
+"Chesa Bay Retr"
+"Chesa Bay Retr Mix"
+"Chihuahua Longhair Mix"
+"Chihuahua Shorthair Mix"
+Affenpinscher"
+"Chinese Crested Mix"
+"Chinese Sharpei Mix"
+"Chow Chow Mix"
+"Cocker Spaniel Mix"
+"Collie Rough Mix"
+"Collie Smooth Mix"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Dachshund Longhair Mix"
+"Dachshund Mix"
+"Dachshund Wirehair Mix"
+Pbgv"
+Belgian Malinois"
+"Dalmatian Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Doberman Pinsch Mix"
+"Dogo Argentino"
+"Dogo Argentino Mix"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux Mix"
+"Dogue De Bordeaux
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Dutch Shepherd"
+"Dutch Shepherd Mix"
+"Dutch Shepherd
+"English Bulldog Mix"
+"English Cocker Spaniel Mix"
+"English Coonhound Mix"
+"English Foxhound Mix"
+"English Pointer Mix"
+"English Setter Mix"
+"English Shepherd Mix"
+"English Springer Spaniel Mix"
+"Entlebucher Mix"
+"Exotic Shorthair Mix"
+"Feist Mix"
+"Field Spaniel Mix"
+"Finnish Spitz Mix"
+"Flat Coat Retriever Mix"
+"French Bulldog Mix"
+"German Pinscher Mix"
+"German Shepherd Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"German Shorthair Pointer Mix"
+"German Wirehaired Pointer Mix"
+"Glen Of Imaal Mix"
+"Glen Of Imaal
+"Golden Retriever Mix"
+Brittany"
+"Great Dane Mix"
+"Great Pyrenees Mix"
+"Greater Swiss Mountain Dog Mix"
+"Greyhound Mix"
+"Harrier Mix"
+"Havana Brown Mix"
+"Havanese Mix"
+"Himalayan"
+"Himalayan Mix"
+"Hovawart Mix"
+"Ibizan Hound Mix"
+"Irish Terrier Mix"
+"Irish Wolfhound Mix"
+"Italian Greyhound Mix"
+"Jack Russell Terrier Mix"
+Unknown"
+"Japanese Bobtail Mix"
+"Japanese Chin Mix"
+"Javanese Mix"
+"Jindo Mix"
+"Keeshond Mix"
+"Labrador Retriever Mix"
+Black
+Chesa Bay Retr"
+"Landseer Mix"
+"Leonberger Mix"
+"Lhasa Apso Mix"
+Pbgv"
+"Lowchen Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Maltese Mix"
+Yorkshire"
+"Manchester Terrier Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Mastiff Mix"
+"Mexican Hairless Mix"
+"Miniature Pinscher Mix"
+"Miniature Poodle Mix"
+"Miniature Schnauzer Mix"
+"Munchkin Longhair Mix"
+"Neapolitan Mastiff Mix"
+"Newfoundland Mix"
+"Norfolk Terrier Mix"
+"Norwegian Elkhound Mix"
+"Norwegian Forest Cat Mix"
+"Norwich Terrier Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Ocicat Mix"
+"Old English Bulldog Mix"
+"Otterhound Mix"
+"Papillon Mix"
+"Parson Russell Terrier Mix"
+"Patterdale Terr Mix"
+"Patterdale Terr
+"Pbgv"
+"Pbgv Mix"
+"Pekingese Mix"
+"Pembroke Welsh Corgi Mix"
+Brittany"
+"Persian"
+"Persian Mix"
+"Pharaoh Hound Mix"
+"Picardy Sheepdog Mix"
+"Pit Bull Mix"
+Dogue De Bordeaux"
+"Pixiebob Shorthair Mix"
+"Plott Hound Mix"
+Black
+"Podengo Pequeno Mix"
+"Pointer Mix"
+Brittany"
+"Pomeranian Mix"
+"Port Water Dog Mix"
+"Presa Canario"
+"Presa Canario Mix"
+"Pug Mix"
+"Queensland Heeler Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Rat Terrier Mix"
+"Redbone Hound Mix"
+"Rhod Ridgeback Mix"
+"Rottweiler Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Saluki Mix"
+"Samoyed Mix"
+"Schipperke Mix"
+"Schnauzer Giant Mix"
+"Scottish Terrier Mix"
+"Sealyham Terr Mix"
+"Shetland Sheepdog Mix"
+Brittany"
+"Shiba Inu Mix"
+"Shih Tzu Mix"
+Affenpinscher"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Siberian Husky Mix"
+"Silky Terrier Mix"
+"Silky Terrier
+"Skye Terrier Mix"
+"Smooth Fox Terrier Mix"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Soft Coated Wheaten Terrier Mix"
+"Spanish Mastiff Mix"
+"Sphynx"
+"Spinone Italiano Mix"
+"St. Bernard Rough Coat Mix"
+"St. Bernard Smooth Coat Mix"
+"Staffordshire Mix"
+"Standard Poodle Mix"
+"Standard Schnauzer Mix"
+"Swedish Vallhund Mix"
+"Swiss Hound
+"Tibetan Spaniel Mix"
+"Tibetan Terrier Mix"
+"Tonkinese Mix"
+"Toy Fox Terrier Mix"
+"Toy Poodle Mix"
+"Treeing Cur Mix"
+"Treeing Tennesse Brindle"
+"Treeing Walker Coonhound Mix"
+"Turkish Van Mix"
+"Unknown Mix"
+"Vizsla Mix"
+"Weimaraner Mix"
+"Welsh Springer Spaniel Mix"
+"Welsh Terrier Mix"
+"West Highland Mix"
+"Whippet Mix"
+"Wire Hair Fox Terrier Mix"
+"Wirehaired Pointing Griffon Mix"
+"Yorkshire Terrier Mix"
+"Abyssinian Mix"
+"Affenpinscher Mix"
+"Afghan Hound Mix"
+"Airedale Terrier Mix"
+"Akita Mix"
+"Alaskan Husky Mix"
+"Alaskan Malamute Mix"
+"American Bulldog Mix"
+"American Eskimo Mix"
+"American Foxhound Mix"
+"American Pit Bull Terrier Mix"
+"American Shorthair Mix"
+"American Staffordshire Terrier Mix"
+"Anatol Shepherd Mix"
+"Angora Mix"
+"Australian Cattle Dog Mix"
+Belgian Malinois"
+"Australian Kelpie Mix"
+"Australian Shepherd Mix"
+Nova Scotia Duck Tolling Retriever"
+"Australian Terrier Mix"
+"Balinese Mix"
+"Basenji Mix"
+"Basset Hound Mix"
+"Beagle Mix"
+"Bearded Collie Mix"
+"Beauceron Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Belgian Malinois Mix"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Bengal"
+"Bengal Mix"
+"Bernese Mountain Dog Mix"
+"Bichon Frise Mix"
+"Black Mouth Cur Mix"
+"Black
+"Black
+Tan Hound Mix"
+"Black
+"Black
+"Black
+"Bloodhound Mix"
+"Blue Lacy Mix"
+"Bluetick Hound"
+"Bluetick Hound Mix"
+"Bluetick Hound
+"Boerboel Mix"
+"Bombay Mix"
+"Border Collie Mix"
+"Border Terrier Mix"
+Affenpinscher"
+"Boston Terrier Mix"
+"Boxer Mix"
+"Boykin Span Mix"
+"Boykin Span
+"British Shorthair"
+"British Shorthair Mix"
+"Brittany"
+"Brittany Mix"
+"Brittany
+"Brittany
+"Bruss Griffon Mix"
+"Bull Terrier Miniature"
+"Bull Terrier Miniature Mix"
+"Bull Terrier Mix"
+"Bulldog Mix"
+"Bullmastiff Mix"
+"Burmese"
+"Cairn Terrier Mix"
+Affenpinscher"
+"Canaan Dog Mix"
+"Cane Corso"
+"Cane Corso Mix"
+"Cane Corso
+"Cardigan Welsh Corgi Mix"
+"Carolina Dog Mix"
+"Catahoula Mix"
+"Cavalier Span Mix"
+"Chesa Bay Retr"
+"Chesa Bay Retr Mix"
+"Chihuahua Longhair Mix"
+"Chihuahua Shorthair Mix"
+Affenpinscher"
+"Chinese Crested Mix"
+"Chinese Sharpei Mix"
+"Chow Chow Mix"
+"Cocker Spaniel Mix"
+"Collie Rough Mix"
+"Collie Smooth Mix"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Dachshund Longhair Mix"
+"Dachshund Mix"
+"Dachshund Wirehair Mix"
+Pbgv"
+Belgian Malinois"
+"Dalmatian Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Doberman Pinsch Mix"
+"Dogo Argentino"
+"Dogo Argentino Mix"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux Mix"
+"Dogue De Bordeaux
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Dutch Shepherd"
+"Dutch Shepherd Mix"
+"Dutch Shepherd
+"English Bulldog Mix"
+"English Cocker Spaniel Mix"
+"English Coonhound Mix"
+"English Foxhound Mix"
+"English Pointer Mix"
+"English Setter Mix"
+"English Shepherd Mix"
+"English Springer Spaniel Mix"
+"Entlebucher Mix"
+"Exotic Shorthair Mix"
+"Feist Mix"
+"Field Spaniel Mix"
+"Finnish Spitz Mix"
+"Flat Coat Retriever Mix"
+"French Bulldog Mix"
+"German Pinscher Mix"
+"German Shepherd Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"German Shorthair Pointer Mix"
+"German Wirehaired Pointer Mix"
+"Glen Of Imaal Mix"
+"Glen Of Imaal
+"Golden Retriever Mix"
+Brittany"
+"Great Dane Mix"
+"Great Pyrenees Mix"
+"Greater Swiss Mountain Dog Mix"
+"Greyhound Mix"
+"Harrier Mix"
+"Havana Brown Mix"
+"Havanese Mix"
+"Himalayan"
+"Himalayan Mix"
+"Hovawart Mix"
+"Ibizan Hound Mix"
+"Irish Terrier Mix"
+"Irish Wolfhound Mix"
+"Italian Greyhound Mix"
+"Jack Russell Terrier Mix"
+Unknown"
+"Japanese Bobtail Mix"
+"Japanese Chin Mix"
+"Javanese Mix"
+"Jindo Mix"
+"Keeshond Mix"
+"Labrador Retriever Mix"
+Black
+Chesa Bay Retr"
+"Landseer Mix"
+"Leonberger Mix"
+"Lhasa Apso Mix"
+Pbgv"
+"Lowchen Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Maltese Mix"
+Yorkshire"
+"Manchester Terrier Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Mastiff Mix"
+"Mexican Hairless Mix"
+"Miniature Pinscher Mix"
+"Miniature Poodle Mix"
+"Miniature Schnauzer Mix"
+"Munchkin Longhair Mix"
+"Neapolitan Mastiff Mix"
+"Newfoundland Mix"
+"Norfolk Terrier Mix"
+"Norwegian Elkhound Mix"
+"Norwegian Forest Cat Mix"
+"Norwich Terrier Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Ocicat Mix"
+"Old English Bulldog Mix"
+"Otterhound Mix"
+"Papillon Mix"
+"Parson Russell Terrier Mix"
+"Patterdale Terr Mix"
+"Patterdale Terr
+"Pbgv"
+"Pbgv Mix"
+"Pekingese Mix"
+"Pembroke Welsh Corgi Mix"
+Brittany"
+"Persian"
+"Persian Mix"
+"Pharaoh Hound Mix"
+"Picardy Sheepdog Mix"
+"Pit Bull Mix"
+Dogue De Bordeaux"
+"Pixiebob Shorthair Mix"
+"Plott Hound Mix"
+Black
+"Podengo Pequeno Mix"
+"Pointer Mix"
+Brittany"
+"Pomeranian Mix"
+"Port Water Dog Mix"
+"Presa Canario"
+"Presa Canario Mix"
+"Pug Mix"
+"Queensland Heeler Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Rat Terrier Mix"
+"Redbone Hound Mix"
+"Rhod Ridgeback Mix"
+"Rottweiler Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Saluki Mix"
+"Samoyed Mix"
+"Schipperke Mix"
+"Schnauzer Giant Mix"
+"Scottish Terrier Mix"
+"Sealyham Terr Mix"
+"Shetland Sheepdog Mix"
+Brittany"
+"Shiba Inu Mix"
+"Shih Tzu Mix"
+Affenpinscher"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Siberian Husky Mix"
+"Silky Terrier Mix"
+"Silky Terrier
+"Skye Terrier Mix"
+"Smooth Fox Terrier Mix"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Soft Coated Wheaten Terrier Mix"
+"Spanish Mastiff Mix"
+"Sphynx"
+"Spinone Italiano Mix"
+"St. Bernard Rough Coat Mix"
+"St. Bernard Smooth Coat Mix"
+"Staffordshire Mix"
+"Standard Poodle Mix"
+"Standard Schnauzer Mix"
+"Swedish Vallhund Mix"
+"Swiss Hound
+"Tibetan Spaniel Mix"
+"Tibetan Terrier Mix"
+"Tonkinese Mix"
+"Toy Fox Terrier Mix"
+"Toy Poodle Mix"
+"Treeing Cur Mix"
+"Treeing Tennesse Brindle"
+"Treeing Walker Coonhound Mix"
+"Turkish Van Mix"
+"Unknown Mix"
+"Vizsla Mix"
+"Weimaraner Mix"
+"Welsh Springer Spaniel Mix"
+"Welsh Terrier Mix"
+"West Highland Mix"
+"Whippet Mix"
+"Wire Hair Fox Terrier Mix"
+"Wirehaired Pointing Griffon Mix"
+"Yorkshire Terrier Mix"
+"Pit Bull Mix"
+"Chihuahua Shorthair Mix"
+"Labrador Retriever Mix"
+"German Shepherd Mix"
+"Australian Cattle Dog Mix"
+"Dachshund Mix"
+"Boxer Mix"
+"Miniature Poodle Mix"
+"Border Collie Mix"
+"Australian Shepherd Mix"
+"Catahoula Mix"
+"Rat Terrier Mix"
+"Jack Russell Terrier Mix"
+"Yorkshire Terrier Mix"
+"Chihuahua Longhair Mix"
+"Siberian Husky Mix"
+"Miniature Schnauzer Mix"
+"Beagle Mix"
+"Rottweiler Mix"
+"American Bulldog Mix"
+"Cairn Terrier Mix"
+"Shih Tzu Mix"
+"Australian Kelpie Mix"
+"Staffordshire Mix"
+"Pointer Mix"
+"American Staffordshire Terrier Mix"
+"Great Pyrenees Mix"
+"Anatol Shepherd Mix"
+"Plott Hound Mix"
+"Miniature Pinscher Mix"
+"American Pit Bull Terrier Mix"
+"Golden Retriever Mix"
+"Black Mouth Cur Mix"
+"Chow Chow Mix"
+"Cardigan Welsh Corgi Mix"
+"Queensland Heeler Mix"
+"Maltese Mix"
+"Pug Mix"
+"Doberman Pinsch Mix"
+"Cocker Spaniel Mix"
+"Basset Hound Mix"
+"Boston Terrier Mix"
+"Lhasa Apso Mix"
+"Manchester Terrier Mix"
+"Blue Lacy Mix"
+"Carolina Dog Mix"
+"Pomeranian Mix"
+"Flat Coat Retriever Mix"
+"Toy Poodle Mix"
+"Dachshund Longhair Mix"
+"Border Terrier Mix"
+"Collie Smooth Mix"
+"Bull Terrier Mix"
+"Pekingese Mix"
+"Chinese Sharpei Mix"
+"Rhod Ridgeback Mix"
+"English Bulldog Mix"
+"Dachshund Wirehair Mix"
+"Mastiff Mix"
+"Soft Coated Wheaten Terrier Mix"
+"Shetland Sheepdog Mix"
+"Great Dane Mix"
+"Norfolk Terrier Mix"
+"Redbone Hound Mix"
+"Whippet Mix"
+"Bruss Griffon Mix"
+"German Shorthair Pointer Mix"
+"Weimaraner Mix"
+"Black
+Tan Hound Mix"
+"Parson Russell Terrier Mix"
+"Pembroke Welsh Corgi Mix"
+"Shiba Inu Mix"
+"Belgian Malinois Mix"
+"Harrier Mix"
+"Norwich Terrier Mix"
+"Bichon Frise Mix"
+"English Pointer Mix"
+"West Highland Mix"
+"Dogo Argentino Mix"
+"Papillon Mix"
+"Chesa Bay Retr Mix"
+"Italian Greyhound Mix"
+"Standard Schnauzer Mix"
+"Wire Hair Fox Terrier Mix"
+"Akita Mix"
+"Basenji Mix"
+"Beauceron Mix"
+"Bulldog Mix"
+"Standard Poodle Mix"
+"Alaskan Husky Mix"
+"Dalmatian Mix"
+"Havanese Mix"
+"Smooth Fox Terrier Mix"
+"St. Bernard Smooth Coat Mix"
+"American Eskimo Mix"
+"Collie Rough Mix"
+"Pharaoh Hound Mix"
+"Bullmastiff Mix"
+"Cavalier Span Mix"
+"Greyhound Mix"
+"Leonberger Mix"
+"Treeing Walker Coonhound Mix"
+"Bloodhound Mix"
+"Dutch Shepherd Mix"
+"Finnish Spitz Mix"
+"Pbgv Mix"
+"Schipperke Mix"
+"Silky Terrier Mix"
+"Toy Fox Terrier Mix"
+"Vizsla Mix"
+"Affenpinscher Mix"
+"Bernese Mountain Dog Mix"
+"Brittany Mix"
+"Feist Mix"
+"French Bulldog Mix"
+"Landseer Mix"
+"Newfoundland Mix"
+"Pbgv"
+"Tibetan Terrier Mix"
+"Airedale Terrier Mix"
+"Alaskan Malamute Mix"
+"Bluetick Hound Mix"
+"English Coonhound Mix"
+"Irish Terrier Mix"
+"Keeshond Mix"
+"Patterdale Terr Mix"
+"Podengo Pequeno Mix"
+"St. Bernard Rough Coat Mix"
+"Swedish Vallhund Mix"
+"Welsh Terrier Mix"
+"Australian Terrier Mix"
+"Cane Corso Mix"
+"Dogue De Bordeaux Mix"
+"English Springer Spaniel Mix"
+"Greater Swiss Mountain Dog Mix"
+Black
+"Schnauzer Giant Mix"
+"Treeing Cur Mix"
+"Bedlington Terr Mix"
+"Black
+"Boerboel Mix"
+"Boykin Span Mix"
+"Canaan Dog Mix"
+"Cane Corso"
+"Chinese Crested Mix"
+"German Wirehaired Pointer Mix"
+"Glen Of Imaal Mix"
+"Irish Wolfhound Mix"
+"Jindo Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Saluki Mix"
+"Samoyed Mix"
+"Skye Terrier Mix"
+"Tibetan Spaniel Mix"
+"American Foxhound Mix"
+"Bearded Collie Mix"
+"Belgian Malinois"
+"Belgian Sheepdog Mix"
+"Black
+"Brittany"
+"Brittany
+"Bull Terrier Miniature Mix"
+"Dogo Argentino"
+"English Setter Mix"
+"English Shepherd Mix"
+"Field Spaniel Mix"
+"Ibizan Hound Mix"
+"Japanese Chin Mix"
+"Neapolitan Mastiff Mix"
+"Port Water Dog Mix"
+"Presa Canario Mix"
+"Scottish Terrier Mix"
+"Unknown Mix"
+"Wirehaired Pointing Griffon Mix"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+"Bull Terrier Miniature"
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd"
+"Dutch Shepherd
+"English Cocker Spaniel Mix"
+"English Foxhound Mix"
+"Entlebucher Mix"
+"German Pinscher Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+"Hovawart Mix"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+"Lowchen Mix"
+Yorkshire"
+"Mexican Hairless Mix"
+"Norwegian Elkhound Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Otterhound Mix"
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Presa Canario"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Spanish Mastiff Mix"
+"Spinone Italiano Mix"
+"Swiss Hound
+"Treeing Tennesse Brindle"
+"Welsh Springer Spaniel Mix"
+"Abyssinian Mix"
+"American Shorthair Mix"
+"Angora Mix"
+"Balinese Mix"
+"Bengal"
+"Bengal Mix"
+"Bombay Mix"
+"British Shorthair"
+"British Shorthair Mix"
+"Burmese"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Exotic Shorthair Mix"
+"Havana Brown Mix"
+"Himalayan"
+"Himalayan Mix"
+"Japanese Bobtail Mix"
+"Javanese Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Munchkin Longhair Mix"
+"Norwegian Forest Cat Mix"
+"Ocicat Mix"
+"Persian"
+"Persian Mix"
+"Pixiebob Shorthair Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Sphynx"
+"Tonkinese Mix"
+"Turkish Van Mix"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Dutch Shepherd Mix"
+"Pbgv Mix"
+"Silky Terrier Mix"
+"Affenpinscher Mix"
+"Brittany Mix"
+"Feist Mix"
+"Pbgv"
+"Bluetick Hound Mix"
+"Patterdale Terr Mix"
+"Podengo Pequeno Mix"
+"Cane Corso Mix"
+"Dogue De Bordeaux Mix"
+Black
+"Treeing Cur Mix"
+"Bedlington Terr Mix"
+"Black
+"Boykin Span Mix"
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Jindo Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Malinois"
+"Belgian Sheepdog Mix"
+"Black
+"Brittany"
+"Brittany
+"Bull Terrier Miniature Mix"
+"Dogo Argentino"
+"Port Water Dog Mix"
+"Presa Canario Mix"
+"Unknown Mix"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+"Bull Terrier Miniature"
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd"
+"Dutch Shepherd
+"Entlebucher Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Presa Canario"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+"Abyssinian Mix"
+"American Shorthair Mix"
+"Angora Mix"
+"Balinese Mix"
+"Bengal"
+"Bengal Mix"
+"Bombay Mix"
+"British Shorthair"
+"British Shorthair Mix"
+"Burmese"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Exotic Shorthair Mix"
+"Havana Brown Mix"
+"Himalayan"
+"Himalayan Mix"
+"Japanese Bobtail Mix"
+"Javanese Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Munchkin Longhair Mix"
+"Norwegian Forest Cat Mix"
+"Ocicat Mix"
+"Persian"
+"Persian Mix"
+"Pixiebob Shorthair Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Sphynx"
+"Tonkinese Mix"
+"Turkish Van Mix"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Dutch Shepherd Mix"
+"Pbgv Mix"
+"Silky Terrier Mix"
+"Affenpinscher Mix"
+"Brittany Mix"
+"Feist Mix"
+"Pbgv"
+"Bluetick Hound Mix"
+"Patterdale Terr Mix"
+"Podengo Pequeno Mix"
+"Cane Corso Mix"
+"Dogue De Bordeaux Mix"
+Black
+"Treeing Cur Mix"
+"Bedlington Terr Mix"
+"Black
+"Boykin Span Mix"
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Jindo Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Malinois"
+"Belgian Sheepdog Mix"
+"Black
+"Brittany"
+"Brittany
+"Bull Terrier Miniature Mix"
+"Dogo Argentino"
+"Port Water Dog Mix"
+"Presa Canario Mix"
+"Unknown Mix"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+"Bull Terrier Miniature"
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd"
+"Dutch Shepherd
+"Entlebucher Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Presa Canario"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+"Abyssinian Mix"
+"American Shorthair Mix"
+"Angora Mix"
+"Balinese Mix"
+"Bengal"
+"Bengal Mix"
+"Bombay Mix"
+"British Shorthair"
+"British Shorthair Mix"
+"Burmese"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Exotic Shorthair Mix"
+"Havana Brown Mix"
+"Himalayan"
+"Himalayan Mix"
+"Japanese Bobtail Mix"
+"Javanese Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Munchkin Longhair Mix"
+"Norwegian Forest Cat Mix"
+"Ocicat Mix"
+"Persian"
+"Persian Mix"
+"Pixiebob Shorthair Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Sphynx"
+"Tonkinese Mix"
+"Turkish Van Mix"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Dutch Shepherd Mix"
+"Pbgv Mix"
+"Silky Terrier Mix"
+"Affenpinscher Mix"
+"Brittany Mix"
+"Feist Mix"
+"Pbgv"
+"Bluetick Hound Mix"
+"Patterdale Terr Mix"
+"Podengo Pequeno Mix"
+"Cane Corso Mix"
+"Dogue De Bordeaux Mix"
+Black
+"Treeing Cur Mix"
+"Bedlington Terr Mix"
+"Black
+"Boykin Span Mix"
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Jindo Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Malinois"
+"Belgian Sheepdog Mix"
+"Black
+"Brittany"
+"Brittany
+"Bull Terrier Miniature Mix"
+"Dogo Argentino"
+"Port Water Dog Mix"
+"Presa Canario Mix"
+"Unknown Mix"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren Mix"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+"Bull Terrier Miniature"
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd"
+"Dutch Shepherd
+"Entlebucher Mix"
+Black
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Presa Canario"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+"Abyssinian Mix"
+"American Shorthair Mix"
+"Angora Mix"
+"Balinese Mix"
+"Bengal"
+"Bengal Mix"
+"Bombay Mix"
+"British Shorthair"
+"British Shorthair Mix"
+"Burmese"
+"Cornish Rex Mix"
+"Cymric Mix"
+"Devon Rex"
+"Devon Rex Mix"
+"Domestic Longhair"
+"Domestic Longhair Mix"
+"Domestic Longhair
+Persian"
+"Domestic Longhair
+Rex"
+"Domestic Longhair
+Russian Blue"
+"Domestic Medium Hair"
+"Domestic Medium Hair Mix"
+"Domestic Medium Hair
+Siamese"
+"Domestic Shorthair"
+"Domestic Shorthair Mix"
+"Domestic Shorthair
+British Shorthair"
+"Domestic Shorthair
+Domestic Medium Hair"
+"Domestic Shorthair
+Manx"
+"Domestic Shorthair
+Siamese"
+"Exotic Shorthair Mix"
+"Havana Brown Mix"
+"Himalayan"
+"Himalayan Mix"
+"Japanese Bobtail Mix"
+"Javanese Mix"
+"Maine Coon"
+"Maine Coon Mix"
+"Manx"
+"Manx Mix"
+"Manx
+Domestic Longhair"
+"Manx
+Domestic Shorthair"
+"Munchkin Longhair Mix"
+"Norwegian Forest Cat Mix"
+"Ocicat Mix"
+"Persian"
+"Persian Mix"
+"Pixiebob Shorthair Mix"
+"Ragdoll"
+"Ragdoll Mix"
+"Russian Blue"
+"Russian Blue Mix"
+"Siamese"
+"Siamese Mix"
+"Siamese
+Domestic Shorthair"
+"Siamese
+Japanese Bobtail"
+"Snowshoe"
+"Snowshoe Mix"
+"Snowshoe
+Ragdoll"
+"Sphynx"
+"Tonkinese Mix"
+"Turkish Van Mix"
