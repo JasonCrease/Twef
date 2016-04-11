@@ -245,8 +245,8 @@ yCat = yCat - 1
 param <- list("objective" = "multi:softprob",   # multiclass classification 
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
-              "max_depth" = 7,             # maximum depth of tree 
-              "eta" = 0.015,                # step size shrinkage 
+              "max_depth" = 10,             # maximum depth of tree 
+              "eta" = 0.02,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
               "subsample" = 0.9,         # part of data instances to grow tree 
@@ -255,7 +255,7 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
-nRounds = 800
+nRounds = 700
 nFold   = 4
 
 bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
@@ -264,6 +264,8 @@ minErrorCatIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorCat
 minErrorCatIndex
 
+param$max_depth = 7
+param$eta = 0.02
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
@@ -317,8 +319,8 @@ head(plausible,n=8)
 
 stop()
 
-names <- dimnames(dfCatTrain)[[2]]
-importance_matrix <- xgb.importance(names, model = bstCat)
+names <- dimnames(dfDogTrain)[[2]]
+importance_matrix <- xgb.importance(names, model = bstDog)
 importance_matrix$Feature = factor(importance_matrix$Feature, levels = importance_matrix$Feature)
 ggplot(importance_matrix, aes(x=Feature, y = Gain))  + coord_flip() + geom_bar(stat="identity")
 
