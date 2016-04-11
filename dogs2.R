@@ -28,9 +28,15 @@ dfCatRaw   =dfraw[dfraw$AnimalType   =="Cat",]
 dfDogRawSub=dfrawsub[dfrawsub$AnimalType=="Dog",]
 dfCatRawSub=dfrawsub[dfrawsub$AnimalType=="Cat",]
 
-# Add breedData data
+# Add breedData data. We have to add a row number column and sort by it to preserve order. Sigh.
+dfDogRaw$RowNums = as.numeric(row.names(dfDogRaw))
 dfDogRaw = merge(dfDogRaw,breedData,by="Breed",all.y=FALSE,all.x=TRUE)
+dfDogRaw = dfDogRaw[order(dfDogRaw$RowNums),] 
+dfDogRaw$RowNums <- NULL
+dfDogRawSub$RowNums = as.numeric(row.names(dfDogRawSub))
 dfDogRawSub = merge(dfDogRawSub,breedData,by="Breed",all.y=FALSE,all.x=TRUE)
+dfDogRawSub = dfDogRawSub[order(dfDogRawSub$RowNums),] 
+dfDogRawSub$RowNums <- NULL
 
 # Make columns match so rbind is possible
 dfDogRawSub=subset(dfDogRawSub, select = -c(ID))
@@ -41,6 +47,8 @@ allDog = rbind(dfDogRaw, dfDogRawSub)
 allDog$Breed = factor(allDog$Breed)   # drop unused levels
 #breedTable = sort(table(allDog$Breed),decreasing = TRUE)
 #write.csv(file = "dogBreedList.csv", x=names(breedTable),col.names = FALSE,row.names=FALSE)
+
+head(dfDogRawSub)
 
 dfCatRawSub=subset(dfCatRawSub, select = -c(ID))
 dfCatRawSub$OutcomeType = as.factor("NULL")
@@ -61,6 +69,21 @@ catBreedsSummary <- summary(allCat$Breed,maxsum=Inf)
 dogColorSummary <- summary(allDog$Color,maxsum=Inf)
 catColorSummary <- summary(allCat$Color,maxsum=Inf)
 
+interestingBreeds=c(
+  "Australian Kelpie Mix",
+  "Dachshund Mix",
+  "Yorkshire Terrier Mix",
+  "Rat Terrier Mix",
+  "Australian Cattle Dog Mix",
+  "Pit Bull Mix",
+  "Catahoula Mix",
+  "Siberian Husky Mix",
+  "Rottweiler Mix",
+  "American Bulldog Mix",
+  "Cairn Terrier Mix",
+  "Shih Tzu Mix",
+  "Staffordshire Mix",
+  "American Staffordshire Terrier Mix")
 
 cleanGeneral <- function(x){
   # This is irrelevant
@@ -101,24 +124,9 @@ cleanGeneral <- function(x){
   x
 }
 
-interestingBreeds=c(
-  "Australian Kelpie Mix",
-  "Dachshund Mix",
-  "Yorkshire Terrier Mix",
-  "Rat Terrier Mix",
-  "Australian Cattle Dog Mix",
-  "Pit Bull Mix",
-  "Catahoula Mix",
-  "Siberian Husky Mix",
-  "Rottweiler Mix",
-  "American Bulldog Mix",
-  "Cairn Terrier Mix",
-  "Shih Tzu Mix",
-  "Staffordshire Mix",
-  "American Staffordshire Terrier Mix")
 
 cleanDog <- function(x){
-  x$BreedWeirdness <- dogBreedsSummary[match(x$Breed,names(dogBreedsSummary))]
+  x$BreedWeirdness  <- dogBreedsSummary[match(x$Breed,names(dogBreedsSummary))]
   x$ColorWeirdness  <- dogColorSummary[match(x$Color, names(dogColorSummary))]
   x$NameWeirdness   <- dogNameSummary[match(x$Name, names(dogNameSummary))]
   
@@ -226,22 +234,22 @@ options(na.action="na.fail")
 
 dfDogMat = model.matrix(OutcomeType ~ ., dfDogTrain)
 mode(dfDogMat) = "numeric"
-yDog   = as.matrix(as.integer(dfDogTrain$OutcomeType))
-yDog = yDog -1
+yDog = as.matrix(as.integer(dfDogTrain$OutcomeType))
+yDog = yDog - 1
 
 dfCatMat = model.matrix(OutcomeType ~ ., dfCatTrain)
 mode(dfCatMat) = "numeric"
-yCat   = as.matrix(as.integer(dfCatTrain$OutcomeType))
-yCat = yCat -1
+yCat = as.matrix(as.integer(dfCatTrain$OutcomeType))
+yCat = yCat - 1
 
 param <- list("objective" = "multi:softprob",   # multiclass classification 
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
-              "max_depth" = 8,             # maximum depth of tree 
-              "eta" = 0.02,                # step size shrinkage 
+              "max_depth" = 7,             # maximum depth of tree 
+              "eta" = 0.015,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
-              "subsample" = 0.8,         # part of data instances to grow tree 
+              "subsample" = 0.9,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
               "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
@@ -302,6 +310,10 @@ predPetsSorted = predPets[order(predPets$ID),]
 head(predPetsSorted,n=8)
 
 write.csv(x=predPetsSorted, file = "submit1.csv", row.names = FALSE)
+
+plausible=read.csv("./plausible.csv", header=TRUE)
+head(plausible,n=8)
+
 
 stop()
 
