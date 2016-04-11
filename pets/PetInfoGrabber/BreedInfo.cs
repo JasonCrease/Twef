@@ -14,8 +14,11 @@ namespace PetInfoGrabber
         public int GoodWithKids { get; private set; }
         public int Trainability { get; private set; }
         public int Intelligence { get; private set; }
+        public int CatFriendly  { get; private set; }
+        public int DogFriendly  { get; private set; }
 
         public static Dictionary<string, BreedInfo> breedCache = new Dictionary<string, BreedInfo>();
+
 
         internal static BreedInfo GetInfo(string breed)
         {
@@ -71,21 +74,13 @@ namespace PetInfoGrabber
                 else
                     binf.Weight = 50;
 
-                Match goodWithKidsMatch = Regex.Match(breedPage, "Good with Kids(.*)Cat Friendly", RegexOptions.Singleline);
-                string goodWithKidsStr = goodWithKidsMatch.Groups[1].Value.Trim();
-                binf.GoodWithKids = Regex.Matches(goodWithKidsStr, "star01").Count;
-
-                if (binf.GoodWithKids == 0 || binf.GoodWithKids > 5) binf.GoodWithKids = 3;
-
-                Match trainabilityMatch = Regex.Match(breedPage, "Trainability(.*)Shedding", RegexOptions.Singleline);
-                string trainabilityStr = trainabilityMatch.Groups[1].Value.Trim();
-                binf.Trainability = Regex.Matches(trainabilityStr, "star01").Count;
-                if (binf.Trainability == 0 || binf.Trainability > 5) binf.Trainability = 3;
-
-                Match intelligenceMatch = Regex.Match(breedPage, "Intelligence(.*)Grooming", RegexOptions.Singleline);
-                string intelligenceStr = intelligenceMatch.Groups[1].Value.Trim();
-                binf.Intelligence = Regex.Matches(intelligenceStr, "star01").Count;
-                if (binf.Intelligence == 0 || binf.Intelligence > 5) binf.Intelligence = 3;
+                binf.GoodWithKids = GetStarsBetween(breedPage, "Good with Kids", "Cat Friendly");
+                binf.CatFriendly = GetStarsBetween(breedPage, "Cat Friendly", "Dog Friendly");
+                binf.DogFriendly = GetStarsBetween(breedPage, "Dog Friendly", "Trainability");
+                binf.Trainability = GetStarsBetween(breedPage, "Trainability", "Shedding");
+                binf.Shedding  = GetStarsBetween(breedPage, "Shedding", "Watchdog");
+                binf.Intelligence = GetStarsBetween(breedPage, "Intelligence", "Grooming");
+                binf.Adaptability = GetStarsBetween(breedPage, "Adaptability", "Hypoallergenic");
             }
             catch (BreedNotFoundException)
             {
@@ -94,5 +89,19 @@ namespace PetInfoGrabber
             breedCache[breed] = binf;
             return binf;
         }
+
+        private static int GetStarsBetween(string breedPage, string s1, string s2)
+        {
+            Match intelligenceMatch = Regex.Match(breedPage, s1+ "(.*)" + s2, RegexOptions.Singleline);
+            string intelligenceStr = intelligenceMatch.Groups[1].Value.Trim();
+            int x = Regex.Matches(intelligenceStr, "star01").Count;
+            if (x == 0 || x > 5) x = 3;
+
+            return x;
+        }
+
+        public int Adaptability { get; set; }
+
+        public int Shedding { get; set; }
     }
 }

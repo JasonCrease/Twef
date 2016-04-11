@@ -20,7 +20,7 @@ namespace PetInfoGrabber
                 if (File.Exists(fileName))
                     return File.ReadAllText(fileName);
                 else
-                    throw new BreedNotFoundException();
+                   throw new BreedNotFoundException();
 
                 string webPage = "http://www.dogbreedslist.info/all-dog-breeds/" + breed + ".html";
                 downloadString = client.DownloadString(webPage);

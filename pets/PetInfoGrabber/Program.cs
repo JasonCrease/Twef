@@ -28,7 +28,7 @@ namespace PetInfoGrabber
 
             using (StreamWriter sw = new StreamWriter(new FileStream(".\\..\\..\\BreedListOut.csv", FileMode.Create)))
             {
-                sw.WriteLine("Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability,Intelligence");
+                sw.WriteLine("Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability,Intelligence,Adaptability,CatFriendly,DogFriendly,Shedding");
 
                 foreach (string breed in breedList)
                 {
@@ -67,47 +67,64 @@ namespace PetInfoGrabber
                         }
                     }
 
-                    string line = breed + ",";
-                    string weight = "";
-                    string height = "";
-                    string price = "";
-                    string lifespan = "";
-                    string goodWithKids = "";
-                    string trainability = "";
-                    string intelligence = "";
+                    int weight = 50;
+                    int height = 25;
+                    int price = 800;
+                    int lifespan = 14;
+
+                    int goodWithKids = 3;
+                    int trainability = 3;
+                    int intelligence = 4;
+                    int adaptability = 4;
+                    int catFriendly = 3;
+                    int dogFriendly = 3;
+                    int shedding = 3;
 
                     if (breedInfo1 != null && breedInfo2 == null)
                     {
-                        weight = breedInfo1.Weight.ToString();
-                        height = breedInfo1.Height.ToString();
-                        price = breedInfo1.Price.ToString();
-                        lifespan = breedInfo1.LifeSpan.ToString();
-                        goodWithKids = breedInfo1.GoodWithKids.ToString();
-                        trainability = breedInfo1.Trainability.ToString();
-                        intelligence = breedInfo1.Intelligence.ToString();
+                        weight = breedInfo1.Weight;
+                        height = breedInfo1.Height;
+                        price = breedInfo1.Price;
+                        lifespan = breedInfo1.LifeSpan;
+                        goodWithKids = breedInfo1.GoodWithKids;
+                        trainability = breedInfo1.Trainability;
+                        intelligence = breedInfo1.Intelligence;
+                        adaptability = breedInfo1.Adaptability;
+                        catFriendly = breedInfo1.CatFriendly;
+                        dogFriendly = breedInfo1.DogFriendly;
+                        shedding = breedInfo1.Shedding;
                     }
                     if (breedInfo1 == null && breedInfo2 != null)
                     {
-                        weight = breedInfo2.Weight.ToString();
-                        height = breedInfo2.Height.ToString();
-                        price = breedInfo2.Price.ToString();
-                        lifespan = breedInfo2.LifeSpan.ToString();
-                        goodWithKids = breedInfo2.GoodWithKids.ToString();
-                        trainability = breedInfo2.Trainability.ToString();
-                        intelligence = breedInfo2.Intelligence.ToString();
+                        weight = breedInfo2.Weight;
+                        height = breedInfo2.Height;
+                        price = breedInfo2.Price;
+                        lifespan = breedInfo2.LifeSpan;
+                        goodWithKids = breedInfo2.GoodWithKids;
+                        trainability = breedInfo2.Trainability;
+                        intelligence = breedInfo2.Intelligence;
+                        adaptability = breedInfo2.Adaptability;
+                        catFriendly = breedInfo2.CatFriendly;
+                        dogFriendly = breedInfo2.DogFriendly;
+                        shedding = breedInfo2.Shedding;
                     }
                     if (breedInfo1 != null && breedInfo2 != null)
                     {
-                        weight = ((breedInfo1.Weight + breedInfo2.Weight) / 2).ToString();
-                        height = ((breedInfo1.Height + breedInfo2.Height) / 2).ToString();
-                        price = ((breedInfo1.Price + breedInfo2.Price) / 2).ToString();
-                        lifespan = ((breedInfo1.LifeSpan + breedInfo2.LifeSpan) / 2).ToString();
-                        goodWithKids = ((breedInfo1.GoodWithKids + breedInfo2.GoodWithKids) / 2).ToString();
-                        trainability = ((breedInfo1.Trainability + breedInfo2.Trainability) / 2).ToString();
-                        intelligence = ((breedInfo1.Intelligence + breedInfo2.Intelligence) / 2).ToString();
+                        weight = ((breedInfo1.Weight + breedInfo2.Weight) / 2);
+                        height = ((breedInfo1.Height + breedInfo2.Height) / 2);
+                        price = ((breedInfo1.Price + breedInfo2.Price) / 2);
+                        lifespan = ((breedInfo1.LifeSpan + breedInfo2.LifeSpan) / 2);
+                        goodWithKids = ((breedInfo1.GoodWithKids + breedInfo2.GoodWithKids) / 2);
+                        trainability = ((breedInfo1.Trainability + breedInfo2.Trainability) / 2);
+                        intelligence = ((breedInfo1.Intelligence + breedInfo2.Intelligence) / 2);
+                        adaptability = ((breedInfo1.Adaptability + breedInfo2.Adaptability) / 2);
+                        catFriendly = ((breedInfo1.CatFriendly + breedInfo2.CatFriendly) / 2);
+                        dogFriendly = ((breedInfo1.DogFriendly + breedInfo2.DogFriendly) / 2);
+                        shedding = ((breedInfo1.Shedding + breedInfo2.Shedding) / 2);
                     }
 
-                    line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7}", breed, weight, height, price, lifespan, goodWithKids, trainability, intelligence);
+                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}", breed, weight, height, price, lifespan, goodWithKids,
+                        trainability, intelligence, adaptability, catFriendly, dogFriendly, shedding);
 
                     sw.WriteLine(line);
                 }

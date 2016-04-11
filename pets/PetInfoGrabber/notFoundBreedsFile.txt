@@ -4386,3 +4386,723 @@ Dutch Shepherd"
 "Silky Terrier"
 "Silky Terrier
 Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
+"Black
+"Belgian Malinois Mix"
+"Dogo Argentino Mix"
+"Chesa Bay Retr Mix"
+"Pbgv Mix"
+"Brittany Mix"
+"Dutch Shepherd Mix"
+"Bluetick Hound Mix"
+"Feist Mix"
+"Patterdale Terr Mix"
+"Silky Terrier Mix"
+"Dogue De Bordeaux Mix"
+"Pbgv"
+"Affenpinscher Mix"
+"Podengo Pequeno Mix"
+"Treeing Cur Mix"
+"Cane Corso Mix"
+Black
+"Black
+"Cane Corso"
+"Glen Of Imaal Mix"
+"Presa Canario Mix"
+"Bedlington Terr Mix"
+"Belgian Malinois"
+"Boykin Span Mix"
+"Brittany"
+"Bull Terrier Miniature Mix"
+Black
+"Jindo Mix"
+"Nova Scotia Duck Tolling Retriever Mix"
+"Old English Bulldog Mix"
+"Picardy Sheepdog Mix"
+"Belgian Sheepdog Mix"
+"Belgian Tervuren Mix"
+"Black
+"Brittany
+"Bull Terrier Miniature"
+"Dogo Argentino"
+"Dogo Argentino
+"Dutch Shepherd"
+"Mexican Hairless Mix"
+"Nova Scotia Duck Tolling Retriever"
+"Port Water Dog Mix"
+"Presa Canario"
+"Unknown Mix"
+"Picardy Sheepdog"
+"Afghan Hound Mix"
+Belgian Malinois"
+Nova Scotia Duck Tolling Retriever"
+"Belgian Malinois
+"Belgian Sheepdog"
+"Belgian Tervuren
+"Black
+"Black
+"Bluetick Hound"
+"Bluetick Hound
+Affenpinscher"
+"Boykin Span
+"Brittany
+Affenpinscher"
+"Cane Corso
+"Chesa Bay Retr"
+Affenpinscher"
+Pbgv"
+Belgian Malinois"
+"Dogo Argentino
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Entlebucher Mix"
+Nova Scotia Duck Tolling Retriever"
+"Glen Of Imaal
+Brittany"
+Unknown"
+Chesa Bay Retr"
+Pbgv"
+Yorkshire"
+"Nova Scotia Duck Tolling Retriever
+"Patterdale Terr
+Brittany"
+Dogue De Bordeaux"
+Black
+Brittany"
+"Sealyham Terr Mix"
+Brittany"
+Affenpinscher"
+"Silky Terrier
+"Swiss Hound
+"Treeing Tennesse Brindle"
+Brittany"
+Feist"
+"Belgian Malinois
+"Black
+"Bluetick Hound
+Brittany"
+Dogue De Bordeaux"
+"Boykin Span"
+"Brittany
+"Chesa Bay Retr
+Cirneco"
+Mexican Hairless"
+"Dachshund Stan Mix"
+"Dandie Dinmont"
+"Dogue De Bordeaux
+"Dutch Shepherd
+"Dutch Shepherd
+"Dutch Shepherd
+"Eng Toy Spaniel Mix"
+"Feist
+Brittany"
+Brittany"
+"Jindo
+Brittany"
+Cane Corso"
+Dutch Shepherd"
+"Nova Scotia Duck Tolling Retriever
+"Old English Bulldog"
+"Pbgv
+"Silky Terrier"
+"Silky Terrier
+Treeing Cur"
