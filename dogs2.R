@@ -10,18 +10,10 @@ library(h2o)
 library(lubridate)
 
 
-setwd("f:/Github/twef/pets/")
+setwd("d:/Github/twef/pets/")
 breedData = read.csv("./PetInfoGrabber/breedListout.csv")
 dfraw    <- read.csv("./train.csv")
 dfrawsub <- read.csv("./test.csv")
-
-breedData[is.na(breedData$Weight),]$Weight = 50
-breedData[is.na(breedData$Height),]$Height = 25
-breedData[is.na(breedData$Lifespan),]$Lifespan = 12
-breedData[is.na(breedData$Price),]$Price = 600
-breedData[is.na(breedData$Intelligence),]$Intelligence = 3
-breedData[is.na(breedData$GoodWithKids),]$GoodWithKids = 3
-breedData[is.na(breedData$Trainability),]$Trainability = 3
 
 dfDogRaw   =dfraw[dfraw$AnimalType   =="Dog",]
 dfCatRaw   =dfraw[dfraw$AnimalType   =="Cat",]
@@ -48,8 +40,6 @@ allDog$Breed = factor(allDog$Breed)   # drop unused levels
 #breedTable = sort(table(allDog$Breed),decreasing = TRUE)
 #write.csv(file = "dogBreedList.csv", x=names(breedTable),col.names = FALSE,row.names=FALSE)
 
-head(dfDogRawSub)
-
 dfCatRawSub=subset(dfCatRawSub, select = -c(ID))
 dfCatRawSub$OutcomeType = as.factor("NULL")
 dfCatRawSub$OutcomeSubtype = as.factor("NULL")
@@ -61,7 +51,7 @@ allCat$Breed = factor(allCat$Breed)   # drop unused levels
 
 # Assemble popularity stats
 popularDogBreeds <- names(summary(allDog$Breed,maxsum=3L))
-popularCatBreeds <- names(summary(allCat$Breed,maxsum=3))
+popularCatBreeds <- names(summary(allCat$Breed,maxsum=6))
 dogNameSummary   <- summary(allDog$Name, maxsum=Inf)
 catNameSummary   <- summary(allCat$Name, maxsum=Inf)
 dogBreedsSummary <- summary(allDog$Breed,maxsum=Inf)
@@ -70,20 +60,22 @@ dogColorSummary <- summary(allDog$Color,maxsum=Inf)
 catColorSummary <- summary(allCat$Color,maxsum=Inf)
 
 interestingBreeds=c(
-  "Australian Kelpie Mix",
-  "Dachshund Mix",
-  "Yorkshire Terrier Mix",
-  "Rat Terrier Mix",
-  "Australian Cattle Dog Mix",
   "Pit Bull Mix",
-  "Catahoula Mix",
-  "Siberian Husky Mix",
-  "Rottweiler Mix",
-  "American Bulldog Mix",
-  "Cairn Terrier Mix",
+  "Yorkshire Terrier Mix",
   "Shih Tzu Mix",
-  "Staffordshire Mix",
-  "American Staffordshire Terrier Mix")
+  "Australian Cattle Dog Mix",
+  "Dachshund Mix",
+  "Cairn Terrier Mix",
+  "American Bulldog Mix"
+  #"Siberian Husky Mix",
+  #"Australian Kelpie Mix",
+  #"Rat Terrier Mix",
+  #"Catahoula Mix",
+  #"Rottweiler Mix",
+  #"Staffordshire Mix",
+  #"American Staffordshire Terrier Mix"
+  )
+
 
 cleanGeneral <- function(x){
   # This is irrelevant
@@ -112,7 +104,7 @@ cleanGeneral <- function(x){
   x$NameKnown = TRUE
   x[x$NameLen == 0,"NameKnown"] = FALSE
   
-  for(i in c("Spayed Female","Intact Male","Intact Female","Neutered Male","Unknown")) x[[paste0("sex.",i)]] <- grepl(i,x$SexuponOutcome)
+  for(i in c("Spayed Female","Intact Male","Intact Female","Neutered Male","Unknown")) x[[paste0("sex.",gsub(" ", "", i))]] <- grepl(i,x$SexuponOutcome)
   x$SexuponOutcome <- NULL
   
   x$ColorMix = FALSE
@@ -167,7 +159,7 @@ cleanCat <- function(x){
   x$NameWeirdness  <- catNameSummary[match(x$Name, names(catNameSummary))]
   
   x$AnimalID <- NULL
-  for(i in c("Black","White","Brown","Blue","Orange","Calico","Gold","Red","Tan","Tortie","Torbie","Yellow")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
+  for(i in c("Black","White","Tabby","Brown","Orange","Tortie","Blue","Calico")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
   x$Color <- NULL
   for(i in popularCatBreeds) x[[paste0("breed.",make.names(i))]] <- x$Breed == i
   x$Breed <- NULL
@@ -249,28 +241,32 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
               "eta" = 0.02,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
-              "subsample" = 0.9,         # part of data instances to grow tree 
+              "subsample" = 0.8,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
               "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
-nRounds = 700
-nFold   = 4
-
-bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
-minErrorCat = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
-minErrorCatIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
-minErrorCat
-minErrorCatIndex
+nRounds = 800
+nFold   = 5
 
 param$max_depth = 7
 param$eta = 0.02
+param$subsample = 0.8
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
 minErrorDog
 minErrorDogIndex
+
+param$max_depth = 8
+param$eta = 0.02
+param$subsample = 0.8
+bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
+minErrorCat = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
+minErrorCatIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
+minErrorCat
+minErrorCatIndex
 
 errorEstOverall = ((minErrorDog * nrow(dfDogTrain)) +  (minErrorCat * nrow(dfCatTrain))) / (nrow(dfDogTrain) + nrow(dfCatTrain))
 errorEstOverall
@@ -309,15 +305,13 @@ catPredsDf = data.frame(ID = dfrawsub[dfrawsub$AnimalType=="Cat",]$ID,  catPreds
 predPets = rbind(catPredsDf, dogPredsDf)
 names(predPets) = c("ID", "Adoption", "Died", "Euthanasia", "Return_to_owner", "Transfer")
 predPetsSorted = predPets[order(predPets$ID),]
-head(predPetsSorted,n=8)
+#head(predPetsSorted,n=8)
 
 write.csv(x=predPetsSorted, file = "submit1.csv", row.names = FALSE)
 
-plausible=read.csv("./plausible.csv", header=TRUE)
-head(plausible,n=8)
+#plausible=read.csv("./plausible.csv", header=TRUE)
+#head(plausible,n=8)
 
-
-stop()
 
 names <- dimnames(dfDogTrain)[[2]]
 importance_matrix <- xgb.importance(names, model = bstDog)
@@ -325,9 +319,12 @@ importance_matrix$Feature = factor(importance_matrix$Feature, levels = importanc
 ggplot(importance_matrix, aes(x=Feature, y = Gain))  + coord_flip() + geom_bar(stat="identity")
 
 
+stop()
+
+
 # Startup h2o
 
-localH2O = h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, max_mem_size = '2g', nthreads = 4 )
+localH2O = h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, max_mem_size = '2g', nthreads = 3 )
 
 for(i in names(dfDogTrain))
   if(is.logical(dfDogTrain[[i]])) 
@@ -337,7 +334,7 @@ for(i in names(dfDogTrain))
 
 # Use h2o on dogs
 
-trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.95, list = FALSE)
+trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.9, list = FALSE)
 dfDogTrain  = dfDog[trainingRows,]
 dfDogTest   = dfDog[-trainingRows,]
 
@@ -351,7 +348,10 @@ for(i in names(dfDogTrain))
 
 dat_h2o      = as.h2o(dfDogTrain)
 testdat_h2o  = as.h2o(dfDogTest)
- 
+modelDog = h2o.randomForest(x = 1:40, y = 2, nfolds=3, training_frame = dat_h2o, 
+                            validation_frame = testdat_h2o,ntrees=1000)
+summary(modelDog)
+
 subDogForh2o = subDog
 levels(subDogForh2o$OutcomeType) = c("Adoption", "Died", "Euthanasia", "Return_to_owner", "Transfer")
 subDog_h2o  = as.h2o(subDogForh2o)
