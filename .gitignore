@@ -1,3 +1,5 @@
+pets/petinfograbber/BreedPages/
+
 #################
 ## Eclipse
 #################
@@ -214,3 +216,5 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 *.json
+pets/.RData
+*.csv
