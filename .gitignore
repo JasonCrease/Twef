@@ -220,3 +220,4 @@ pets/.RData
 *.csv
 pets/PetInfoGrabber/notFoundBreedsFile.txt
 pets/PetInfoGrabber/notFoundBreedsFile.txt
+pets/.Rhistory
