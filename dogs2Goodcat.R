@@ -45,11 +45,11 @@ cleanGeneral <- function(x){
   
   #Datetime stuff
   
-  x$MinuteOfDay <- (hour(x$DateTime) * 60) + minute(x$DateTime) 
+  x$MinuteOfDay <- (lubridate::hour(x$DateTime) * 60) + minute(x$DateTime) 
   x$Weekday     <- wday(x$DateTime)
   x$IsWeekend = FALSE
   x[x$Weekday == 1 | x$Weekday == 7,]$IsWeekend = TRUE
-  x$Month       <- month(x$DateTime)
+  x$Month       <- lubridate::month(x$DateTime)
   x$DateTime    <- as.numeric(as.POSIXct(x$DateTime))
   
   AgeYears <- as.numeric(gsub(" years?","",x$AgeuponOutcome))
@@ -202,7 +202,7 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
 
 nRounds = 800
 
-bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=5, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
+bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=4, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
 minErrorDog
