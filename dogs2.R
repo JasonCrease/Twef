@@ -61,20 +61,20 @@ catColorSummary <- summary(allCat$Color,maxsum=Inf)
 
 interestingBreeds=c(
   "Pit Bull Mix",
-  "Yorkshire Terrier Mix",
-  "Shih Tzu Mix",
   "Australian Cattle Dog Mix",
+  "Yorkshire Terrier Mix",
   "Dachshund Mix",
+  "Shih Tzu Mix",
+  "Siberian Husky Mix",
   "Cairn Terrier Mix",
-  "American Bulldog Mix"
-  #"Siberian Husky Mix",
-  #"Australian Kelpie Mix",
-  #"Rat Terrier Mix",
-  #"Catahoula Mix",
-  #"Rottweiler Mix",
-  #"Staffordshire Mix",
-  #"American Staffordshire Terrier Mix"
-  )
+  "American Bulldog Mix",
+  "Australian Kelpie Mix",
+  "Rat Terrier Mix",
+  "Catahoula Mix",
+  "Rottweiler Mix",
+  "Staffordshire Mix",
+  "American Staffordshire Terrier Mix"
+)
 
 
 cleanGeneral <- function(x){
@@ -116,14 +116,13 @@ cleanGeneral <- function(x){
   x
 }
 
-
 cleanDog <- function(x){
   x$BreedWeirdness  <- dogBreedsSummary[match(x$Breed,names(dogBreedsSummary))]
   x$ColorWeirdness  <- dogColorSummary[match(x$Color, names(dogColorSummary))]
   x$NameWeirdness   <- dogNameSummary[match(x$Name, names(dogNameSummary))]
-  
+
   x$AnimalID <- NULL
-  for(i in c("Black","White","Tan")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
+  for(i in c("Black","White","Tan","Tricolor","Brown","Brindle","Blue","Red","Sable","Yellow","Buff")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
   x$Color <- NULL
   for(i in interestingBreeds) x[[paste0("breed.",make.names(i))]] <- x$Breed == i
   x$Breed <- NULL
@@ -237,31 +236,27 @@ yCat = yCat - 1
 param <- list("objective" = "multi:softprob",   # multiclass classification 
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
-              "max_depth" = 10,             # maximum depth of tree 
+              "max_depth" = 7,             # maximum depth of tree 
               "eta" = 0.02,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
-              "subsample" = 0.8,         # part of data instances to grow tree 
+              "subsample" = 0.7,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
-              "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
+              "colsample_bytree" = 0.7   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
 nRounds = 800
 nFold   = 5
 
-param$max_depth = 7
-param$eta = 0.02
-param$subsample = 0.8
+set.seed(20160415L)
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorDog = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
 minErrorDog
 minErrorDogIndex
 
-param$max_depth = 8
-param$eta = 0.02
-param$subsample = 0.8
+set.seed(920160415L)
 bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorCat = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorCatIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean]) 
@@ -312,19 +307,19 @@ write.csv(x=predPetsSorted, file = "submit1.csv", row.names = FALSE)
 #plausible=read.csv("./plausible.csv", header=TRUE)
 #head(plausible,n=8)
 
+#stop()
 
 names <- dimnames(dfDogTrain)[[2]]
 importance_matrix <- xgb.importance(names, model = bstDog)
+importance_matrix
 importance_matrix$Feature = factor(importance_matrix$Feature, levels = importance_matrix$Feature)
 ggplot(importance_matrix, aes(x=Feature, y = Gain))  + coord_flip() + geom_bar(stat="identity")
 
-
 stop()
-
 
 # Startup h2o
 
-localH2O = h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, max_mem_size = '2g', nthreads = 3 )
+localH2O = h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, max_mem_size = '4g', nthreads = 2 )
 
 for(i in names(dfDogTrain))
   if(is.logical(dfDogTrain[[i]])) 
@@ -334,7 +329,7 @@ for(i in names(dfDogTrain))
 
 # Use h2o on dogs
 
-trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.9, list = FALSE)
+trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.8, list = FALSE)
 dfDogTrain  = dfDog[trainingRows,]
 dfDogTest   = dfDog[-trainingRows,]
 
@@ -348,9 +343,10 @@ for(i in names(dfDogTrain))
 
 dat_h2o      = as.h2o(dfDogTrain)
 testdat_h2o  = as.h2o(dfDogTest)
-modelDog = h2o.randomForest(x = 1:40, y = 2, nfolds=3, training_frame = dat_h2o, 
-                            validation_frame = testdat_h2o,ntrees=1000)
-summary(modelDog)
+modelDog = h2o.randomForest(x = 1:56, y = 2, training_frame = dat_h2o, 
+                            validation_frame = testdat_h2o,ntrees=500)
+#summary(modelDog)
+h2o.logloss(modelDog)
 
 subDogForh2o = subDog
 levels(subDogForh2o$OutcomeType) = c("Adoption", "Died", "Euthanasia", "Return_to_owner", "Transfer")
@@ -360,18 +356,38 @@ h2oDog_submit = h2o.predict(object = modelDog, newdata = subDog_h2o)
 dfh2oDogSubmit = as.data.frame(h2oDog_submit)
 dfh2oDogSubmit$ID = dfrawsub[dfrawsub$AnimalType=="Dog",]$ID
 
+dfDogTrain$WasAdopted = 0
+dfDogTrain[dfDogTrain$OutcomeType == 'Adoption',"WasAdopted"] = 1 
+glm = glm(formula = WasAdopted ~ Weight + Height + Weekday + AgeuponOutcome 
+          + dfDogTrain$GoodWithKids 
+          + dfDogTrain$Trainability
+          + dfDogTrain$Price
+          + dfDogTrain$CatFriendly
+          + dfDogTrain$DogFriendly
+          + dfDogTrain$Shedding
+          + dfDogTrain$Intelligence
+          + dfDogTrain$Adaptability
+          , data=dfDogTrain )
+
+dfc = subset(dfDogTrain, select = c(WasAdopted,GoodWithKids,Price,CatFriendly,DogFriendly,
+                                    Shedding,Intelligence,Adaptability,Trainability,Lifespan,Weight,Height ))
+corrgram::corrgram(dfc)
+corplot(dfDogTrain$Intelligence, dfDogTrain$DogFriendly)
+ggplot(dfDogTrain, aes(Intelligence, Lifespan))+geom_point(color="firebrick")+geom_jitter()
+
 stop()
 
 # Use h2o on cats
 
-trainingRows = createDataPartition(dfCat$OutcomeType, p = 0.95, list = FALSE)
+trainingRows = createDataPartition(dfCat$OutcomeType, p = 0.9, list = FALSE)
 dfCatTrain   = dfCat[trainingRows,]
 dfCatTest    = dfCat[-trainingRows,]
 
 dat_h2o      = as.h2o(dfCatTrain)
 testdat_h2o  = as.h2o(dfCatTest)
-modelCat = h2o.deeplearning(x = 1:34, y = 2, training_frame = dat_h2o, validation_frame = testdat_h2o,fast_mode = TRUE,
-                          hidden = c(60, 30), epochs = 200, loss = "CrossEntropy")
+modelCat = h2o.randomForest(x = 1:33, y = 2, training_frame = dat_h2o, 
+                            validation_frame = testdat_h2o, ntrees=2000)
+h2o.logloss(modelCat)
 #summary(modelCat)
 
 subCatForh2o = subCat

@@ -28,7 +28,8 @@ namespace PetInfoGrabber
 
             using (StreamWriter sw = new StreamWriter(new FileStream(".\\..\\..\\BreedListOut.csv", FileMode.Create)))
             {
-                sw.WriteLine("Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability,Intelligence,Adaptability,CatFriendly,DogFriendly,Shedding");
+                sw.WriteLine("Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability," +
+                             "Intelligence,Adaptability,CatFriendly,DogFriendly,Shedding,Hypoallergenic");
 
                 foreach (string breed in breedList)
                 {
@@ -79,6 +80,7 @@ namespace PetInfoGrabber
                     int catFriendly = 3;
                     int dogFriendly = 3;
                     int shedding = 3;
+                    bool hypoallergenic = false;
 
                     if (breedInfo1 != null && breedInfo2 == null)
                     {
@@ -93,6 +95,7 @@ namespace PetInfoGrabber
                         catFriendly = breedInfo1.CatFriendly;
                         dogFriendly = breedInfo1.DogFriendly;
                         shedding = breedInfo1.Shedding;
+                        hypoallergenic = breedInfo1.Hypoallergenic;
                     }
                     if (breedInfo1 == null && breedInfo2 != null)
                     {
@@ -107,6 +110,7 @@ namespace PetInfoGrabber
                         catFriendly = breedInfo2.CatFriendly;
                         dogFriendly = breedInfo2.DogFriendly;
                         shedding = breedInfo2.Shedding;
+                        hypoallergenic = breedInfo2.Hypoallergenic;
                     }
                     if (breedInfo1 != null && breedInfo2 != null)
                     {
@@ -121,10 +125,11 @@ namespace PetInfoGrabber
                         catFriendly = ((breedInfo1.CatFriendly + breedInfo2.CatFriendly) / 2);
                         dogFriendly = ((breedInfo1.DogFriendly + breedInfo2.DogFriendly) / 2);
                         shedding = ((breedInfo1.Shedding + breedInfo2.Shedding) / 2);
+                        hypoallergenic = breedInfo1.Hypoallergenic && breedInfo2.Hypoallergenic;
                     }
 
-                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}", breed, weight, height, price, lifespan, goodWithKids,
-                        trainability, intelligence, adaptability, catFriendly, dogFriendly, shedding);
+                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12}", breed, weight, height, price, lifespan, goodWithKids,
+                        trainability, intelligence, adaptability, catFriendly, dogFriendly, shedding, hypoallergenic);
 
                     sw.WriteLine(line);
                 }

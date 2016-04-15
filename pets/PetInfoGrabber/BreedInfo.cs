@@ -15,7 +15,10 @@ namespace PetInfoGrabber
         public int Trainability { get; private set; }
         public int Intelligence { get; private set; }
         public int CatFriendly  { get; private set; }
-        public int DogFriendly  { get; private set; }
+        public int DogFriendly { get; private set; }
+        public int Adaptability { get; private set; }
+        public int Shedding { get; private set; }
+        public bool Hypoallergenic { get; private set; }
 
         public static Dictionary<string, BreedInfo> breedCache = new Dictionary<string, BreedInfo>();
 
@@ -81,6 +84,13 @@ namespace PetInfoGrabber
                 binf.Shedding  = GetStarsBetween(breedPage, "Shedding", "Watchdog");
                 binf.Intelligence = GetStarsBetween(breedPage, "Intelligence", "Grooming");
                 binf.Adaptability = GetStarsBetween(breedPage, "Adaptability", "Hypoallergenic");
+
+
+                Match hypoMatch = Regex.Match(breedPage, "Hypoallergenic(.*)Overview", RegexOptions.Singleline);
+                string hypoStr = hypoMatch.Groups[1].Value.Trim();
+
+                binf.Hypoallergenic = false;
+                if (hypoStr.Contains("Yes")) binf.Hypoallergenic = true;
             }
             catch (BreedNotFoundException)
             {
@@ -99,9 +109,5 @@ namespace PetInfoGrabber
 
             return x;
         }
-
-        public int Adaptability { get; set; }
-
-        public int Shedding { get; set; }
     }
 }
