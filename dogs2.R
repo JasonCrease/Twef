@@ -104,7 +104,12 @@ cleanGeneral <- function(x){
   x$NameKnown = TRUE
   x[x$NameLen == 0,"NameKnown"] = FALSE
   
-  for(i in c("Spayed Female","Intact Male","Intact Female","Neutered Male","Unknown")) x[[paste0("sex.",gsub(" ", "", i))]] <- grepl(i,x$SexuponOutcome)
+  x$Male   = FALSE
+  x$Intact = FALSE
+  x$UnknownIntactness = FALSE
+  x[x$SexuponOutcome == "Intact Male"   | x$SexuponOutcome == "Neutered Male",]$Male = TRUE
+  x[x$SexuponOutcome == "Intact Female" | x$SexuponOutcome == "Intact Male",]$Intact = TRUE
+  x[x$SexuponOutcome == "Unknown",]$UnknownIntactness = TRUE
   x$SexuponOutcome <- NULL
   
   x$ColorMix = FALSE
@@ -236,13 +241,13 @@ yCat = yCat - 1
 param <- list("objective" = "multi:softprob",   # multiclass classification 
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
-              "max_depth" = 7,             # maximum depth of tree 
+              "max_depth" = 8,             # maximum depth of tree 
               "eta" = 0.02,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
-              "subsample" = 0.7,         # part of data instances to grow tree 
+              "subsample" = 0.8,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
-              "colsample_bytree" = 0.7   # subsample ratio of columns when constructing each tree 
+              "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
@@ -265,8 +270,6 @@ minErrorCatIndex
 
 errorEstOverall = ((minErrorDog * nrow(dfDogTrain)) +  (minErrorCat * nrow(dfCatTrain))) / (nrow(dfDogTrain) + nrow(dfCatTrain))
 errorEstOverall
-
-
 
 bstDog <- xgboost(param=param, data=dfDogMat, label=yDog, nrounds=minErrorDogIndex, verbose=1, print.every.n = 50)    
 bstCat <- xgboost(param=param, data=dfCatMat, label=yCat, nrounds=minErrorCatIndex, verbose=1, print.every.n = 50)    
