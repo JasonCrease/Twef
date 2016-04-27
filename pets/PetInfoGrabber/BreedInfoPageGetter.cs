@@ -14,6 +14,7 @@ namespace PetInfoGrabber
 
             string downloadString = "";
             string fileName = ".\\..\\..\\BreedPages\\" + breed + ".txt";
+            string webPage = "http://www.dogbreedslist.info/all-dog-breeds/" + breed + ".html";
 
             try
             {
@@ -22,7 +23,6 @@ namespace PetInfoGrabber
                 else
                    throw new BreedNotFoundException();
 
-                string webPage = "http://www.dogbreedslist.info/all-dog-breeds/" + breed + ".html";
                 downloadString = client.DownloadString(webPage);
                 downloadString = downloadString.Replace("&nbsp;", " ");
                 downloadString = downloadString.Replace("&ndash;", "-");
@@ -79,6 +79,17 @@ namespace PetInfoGrabber
                 { "Britanny", "French-Britanny" },
                 { "Schnauzer-Giant", "Giant-Schnauzer" },
                 { "Soft-Coated-Wheaten-Terrier", "Soft-coated-Wheaten-Terrier" },
+                { "Dogo-Argentino", "Argentino-Dogo" },
+                { "Mexican-Hairless", "Xoloitzcuintle" },
+                { "Dogue-De-Bordeaux", "Dogue-de-Bordeaux" },
+                { "Affenpinscher", "affenpinscher" },
+                { "Dutch-Shepherd", "Dutch-Shepherd-Dog" },
+                { "Silky-Terrier", "Australian-Silky-Terrier" },
+                { "Brittany", "French-Brittany" },
+                { "Belgian-Malinois", "Belgian-Shepherd-Malinois" },
+                { "Bluetick-Hound", "Bluetick-Coonhound" },
+                { "Belgian-Sheepdog ", "Belgian-Shepherd-Tervuren" }
+                
             };
 
         private static string RegularizeBreedName(string breed)
