@@ -9,8 +9,18 @@ library(caret)
 library(xgboost)
 library(h2o)
 library(lubridate)
+<<<<<<< HEAD
 library(MLmetrics)
+=======
+library(stringr)
+>>>>>>> a48a2b6d0549e8c5be55af46a8cff8dc0f4392f9
 
+#table(dfDog$OutcomeType)
+#hist(dfDog[dfDog$OutcomeType=='Euthanasia',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Died',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Adoption',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Transfer',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Return_to_owner',]$MinuteOfDay,breaks=20)
 
 setwd("f:/Github/twef/pets/")
 breedData = read.csv("./PetInfoGrabber/breedListout.csv")
@@ -53,7 +63,7 @@ allCat$Breed = factor(allCat$Breed)   # drop unused levels
 
 # Assemble popularity stats
 popularDogBreeds <- names(summary(allDog$Breed,maxsum=3L))
-popularCatBreeds <- names(summary(allCat$Breed,maxsum=6))
+popularCatBreeds <- names(summary(allCat$Breed,maxsum=8))
 dogNameSummary   <- summary(allDog$Name, maxsum=Inf)
 catNameSummary   <- summary(allCat$Name, maxsum=Inf)
 dogBreedsSummary <- summary(allDog$Breed,maxsum=Inf)
@@ -61,23 +71,14 @@ catBreedsSummary <- summary(allCat$Breed,maxsum=Inf)
 dogColorSummary <- summary(allDog$Color,maxsum=Inf)
 catColorSummary <- summary(allCat$Color,maxsum=Inf)
 
+# 886 478
+# 885 478
+
 interestingBreeds=c(
   "Pit Bull Mix",
-  "Australian Cattle Dog Mix",
   "Yorkshire Terrier Mix",
-  "Dachshund Mix",
-  "Shih Tzu Mix",
-  "Siberian Husky Mix",
-  "Cairn Terrier Mix",
-  "American Bulldog Mix",
-  "Australian Kelpie Mix",
-  "Rat Terrier Mix",
-  "Catahoula Mix",
-  "Rottweiler Mix",
-  "Staffordshire Mix",
-  "American Staffordshire Terrier Mix"
+  "Dachshund Mix"
 )
-
 
 cleanGeneral <- function(x){
   # This is irrelevant
@@ -86,11 +87,14 @@ cleanGeneral <- function(x){
   #Datetime stuff
   
   x$MinuteOfDay <- (lubridate::hour(x$DateTime) * 60) + minute(x$DateTime) 
-  x$Weekday     <- wday(x$DateTime)
+  x$Weekday     <- wday(x$DateTime) - 1
+  x[x$Weekday == 0,]$Weekday = 7  # Move Sunday to after Saturday
   x$IsWeekend = FALSE
   x[x$Weekday == 1 | x$Weekday == 7,]$IsWeekend = TRUE
   x$Month       <- lubridate::month(x$DateTime)
   x$DateTime    <- as.numeric(as.POSIXct(x$DateTime))
+  x$ZeroMinute=FALSE
+  x[x$MinuteOfDay == 0,]$ZeroMinute=TRUE
   
   AgeYears <- as.numeric(gsub(" years?","",x$AgeuponOutcome))
   AgeMonths <- as.numeric(gsub(" months?","",x$AgeuponOutcome))
@@ -105,8 +109,17 @@ cleanGeneral <- function(x){
   x$NameLen   = nchar(as.character(x$Name))
   x$NameKnown = TRUE
   x[x$NameLen == 0,"NameKnown"] = FALSE
+  x$Cutename = FALSE
+  x$Cutename   = grepl("(ie|i|y)$",  x$Name)
+  x$VowelRatio = str_count(x$Name, "a|e|i|o|u|y|A|E|I|O|U") / x$NameLen
+  x[is.na(x$VowelRatio), "VowelRatio" ] = median(x$VowelRatio, na.rm = TRUE)  
   
-  for(i in c("Spayed Female","Intact Male","Intact Female","Neutered Male","Unknown")) x[[paste0("sex.",gsub(" ", "", i))]] <- grepl(i,x$SexuponOutcome)
+  x$Male   = FALSE
+  x$Intact = FALSE
+  x$UnknownIntactness = FALSE
+  x[x$SexuponOutcome == "Intact Male"   | x$SexuponOutcome == "Neutered Male",]$Male = TRUE
+  x[x$SexuponOutcome == "Intact Female" | x$SexuponOutcome == "Intact Male",]$Intact = TRUE
+  x[x$SexuponOutcome == "Unknown",]$UnknownIntactness = TRUE
   x$SexuponOutcome <- NULL
   
   x$ColorMix = FALSE
@@ -118,13 +131,15 @@ cleanGeneral <- function(x){
   x
 }
 
+sort(table(dfDogRaw$Color))
+
 cleanDog <- function(x){
   x$BreedWeirdness  <- dogBreedsSummary[match(x$Breed,names(dogBreedsSummary))]
   x$ColorWeirdness  <- dogColorSummary[match(x$Color, names(dogColorSummary))]
   x$NameWeirdness   <- dogNameSummary[match(x$Name, names(dogNameSummary))]
 
   x$AnimalID <- NULL
-  for(i in c("Black","White","Tan","Tricolor","Brown","Brindle","Blue","Red","Sable","Yellow","Buff")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
+  for(i in c("Black","White","Tan","Brown","Blue","Tricolor","Brindle","Red")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
   x$Color <- NULL
   for(i in interestingBreeds) x[[paste0("breed.",make.names(i))]] <- x$Breed == i
   x$Breed <- NULL
@@ -156,13 +171,14 @@ cleanDog <- function(x){
   x
 }
 
+
 cleanCat <- function(x){
   x$BreedWeirdness <- catBreedsSummary[match(x$Breed,names(catBreedsSummary))]
   x$ColorWeirdness <- catColorSummary[match(x$Color, names(catColorSummary))]
   x$NameWeirdness  <- catNameSummary[match(x$Name, names(catNameSummary))]
   
   x$AnimalID <- NULL
-  for(i in c("Black","White","Tabby","Brown","Orange","Tortie","Blue","Calico")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
+  for(i in c("Black","White","Tortie","Tabby","Brown","Orange","Blue","Calico","Torbie","Cream")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
   x$Color <- NULL
   for(i in popularCatBreeds) x[[paste0("breed.",make.names(i))]] <- x$Breed == i
   x$Breed <- NULL
@@ -240,18 +256,20 @@ yCat = yCat - 1
 param <- list("objective" = "multi:softprob",   # multiclass classification 
               "eval_metric" = "mlogloss",       # evaluation metric 
               "nthread" = 4,               # number of threads to be used 
-              "max_depth" = 7,             # maximum depth of tree 
+              "max_depth" = 8,             # maximum depth of tree 
               "eta" = 0.02,                # step size shrinkage 
               "gamma" = 0,                 # minimum loss reduction 
               "num_class" = 5,           # 5 different outcomes
-              "subsample" = 0.7,         # part of data instances to grow tree 
+              "subsample" = 0.8,         # part of data instances to grow tree 
               "early.stop.round" = 1,    # stop after 1 unimproving round (doesn't work!)
-              "colsample_bytree" = 0.7   # subsample ratio of columns when constructing each tree 
+              "colsample_bytree" = 0.8   # subsample ratio of columns when constructing each tree 
               # "min_child_weight" = 12  # minimum sum of instance weight needed in a child 
 )
 
-nRounds = 800
+nRounds = 900
 nFold   = 4
+param$subsample        = 0.7
+param$colsample_bytree = 0.6
 
 set.seed(20160415L)
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
@@ -260,6 +278,9 @@ minErrorDogIndex = which.min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
 minErrorDog
 minErrorDogIndex
 
+param$subsample        = 0.8
+param$colsample_bytree = 0.8
+nRounds = 900
 set.seed(920160415L)
 bst.cv <- xgb.cv(param=param, data=dfCatMat, label=yCat, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
 minErrorCat = min(bst.cv$dt[, bst.cv$dt$test.mlogloss.mean])
@@ -325,8 +346,6 @@ write.csv(x=predPetsSorted, file = "submit1.csv", row.names = FALSE)
 
 #plausible=read.csv("./plausible.csv", header=TRUE)
 #head(plausible,n=8)
-
-#stop()
 
 names <- dimnames(dfDogTrain)[[2]]
 importance_matrix <- xgb.importance(names, model = bstDog)
