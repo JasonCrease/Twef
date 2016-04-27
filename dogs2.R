@@ -9,16 +9,13 @@ library(caret)
 library(xgboost)
 library(h2o)
 library(lubridate)
-<<<<<<< HEAD
 library(MLmetrics)
-=======
 library(stringr)
->>>>>>> a48a2b6d0549e8c5be55af46a8cff8dc0f4392f9
 
 #table(dfDog$OutcomeType)
-#hist(dfDog[dfDog$OutcomeType=='Euthanasia',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Euthanasia',]$MinuteOfDay,breaks=50)
 #hist(dfDog[dfDog$OutcomeType=='Died',]$MinuteOfDay,breaks=20)
-#hist(dfDog[dfDog$OutcomeType=='Adoption',]$MinuteOfDay,breaks=20)
+#hist(dfDog[dfDog$OutcomeType=='Adoption',]$MinuteOfDay,breaks=50)
 #hist(dfDog[dfDog$OutcomeType=='Transfer',]$MinuteOfDay,breaks=20)
 #hist(dfDog[dfDog$OutcomeType=='Return_to_owner',]$MinuteOfDay,breaks=20)
 
@@ -77,7 +74,20 @@ catColorSummary <- summary(allCat$Color,maxsum=Inf)
 interestingBreeds=c(
   "Pit Bull Mix",
   "Yorkshire Terrier Mix",
-  "Dachshund Mix"
+  "Dachshund Mix",
+  "Australian Cattle Dog Mix",
+  "Yorkshire Terrier Mix",
+  "Dachshund Mix",
+  "Shih Tzu Mix",
+  "Siberian Husky Mix",
+  "Cairn Terrier Mix",
+  "American Bulldog Mix",
+  "Australian Kelpie Mix",
+  "Rat Terrier Mix",
+  "Catahoula Mix",
+  "Rottweiler Mix",
+  "Staffordshire Mix",
+  "American Staffordshire Terrier Mix"
 )
 
 cleanGeneral <- function(x){
@@ -94,7 +104,7 @@ cleanGeneral <- function(x){
   x$Month       <- lubridate::month(x$DateTime)
   x$DateTime    <- as.numeric(as.POSIXct(x$DateTime))
   x$ZeroMinute=FALSE
-  x[x$MinuteOfDay == 0,]$ZeroMinute=TRUE
+  x[x$MinuteOfDay < 5,]$ZeroMinute=TRUE
   
   AgeYears <- as.numeric(gsub(" years?","",x$AgeuponOutcome))
   AgeMonths <- as.numeric(gsub(" months?","",x$AgeuponOutcome))
@@ -131,7 +141,6 @@ cleanGeneral <- function(x){
   x
 }
 
-sort(table(dfDogRaw$Color))
 
 cleanDog <- function(x){
   x$BreedWeirdness  <- dogBreedsSummary[match(x$Breed,names(dogBreedsSummary))]
@@ -139,7 +148,7 @@ cleanDog <- function(x){
   x$NameWeirdness   <- dogNameSummary[match(x$Name, names(dogNameSummary))]
 
   x$AnimalID <- NULL
-  for(i in c("Black","White","Tan","Brown","Blue","Tricolor","Brindle","Red")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
+  for(i in c("Black","White","Tan","Brown","Blue","Tricolor","Brindle","Red","Sable","Yellow","Buff")) x[[paste0("col.",i)]] <- grepl(i,x$Color)
   x$Color <- NULL
   for(i in interestingBreeds) x[[paste0("breed.",make.names(i))]] <- x$Breed == i
   x$Breed <- NULL
@@ -153,7 +162,7 @@ cleanDog <- function(x){
   medianAge = median(x$AgeuponOutcome)
   x[x$AgeuponOutcome == 0,]$AgeuponOutcome = medianAge
   x$IsOld = FALSE
-  dfDogTrain[dfDogTrain[,"AgeuponOutcome"] > dfDogTrain[,"Lifespan"] * 365 * 0.9,]$IsOld = TRUE
+  x[x[,"AgeuponOutcome"] > x[,"Lifespan"] * 365 * 0.8,]$IsOld = TRUE
   
   x$Name <- NULL
   
@@ -268,8 +277,8 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
 
 nRounds = 900
 nFold   = 4
-param$subsample        = 0.7
-param$colsample_bytree = 0.6
+param$subsample        = 0.9
+param$colsample_bytree = 0.9
 
 set.seed(20160415L)
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
