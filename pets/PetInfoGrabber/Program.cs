@@ -29,7 +29,7 @@ namespace PetInfoGrabber
             using (StreamWriter sw = new StreamWriter(new FileStream(".\\..\\..\\BreedListOut.csv", FileMode.Create)))
             {
                 sw.WriteLine("Breed,Weight,Height,Price,Lifespan,GoodWithKids,Trainability," +
-                             "Intelligence,Adaptability,CatFriendly,DogFriendly,Shedding,Hypoallergenic");
+                             "Intelligence,Adaptability,CatFriendly,DogFriendly,Shedding,Hypoallergenic,Watchdog");
 
                 foreach (string breed in breedList)
                 {
@@ -80,6 +80,7 @@ namespace PetInfoGrabber
                     int catFriendly = 3;
                     int dogFriendly = 3;
                     int shedding = 3;
+                    int watchdog = 3;
                     bool hypoallergenic = false;
 
                     if (breedInfo1 != null && breedInfo2 == null)
@@ -90,6 +91,7 @@ namespace PetInfoGrabber
                         lifespan = breedInfo1.LifeSpan;
                         goodWithKids = breedInfo1.GoodWithKids;
                         trainability = breedInfo1.Trainability;
+                        watchdog = breedInfo1.Watchdog;
                         intelligence = breedInfo1.Intelligence;
                         adaptability = breedInfo1.Adaptability;
                         catFriendly = breedInfo1.CatFriendly;
@@ -105,6 +107,7 @@ namespace PetInfoGrabber
                         lifespan = breedInfo2.LifeSpan;
                         goodWithKids = breedInfo2.GoodWithKids;
                         trainability = breedInfo2.Trainability;
+                        watchdog = breedInfo2.Watchdog;
                         intelligence = breedInfo2.Intelligence;
                         adaptability = breedInfo2.Adaptability;
                         catFriendly = breedInfo2.CatFriendly;
@@ -120,6 +123,7 @@ namespace PetInfoGrabber
                         lifespan = ((breedInfo1.LifeSpan + breedInfo2.LifeSpan) / 2);
                         goodWithKids = ((breedInfo1.GoodWithKids + breedInfo2.GoodWithKids) / 2);
                         trainability = ((breedInfo1.Trainability + breedInfo2.Trainability) / 2);
+                        watchdog = ((breedInfo1.Watchdog + breedInfo2.Watchdog) / 2);
                         intelligence = ((breedInfo1.Intelligence + breedInfo2.Intelligence) / 2);
                         adaptability = ((breedInfo1.Adaptability + breedInfo2.Adaptability) / 2);
                         catFriendly = ((breedInfo1.CatFriendly + breedInfo2.CatFriendly) / 2);
@@ -128,8 +132,8 @@ namespace PetInfoGrabber
                         hypoallergenic = breedInfo1.Hypoallergenic && breedInfo2.Hypoallergenic;
                     }
 
-                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12}", breed, weight, height, price, lifespan, goodWithKids,
-                        trainability, intelligence, adaptability, catFriendly, dogFriendly, shedding, hypoallergenic);
+                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13}", breed, weight, height, price, lifespan, goodWithKids,
+                        trainability, intelligence, adaptability, catFriendly, dogFriendly, shedding, hypoallergenic, watchdog);
 
                     sw.WriteLine(line);
                 }

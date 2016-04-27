@@ -19,6 +19,7 @@ namespace PetInfoGrabber
         public int Adaptability { get; private set; }
         public int Shedding { get; private set; }
         public bool Hypoallergenic { get; private set; }
+        public int Watchdog { get; private set; }
 
         public static Dictionary<string, BreedInfo> breedCache = new Dictionary<string, BreedInfo>();
 
@@ -81,10 +82,10 @@ namespace PetInfoGrabber
                 binf.CatFriendly = GetStarsBetween(breedPage, "Cat Friendly", "Dog Friendly");
                 binf.DogFriendly = GetStarsBetween(breedPage, "Dog Friendly", "Trainability");
                 binf.Trainability = GetStarsBetween(breedPage, "Trainability", "Shedding");
-                binf.Shedding  = GetStarsBetween(breedPage, "Shedding", "Watchdog");
+                binf.Shedding = GetStarsBetween(breedPage, "Shedding", "Watchdog");
+                binf.Watchdog = GetStarsBetween(breedPage, "Watchdog", "Intelligence</");
                 binf.Intelligence = GetStarsBetween(breedPage, "Intelligence", "Grooming");
                 binf.Adaptability = GetStarsBetween(breedPage, "Adaptability", "Hypoallergenic");
-
 
                 Match hypoMatch = Regex.Match(breedPage, "Hypoallergenic(.*)Overview", RegexOptions.Singleline);
                 string hypoStr = hypoMatch.Groups[1].Value.Trim();
