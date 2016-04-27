@@ -3,14 +3,16 @@
 #install.packages("xgboost")
 #install.packages("h2o")
 #install.packages("MASS")
+#install.packages("MLmetrics")
 library(MASS)
 library(caret)
 library(xgboost)
 library(h2o)
 library(lubridate)
+library(MLmetrics)
 
 
-setwd("d:/Github/twef/pets/")
+setwd("f:/Github/twef/pets/")
 breedData = read.csv("./PetInfoGrabber/breedListout.csv")
 dfraw    <- read.csv("./train.csv")
 dfrawsub <- read.csv("./test.csv")
@@ -135,6 +137,8 @@ cleanDog <- function(x){
   
   medianAge = median(x$AgeuponOutcome)
   x[x$AgeuponOutcome == 0,]$AgeuponOutcome = medianAge
+  x$IsOld = FALSE
+  dfDogTrain[dfDogTrain[,"AgeuponOutcome"] > dfDogTrain[,"Lifespan"] * 365 * 0.9,]$IsOld = TRUE
   
   x$Name <- NULL
   
@@ -144,7 +148,7 @@ cleanDog <- function(x){
   x$BreedWeirdness = 1 / x$BreedWeirdness
   
   # How old it is relatively. Might be useful for predicting death/euthanasia
-  #x$RelativeAge = x$AgeuponOutcome / x$Lifespan
+  x$RelativeAge = x$AgeuponOutcome / x$Lifespan
   
   # Irrelevant columns
   x$AnimalType       <- NULL
@@ -199,10 +203,10 @@ subCat=cleanCat(subCat)
 
 
 #Build training rows
-trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.99999, list = FALSE)
+trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.9, list = FALSE)
 dfDogTrain  = dfDog[trainingRows,]
 dfDogTest   = dfDog[-trainingRows,]
-trainingRows <- createDataPartition(dfCat$OutcomeType, p = 0.99999, list = FALSE)
+trainingRows <- createDataPartition(dfCat$OutcomeType, p = 0.9, list = FALSE)
 dfCatTrain  = dfCat[trainingRows,]
 dfCatTest   = dfCat[-trainingRows,]
 
@@ -247,7 +251,7 @@ param <- list("objective" = "multi:softprob",   # multiclass classification
 )
 
 nRounds = 800
-nFold   = 5
+nFold   = 4
 
 set.seed(20160415L)
 bst.cv <- xgb.cv(param=param, data=dfDogMat, label=yDog, nfold=nFold, nrounds=nRounds, prediction=TRUE, verbose=TRUE, print.every.n = 20) 
@@ -266,10 +270,25 @@ minErrorCatIndex
 errorEstOverall = ((minErrorDog * nrow(dfDogTrain)) +  (minErrorCat * nrow(dfCatTrain))) / (nrow(dfDogTrain) + nrow(dfCatTrain))
 errorEstOverall
 
-
-
 bstDog <- xgboost(param=param, data=dfDogMat, label=yDog, nrounds=minErrorDogIndex, verbose=1, print.every.n = 50)    
 bstCat <- xgboost(param=param, data=dfCatMat, label=yCat, nrounds=minErrorCatIndex, verbose=1, print.every.n = 50)    
+
+
+# Try out on test data
+dfDogMatTest = model.matrix(OutcomeType ~ ., dfDogTest)
+mode(dfDogMatTest) = "numeric"
+yDogTest = as.matrix(as.integer(dfDogTest$OutcomeType))
+yDogTest = yDogTest
+dogPredsTest   <- predict(bstDog, dfDogMatTest)  
+dogPredsTest = t(matrix(dogPredsTest, nrow=5))
+
+yDogTestMat = matrix(nrow = nrow(yDogTest), ncol = 5, data = rep(0, 5* nrow(yDogTest)))
+yDogTestMat[yDogTest==1,1] = 1
+yDogTestMat[yDogTest==2,2] = 1
+yDogTestMat[yDogTest==3,3] = 1
+yDogTestMat[yDogTest==4,4] = 1
+yDogTestMat[yDogTest==5,5] = 1
+MultiLogLoss(yDogTestMat, dogPredsTest)
 
 
 for(i in names(subDog))
@@ -321,32 +340,16 @@ stop()
 
 localH2O = h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, max_mem_size = '4g', nthreads = 2 )
 
-for(i in names(dfDogTrain))
-  if(is.logical(dfDogTrain[[i]])) 
-  {
-    dfDogTrain[[i]] <- as.numeric(dfDogTrain[[i]]); 
-  }
-
 # Use h2o on dogs
-
-trainingRows <- createDataPartition(dfDog$OutcomeType, p = 0.8, list = FALSE)
-dfDogTrain  = dfDog[trainingRows,]
-dfDogTest   = dfDog[-trainingRows,]
-
-for(i in names(dfDogTrain))
-  if(is.logical(dfDogTrain[[i]])) 
-  {
-    dfDogTrain[[i]] <- as.numeric(dfDogTrain[[i]]); 
-    dfDogTest[[i]]  <-  as.numeric(dfDogTest[[i]]); 
-  }
-
 
 dat_h2o      = as.h2o(dfDogTrain)
 testdat_h2o  = as.h2o(dfDogTest)
-modelDog = h2o.randomForest(x = 1:56, y = 2, training_frame = dat_h2o, 
-                            validation_frame = testdat_h2o,ntrees=500)
-#summary(modelDog)
-h2o.logloss(modelDog)
+modelDogRF = h2o.randomForest(x = 1:56, y = 2, training_frame = dat_h2o, 
+                            validation_frame = testdat_h2o,ntrees=1000)
+h2o.logloss(modelDogRF)
+modelDogGbm = h2o.gbm(x = 1:56, y = 2, training_frame = dat_h2o,ntrees=300, learn_rate=0.03, validation_frame=testdat_h2o )
+summary(modelDogGbm)
+h2o.logloss(modelDogGbm)
 
 subDogForh2o = subDog
 levels(subDogForh2o$OutcomeType) = c("Adoption", "Died", "Euthanasia", "Return_to_owner", "Transfer")
@@ -355,6 +358,9 @@ subDog_h2o  = as.h2o(subDogForh2o)
 h2oDog_submit = h2o.predict(object = modelDog, newdata = subDog_h2o)
 dfh2oDogSubmit = as.data.frame(h2oDog_submit)
 dfh2oDogSubmit$ID = dfrawsub[dfrawsub$AnimalType=="Dog",]$ID
+
+
+
 
 dfDogTrain$WasAdopted = 0
 dfDogTrain[dfDogTrain$OutcomeType == 'Adoption',"WasAdopted"] = 1 
